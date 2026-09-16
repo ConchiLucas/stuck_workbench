@@ -1,0 +1,419 @@
+{
+  "id": 2,
+  "title": "【验收演示】算术·算式选择·math-review-demo-v1",
+  "status": "draft",
+  "rangeMax": 20,
+  "count": 6,
+  "titles": [
+    "看算式选答案"
+  ],
+  "groups": [
+    "加法",
+    "减法"
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "sourceId": "addition-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "3 + 5 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": "8"
+        }
+      },
+      "detail": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "10 + 3",
+          "options": [
+            "2",
+            "13",
+            "6",
+            "8"
+          ],
+          "answer": "13",
+          "operation": "add",
+          "counts": [
+            10,
+            3
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o2"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "sourceId": "subtraction-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "9 − 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "9 − 6",
+          "options": [
+            "8",
+            "10",
+            "3",
+            "6"
+          ],
+          "answer": "3",
+          "operation": "sub",
+          "counts": [
+            9,
+            6
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "sourceId": "addition-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "3 + 5 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": "8"
+        }
+      },
+      "detail": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "6 + 2",
+          "options": [
+            "8",
+            "4",
+            "6",
+            "3"
+          ],
+          "answer": "8",
+          "operation": "add",
+          "counts": [
+            6,
+            2
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "sourceId": "subtraction-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "9 − 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "13 − 13",
+          "options": [
+            "0",
+            "4",
+            "6",
+            "18"
+          ],
+          "answer": "0",
+          "operation": "sub",
+          "counts": [
+            13,
+            13
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "sourceId": "addition-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "3 + 5 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": "8"
+        }
+      },
+      "detail": {
+        "id": "addition-equation",
+        "groupId": "addition",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "理解两个数合起来的数量关系，熟练计算 20 以内加法。",
+        "rules": [
+          "先看清两个加数",
+          "在心里算出它们的和",
+          "从四个数字中选出答案"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "6 + 2",
+          "options": [
+            "8",
+            "9",
+            "14",
+            "18"
+          ],
+          "answer": "8",
+          "operation": "add",
+          "counts": [
+            6,
+            2
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "sourceId": "subtraction-equation",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "9 − 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-equation",
+        "groupId": "subtraction",
+        "title": "看算式选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "理解从一个数中去掉一部分的数量关系，熟练计算 20 以内减法。",
+        "rules": [
+          "看清被减数和减数",
+          "在心里算出还剩多少",
+          "从四个数字中选出差"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "choice",
+          "prompt": "7 − 0",
+          "options": [
+            "6",
+            "17",
+            "0",
+            "7"
+          ],
+          "answer": "7",
+          "operation": "sub",
+          "counts": [
+            7,
+            0
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T12:11:14.809402Z"
+}

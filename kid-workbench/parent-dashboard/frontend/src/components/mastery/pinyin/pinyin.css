@@ -1,0 +1,104 @@
+.pinyin-page { color:#f7eef5; min-width:0; }
+.pinyin-heading { margin-bottom:22px; }
+.pinyin-heading > a { color:#b8a9c4; font-size:12px; }
+.pinyin-heading h1 { margin:12px 0 8px; font-size:30px; line-height:1.25; font-weight:700; letter-spacing:-.6px; }
+.pinyin-heading p,.pinyin-rule,.pinyin-map-heading p { color:#afa2ba; font-size:13px; }
+.pinyin-summary { padding:24px; }
+.pinyin-type-bars { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:26px; }
+.pinyin-type-bars > button { display:block; text-align:left; border-radius:6px; min-width:0; }
+.pinyin-type-bars > button > span { display:block; font-size:13px; margin-bottom:12px; }
+.pinyin-type-bars small { display:block; color:#afa2ba; font-size:11px; margin-top:8px; }
+.pinyin-bar { display:flex; height:9px; background:#372e45; overflow:hidden; border-radius:999px; }
+.pinyin-bar > span { height:100%; }
+.pinyin-page .is-mastered { background:#f45b9b; }
+.pinyin-page .is-answered { background:#885c80; }
+.pinyin-page .is-unattempted { background:#372e45; }
+.pinyin-legend { display:flex; justify-content:center; flex-wrap:wrap; gap:18px; margin-top:22px; font-size:11px; color:#afa2ba; }
+.pinyin-legend > span { display:flex; align-items:center; gap:6px; }
+.pinyin-legend i { width:8px; height:8px; border-radius:50%; }
+.pinyin-rule { font-size:12px; line-height:1.8; margin:12px 0; }
+.pinyin-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin:24px 0; }
+.pinyin-toolbar > span { color:#a99ab6; font-size:11px; }
+.pinyin-search { display:flex; align-items:center; gap:10px; border:1px solid #45334e; background:#201528; border-radius:12px; padding:8px 12px; color:#c4b5ce; max-width:100%; }
+.pinyin-search input { background:none; outline:none; color:#f7eef5; width:270px; min-width:0; font-size:13px; }
+.pinyin-search input::placeholder { color:#a99ab6; }
+.pinyin-search button { min-width:24px; min-height:28px; }
+.pinyin-search:focus-within { border-color:#f45b9b; }
+.pinyin-map { margin-top:30px; scroll-margin-top:20px; }
+.pinyin-map-heading { margin-bottom:16px; }
+.pinyin-map-heading h2 { font-size:20px; font-weight:600; margin-bottom:8px; }
+.pinyin-map-heading p { font-size:12px; line-height:1.8; }
+.pinyin-tabs { display:flex; gap:3px; width:fit-content; max-width:100%; background:#211729; border:1px solid #45334e; border-radius:12px; padding:4px; margin-bottom:18px; }
+.pinyin-tabs button { padding:8px 14px; color:#c4b5ce; font-size:13px; border:1px solid transparent; border-radius:9px; }
+.pinyin-tabs button[aria-pressed="true"] { color:white; background:#9c3969; border-color:#e171a7; }
+.pinyin-group { padding:20px; margin-bottom:16px; }
+.pinyin-group > header { display:flex; gap:20px; align-items:center; justify-content:space-between; margin-bottom:18px; }
+.pinyin-group h3 { font-size:16px; font-weight:600; }
+.pinyin-group-progress { width:25%; max-width:240px; min-width:70px; height:7px; overflow:hidden; border-radius:20px; background:#372e45; }
+.pinyin-group-progress > span { display:block; height:100%; background:#f45b9b; }
+.pinyin-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(80px,1fr)); gap:10px; }
+.pinyin-card { position:relative; min-height:92px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; border:1px solid #392d45; border-radius:9px; background:#201929; color:#b1a3bb; padding:14px 6px 10px; }
+.pinyin-card.is-partial { background:#342038; border-color:#59324b; color:#f4e6f2; }
+.pinyin-card.is-complete { background:#683049; border-color:#a54b75; color:#fff5fa; }
+.pinyin-card:hover { border-color:#e680b0; }
+.pinyin-card[data-selected="true"] { outline:2px solid #f8b5d3; outline-offset:2px; }
+.pinyin-glyph { font-size:26px; line-height:1.4; font-weight:500; overflow-wrap:anywhere; }
+.pinyin-check { position:absolute; top:4px; right:5px; font-size:10px; color:white; width:14px; height:14px; border-radius:50%; background:#e55393; }
+.pinyin-marks { display:flex; align-items:center; justify-content:center; gap:3px; }
+.pinyin-marks > span { width:18px; line-height:19px; border-radius:4px; font-size:10px; }
+.pinyin-marks .lit { color:#fff5fa; background:#b93f78; }
+.pinyin-marks .unlit { color:#aa98b4; background:#2a2233; }
+.pinyin-marks > span[data-active="true"] { box-shadow:inset 0 0 0 1px #cb8aaa; }
+.pinyin-syllable-grid .pinyin-card { min-height:76px; }
+.pinyin-page button:focus-visible,.pinyin-page a:focus-visible,.pinyin-page [tabindex]:focus-visible,.pinyin-drawer button:focus-visible { outline:2px solid #f8b5d3; outline-offset:3px; }
+.pinyin-empty { padding:36px 20px; text-align:center; color:#b9a9c5; font-size:14px; }
+.pinyin-empty button { display:block; margin:16px auto 0; padding:8px 18px; border:1px solid #845774; border-radius:8px; color:#f6b3d1; }
+.pinyin-notice { color:#f5b7d3; font-size:12px; padding:12px 0; }
+.pinyin-notice button { text-decoration:underline; margin-left:8px; }
+.pinyin-modal { position:fixed; inset:0; z-index:60; }
+.pinyin-scrim { position:absolute; inset:0; background:#08040e70; }
+.pinyin-drawer { position:absolute; right:0; top:0; bottom:0; width:min(440px,100vw); padding:24px; overflow-y:auto; overflow-wrap:anywhere; color:#efe5f5; background:#201529; border-left:1px solid #583e61; box-shadow:-15px 0 50px #0004; }
+.pinyin-drawer > header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:16px; border-bottom:1px solid #46334f; font-size:13px; }
+.pinyin-drawer > header button { flex-shrink:0; width:40px; height:40px; border-radius:7px; font-size:23px; color:#d7b8de; }
+.pinyin-detail-hero { display:flex; align-items:center; flex-wrap:wrap; gap:20px; padding:24px 0; }
+.pinyin-detail-hero h2 { min-width:100px; padding:12px; border:1px solid #684466; border-radius:12px; font-size:40px; line-height:1.4; }
+.pinyin-detail-hero p { color:#bca7c8; font-size:12px; margin-top:12px; }
+.pinyin-status { display:inline-block; font-size:11px; color:#dcc9e6; background:#44304e; border:1px solid #6a4c72; border-radius:20px; padding:4px 9px; }
+.pinyin-status.lit { color:#fff0f7; background:#a53a71; border-color:#d36397; }
+.pinyin-drawer section { padding:20px 0; border-top:1px solid #46334f; }
+.pinyin-drawer h3 { font-weight:600; font-size:15px; margin-bottom:16px; }
+.pinyin-detail-skills { display:flex; flex-direction:column; gap:10px; }
+.pinyin-detail-skill { background:#271c32; border:1px solid #42314e; border-radius:12px; padding:12px; }
+.pinyin-detail-skill > div { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+.pinyin-detail-skill strong { flex:1; font-size:13px; font-weight:500; }
+.pinyin-detail-mark { display:grid; place-items:center; width:27px; height:27px; border-radius:6px; font-size:12px; }
+.pinyin-detail-mark.lit { background:#b93f78; color:white; }
+.pinyin-detail-mark.unlit { background:#35273f; color:#bca8c7; }
+.pinyin-detail-skill p { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-size:11px; color:#bca7c8; margin-top:12px; }
+.pinyin-detail-skill small { display:block; margin-top:8px; font-size:11px; color:#bca7c8; }
+.pinyin-detail-note { color:#a99ab6; font-size:12px; margin-top:12px; }
+.pinyin-milestone { color:#f3a4c8; font-size:13px; margin-top:18px; }
+.pinyin-history li { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) auto; gap:10px; padding:12px 0; border-bottom:1px solid #382940; font-size:11px; color:#c6b4d2; }
+.pinyin-history strong { font-weight:500; }
+.pinyin-history .answer-correct { color:#86dca5; }
+.pinyin-history .answer-wrong { color:#efa1bd; }
+@media(max-width:1000px) { .pinyin-type-bars { grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; } .pinyin-tabs button { padding:8px 10px; } }
+@media(max-width:600px) {
+  .pinyin-shell { flex-direction:column; }
+  .pinyin-shell > aside { min-height:0; width:100%; flex-direction:row; align-items:center; gap:8px; overflow-x:auto; padding:10px; }
+  .pinyin-shell > aside > div { display:none; }
+  .pinyin-shell > aside > .sidebar-subjects { display:contents; }
+  .pinyin-shell > aside a { flex-shrink:0; white-space:nowrap; }
+  .pinyin-shell main { padding:20px 14px; }
+  .pinyin-heading h1 { font-size:25px; }
+  .pinyin-summary { padding:18px; }
+  .pinyin-legend { gap:10px; }
+  .pinyin-search,.pinyin-search input { flex:1; }
+  .pinyin-tabs { display:grid; width:100%; grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .pinyin-tabs button { padding:9px 5px; font-size:12px; }
+  .pinyin-group { padding:14px; }
+  .pinyin-grid { grid-template-columns:repeat(auto-fill,minmax(66px,1fr)); gap:8px; }
+  .pinyin-glyph { font-size:24px; }
+  .pinyin-drawer { padding:18px; }
+}
+@media(prefers-reduced-motion:reduce) { .pinyin-page *,.pinyin-drawer * { scroll-behavior:auto; transition:none; } }

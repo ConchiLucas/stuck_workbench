@@ -1,0 +1,290 @@
+[
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/770/sense.png",
+    "ok": true,
+    "bytes": 58815
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/885/sense.png",
+    "ok": true,
+    "bytes": 146746
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/894/sense.png",
+    "ok": true,
+    "bytes": 58943
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/894/speech.mp3",
+    "ok": true,
+    "bytes": 14976
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/932/sense.png",
+    "ok": true,
+    "bytes": 60818
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/762/sense.png",
+    "ok": true,
+    "bytes": 84621
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/826/sense.png",
+    "ok": true,
+    "bytes": 72223
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/834/sense.png",
+    "ok": true,
+    "bytes": 65085
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/834/speech.mp3",
+    "ok": true,
+    "bytes": 14976
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/864/sense.png",
+    "ok": true,
+    "bytes": 96973
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/811/sense.png",
+    "ok": true,
+    "bytes": 62228
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/811/speech.mp3",
+    "ok": true,
+    "bytes": 12288
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/812/sense.png",
+    "ok": true,
+    "bytes": 92961
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/813/sense.png",
+    "ok": true,
+    "bytes": 77517
+  },
+  {
+    "task": 6,
+    "source": "/api/v1/english/words/831/sense.png",
+    "ok": true,
+    "bytes": 84367
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/827/sense.png",
+    "ok": true,
+    "bytes": 87870
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/842/sense.png",
+    "ok": true,
+    "bytes": 49212
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/885/sense.png",
+    "ok": true,
+    "bytes": 146746
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/932/sense.png",
+    "ok": true,
+    "bytes": 60818
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/765/sense.png",
+    "ok": true,
+    "bytes": 54978
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/778/sense.png",
+    "ok": true,
+    "bytes": 86807
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/796/sense.png",
+    "ok": true,
+    "bytes": 91149
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/839/sense.png",
+    "ok": true,
+    "bytes": 105297
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/791/sense.png",
+    "ok": true,
+    "bytes": 51395
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/797/sense.png",
+    "ok": true,
+    "bytes": 67818
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/814/sense.png",
+    "ok": true,
+    "bytes": 74709
+  },
+  {
+    "task": 7,
+    "source": "/api/v1/english/words/897/sense.png",
+    "ok": true,
+    "bytes": 60212
+  },
+  {
+    "task": 8,
+    "source": "/api/v1/english/sentences/5/speech.mp3",
+    "ok": true,
+    "bytes": 8110
+  },
+  {
+    "task": 8,
+    "source": "/api/v1/english/sentences/6/speech.mp3",
+    "ok": true,
+    "bytes": 8581
+  },
+  {
+    "task": 8,
+    "source": "/api/v1/english/sentences/10/speech.mp3",
+    "ok": true,
+    "bytes": 6601
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/868/sense.png",
+    "ok": true,
+    "bytes": 59189
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/868/speech.mp3",
+    "ok": true,
+    "bytes": 16128
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/826/sense.png",
+    "ok": true,
+    "bytes": 72223
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/826/speech.mp3",
+    "ok": true,
+    "bytes": 14976
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/928/sense.png",
+    "ok": true,
+    "bytes": 70941
+  },
+  {
+    "task": 9,
+    "source": "/api/v1/english/words/928/speech.mp3",
+    "ok": true,
+    "bytes": 14976
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/754/sense.png",
+    "ok": true,
+    "bytes": 75573
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/755/sense.png",
+    "ok": true,
+    "bytes": 82273
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/756/sense.png",
+    "ok": true,
+    "bytes": 75395
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/784/sense.png",
+    "ok": true,
+    "bytes": 56027
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/754/sense.png",
+    "ok": true,
+    "bytes": 75573
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/755/sense.png",
+    "ok": true,
+    "bytes": 82273
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/756/sense.png",
+    "ok": true,
+    "bytes": 75395
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/784/sense.png",
+    "ok": true,
+    "bytes": 56027
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/754/sense.png",
+    "ok": true,
+    "bytes": 75573
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/755/sense.png",
+    "ok": true,
+    "bytes": 82273
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/756/sense.png",
+    "ok": true,
+    "bytes": 75395
+  },
+  {
+    "task": 10,
+    "source": "/api/v1/english/words/784/sense.png",
+    "ok": true,
+    "bytes": 56027
+  }
+]

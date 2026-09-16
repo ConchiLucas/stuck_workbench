@@ -1,0 +1,35 @@
+{
+  "candidate_count": 10,
+  "frozen_count": 10,
+  "freeze_seconds": 1.06,
+  "media": [
+    {
+      "kind": "glyph",
+      "bytes": 7737,
+      "content_type": "image/png",
+      "sha256_ok": true,
+      "conditional_status": 304
+    },
+    {
+      "kind": "sense",
+      "bytes": 58109,
+      "content_type": "image/jpeg",
+      "sha256_ok": true,
+      "conditional_status": 304
+    },
+    {
+      "kind": "speech",
+      "bytes": 7940,
+      "content_type": "audio/mpeg",
+      "sha256_ok": true,
+      "conditional_status": 304
+    }
+  ],
+  "concurrent_freezes": [
+    200,
+    200
+  ],
+  "stale_source_status": 409,
+  "assets_unchanged": true,
+  "stored_revision_count": 17
+}

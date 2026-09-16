@@ -1,0 +1,515 @@
+{
+  "id": 3,
+  "title": "【验收演示】算术·数量图·math-review-demo-v1",
+  "status": "draft",
+  "rangeMax": 20,
+  "count": 6,
+  "titles": [
+    "看数量图选答案"
+  ],
+  "groups": [
+    "加法",
+    "减法"
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "sourceId": "addition-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一共有几颗星星？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "★★★",
+            "★★"
+          ],
+          "operation": "add",
+          "counts": [
+            3,
+            2
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg"
+        }
+      },
+      "detail": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一组 7 个，另一组 3 个，一共有几个？",
+          "options": [
+            "17",
+            "13",
+            "1",
+            "10"
+          ],
+          "answer": "10",
+          "operation": "add",
+          "counts": [
+            7,
+            3
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/task-media/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg": "d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc"
+      }
+    },
+    {
+      "sequence": 2,
+      "sourceId": "subtraction-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "8 个苹果拿走 3 个，还剩几个？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "●●●●●",
+            "●●●"
+          ],
+          "operation": "sub",
+          "counts": [
+            8,
+            3
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg"
+        }
+      },
+      "detail": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "原来有 19 个，拿走 7 个，还剩几个？",
+          "options": [
+            "17",
+            "4",
+            "12",
+            "1"
+          ],
+          "answer": "12",
+          "operation": "sub",
+          "counts": [
+            19,
+            7
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/task-media/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg": "f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283"
+      }
+    },
+    {
+      "sequence": 3,
+      "sourceId": "addition-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一共有几颗星星？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "★★★",
+            "★★"
+          ],
+          "operation": "add",
+          "counts": [
+            3,
+            2
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg"
+        }
+      },
+      "detail": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一组 5 个，另一组 10 个，一共有几个？",
+          "options": [
+            "4",
+            "18",
+            "0",
+            "15"
+          ],
+          "answer": "15",
+          "operation": "add",
+          "counts": [
+            5,
+            10
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/task-media/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg": "d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc"
+      }
+    },
+    {
+      "sequence": 4,
+      "sourceId": "subtraction-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "8 个苹果拿走 3 个，还剩几个？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "●●●●●",
+            "●●●"
+          ],
+          "operation": "sub",
+          "counts": [
+            8,
+            3
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg"
+        }
+      },
+      "detail": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "原来有 8 个，拿走 5 个，还剩几个？",
+          "options": [
+            "3",
+            "9",
+            "5",
+            "12"
+          ],
+          "answer": "3",
+          "operation": "sub",
+          "counts": [
+            8,
+            5
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/task-media/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg": "f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283"
+      }
+    },
+    {
+      "sequence": 5,
+      "sourceId": "addition-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一共有几颗星星？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "★★★",
+            "★★"
+          ],
+          "operation": "add",
+          "counts": [
+            3,
+            2
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg"
+        }
+      },
+      "detail": {
+        "id": "addition-story",
+        "groupId": "addition",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "把两组具体物品与加法算式联系起来，理解“合起来”的含义。",
+        "rules": [
+          "分别数清两组物品",
+          "想一想合起来有多少个",
+          "从数字中选出总数"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "一组 4 个，另一组 3 个，一共有几个？",
+          "options": [
+            "17",
+            "14",
+            "7",
+            "3"
+          ],
+          "answer": "7",
+          "operation": "add",
+          "counts": [
+            4,
+            3
+          ],
+          "object": "star",
+          "objectImageUrl": "/api/v1/math/task-media/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc.jpg": "d3cbc97e7f6c847a1e239181fac4a178a4ade602f8ddd81f938e12679e417bbc"
+      }
+    },
+    {
+      "sequence": 6,
+      "sourceId": "subtraction-story",
+      "sourceRevision": 2,
+      "source": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "8 个苹果拿走 3 个，还剩几个？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "groups": [
+            "●●●●●",
+            "●●●"
+          ],
+          "operation": "sub",
+          "counts": [
+            8,
+            3
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg"
+        }
+      },
+      "detail": {
+        "id": "subtraction-story",
+        "groupId": "subtraction",
+        "title": "看数量图选答案",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "从物品被拿走的变化中理解减法，找到剩余数量。",
+        "rules": [
+          "先数清原来有多少个",
+          "看清拿走了多少个",
+          "数出或算出剩下的数量"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "objects",
+          "prompt": "原来有 19 个，拿走 19 个，还剩几个？",
+          "options": [
+            "16",
+            "8",
+            "0",
+            "13"
+          ],
+          "answer": "0",
+          "operation": "sub",
+          "counts": [
+            19,
+            19
+          ],
+          "object": "apple",
+          "objectImageUrl": "/api/v1/math/task-media/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg",
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283.jpg": "f5a5c2a5534f9dbf0e789bb58457301a5826d9c805e3a2bb11bd1ac56ce86283"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T12:11:14.834257Z"
+}

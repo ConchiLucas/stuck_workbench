@@ -1,0 +1,12 @@
+.poem-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.poem-card { margin: 0; background: var(--panel, #fff); border: 1px solid var(--hairline, #ddd); border-radius: 16px; overflow: hidden; }
+.poem-card-open { width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 0; padding: 16px; cursor: pointer; }
+.poem-card-title { margin: 0 0 4px; font-size: 20px; }
+.poem-card-author { margin: 0 0 12px; color: var(--muted, #666); }
+.poem-card-lines p { margin: 0; line-height: 1.7; }
+.poem-card-meta { margin: 12px 0 0; color: var(--muted, #666); font-size: 12px; }
+.poem-line-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.poem-line-list li { display: flex; justify-content: space-between; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--hairline, #eee); }
+.science-detail-overlay { position: fixed; inset: 0; background: rgba(16, 24, 40, .45); display: grid; place-items: center; z-index: 40; padding: 24px; }
+.science-detail { width: min(720px, 100%); max-height: 90vh; overflow: auto; background: #fff; color: #24160f; border-radius: 16px; padding: 20px; }
+.science-detail header { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }

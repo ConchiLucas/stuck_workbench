@@ -1,0 +1,25 @@
+{
+  "tag": "math-review-demo-v1",
+  "childId": 2,
+  "childName": "算术验收演示（非真实记录）",
+  "synthetic": true,
+  "taskIds": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "taskQuestions": 36,
+  "knowledge": {
+    "attempts": 36,
+    "correct": 24,
+    "wrong": 12
+  },
+  "verifiedTaskMediaReferences": 51,
+  "nonDemoLearningFingerprint": [
+    "3d9b8fe33bdcb278f0bb8e1005d94548",
+    "56afcec6fdcaacf32110887d6c712233",
+    "4771e4350e37f67c3cba7e0f24a580b1"
+  ]
+}

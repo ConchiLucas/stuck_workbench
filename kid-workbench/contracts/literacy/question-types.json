@@ -1,0 +1,8 @@
+{
+  "contractVersion": 2,
+  "types": [
+    {"code":"glyph_sense","label":"看字选义","interaction":"choice","materials":["glyph","sense","speech"]},
+    {"code":"sense_char","label":"看义选字","interaction":"choice","materials":["sense","glyph","speech"]},
+    {"code":"write_char","label":"听音写字","interaction":"handwriting","materials":["speech","writing_template"]}
+  ]
+}

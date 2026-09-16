@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS pinyin_assets (
+  kp_id INTEGER PRIMARY KEY REFERENCES knowledge_points(id) ON DELETE CASCADE,
+  letter TEXT NOT NULL DEFAULT '',
+  module_code TEXT NOT NULL DEFAULT '',
+  module_name TEXT NOT NULL DEFAULT '',
+  module_order INTEGER NOT NULL DEFAULT 0,
+  kp_order INTEGER NOT NULL DEFAULT 0,
+  solo_text TEXT NOT NULL DEFAULT '',
+  word_text TEXT NOT NULL DEFAULT '',
+  solo_speech_url TEXT NOT NULL DEFAULT '',
+  word_speech_url TEXT NOT NULL DEFAULT '',
+  glyph_image_url TEXT NOT NULL DEFAULT '',
+  synced_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

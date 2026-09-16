@@ -1,0 +1,1 @@
+import{create}from'zustand';type S={ids:Record<string,string>;get:(key:string)=>string;ack:(key:string)=>void};export const usePendingAnswers=create<S>((set,get)=>({ids:{},get:key=>{const old=get().ids[key];if(old)return old;const id=crypto.randomUUID();set(s=>({ids:{...s.ids,[key]:id}}));return id},ack:key=>set(s=>{const ids={...s.ids};delete ids[key];return{ids}})}))

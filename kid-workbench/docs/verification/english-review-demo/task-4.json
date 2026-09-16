@@ -1,0 +1,81 @@
+{
+  "id": 4,
+  "title": "【验收演示】英语·写单词·english-review-demo-v1",
+  "count": 3,
+  "types": [
+    "input-gap"
+  ],
+  "groups": [
+    "Weather",
+    "School"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 832,
+      "sourceTable": "english_assets",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "cool",
+        "speechUrl": "/api/v1/english/task-media/820fc43925b3750e177145287e81f09be2803bccc99864027d24de2ec8927c19.mp3",
+        "cue": "/api/v1/english/task-media/7ff9347a4a10798af54dfdea9caf0f53837aaa257e949cc3d40deaa1f564ca78.jpg",
+        "answer": "cool"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/832/sense.png": "7ff9347a4a10798af54dfdea9caf0f53837aaa257e949cc3d40deaa1f564ca78",
+        "/api/v1/english/words/832/speech.mp3": "820fc43925b3750e177145287e81f09be2803bccc99864027d24de2ec8927c19"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 827,
+      "sourceTable": "english_assets",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "windy",
+        "speechUrl": "/api/v1/english/task-media/2f35de4f55569dd7c32237691568340009de217582fa24d30772e0c5237ba347.mp3",
+        "cue": "/api/v1/english/task-media/06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52.jpg",
+        "answer": "windy"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/827/sense.png": "06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52",
+        "/api/v1/english/words/827/speech.mp3": "2f35de4f55569dd7c32237691568340009de217582fa24d30772e0c5237ba347"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 852,
+      "sourceTable": "english_assets",
+      "moduleCode": "school",
+      "moduleName": "School",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "class",
+        "speechUrl": "/api/v1/english/task-media/933c44e5eca42e85cc2ee726acea32cfade3faebdf2ce565f5b602480ae305b9.mp3",
+        "cue": "/api/v1/english/task-media/86b1370848c4abcc38e39f6506dad565c0ee4b4d7478e255711e6cedfbb8f20f.jpg",
+        "answer": "class"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/852/sense.png": "86b1370848c4abcc38e39f6506dad565c0ee4b4d7478e255711e6cedfbb8f20f",
+        "/api/v1/english/words/852/speech.mp3": "933c44e5eca42e85cc2ee726acea32cfade3faebdf2ce565f5b602480ae305b9"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T13:32:32.813078Z"
+}

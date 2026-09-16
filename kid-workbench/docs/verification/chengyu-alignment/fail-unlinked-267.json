@@ -1,0 +1,37 @@
+{
+  "qualified": false,
+  "attemptId": 267,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "",
+  "skillLabel": "题型未记录",
+  "questionType": "",
+  "occurredAt": "2026-09-15T12:56:30.361868Z",
+  "isCorrect": false,
+  "costMs": 800,
+  "assistance": "unknown",
+  "source": {
+    "kind": "chengyu_plan"
+  },
+  "questionFidelity": "missing",
+  "selectionFidelity": "missing",
+  "mediaFidelity": "missing",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "evidence_incomplete"
+  ],
+  "evidenceReasonCodes": [
+    "unlinked_plan_item"
+  ],
+  "question": null,
+  "response": {
+    "kind": "unknown"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

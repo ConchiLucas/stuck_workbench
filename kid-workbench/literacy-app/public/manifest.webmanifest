@@ -1,0 +1,14 @@
+{
+  "name": "田字格",
+  "short_name": "识字",
+  "description": "认字、选义、写一写",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#b3392b",
+  "background_color": "#f3e6c8",
+  "icons": [
+    { "src": "/kid-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/kid-icon-180.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

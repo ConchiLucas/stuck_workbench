@@ -1,0 +1,30 @@
+{
+  "data": {
+    "child": {
+      "id": 6,
+      "name": "英语二次审核空账本（非真实记录）",
+      "grade": "验收演示",
+      "flowers": 0
+    },
+    "total_kp": 1264,
+    "counts": {
+      "not_started": 1264,
+      "learning": 0,
+      "shaky": 0,
+      "mastered": 0,
+      "review_due": 0
+    },
+    "week_delta": {
+      "mastered": 0,
+      "practice_min": 0
+    },
+    "streak_days": 0,
+    "today": {
+      "practice_min": 0,
+      "attempts": 0,
+      "tasks_done": 0,
+      "tasks_total": 0
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,8 @@
+.science-review-question{grid-column:1/-1;min-width:0;margin-top:10px;border:1px solid #d4c2a6;border-radius:14px;overflow:hidden;background:#fffcf3;color:#432819}
+.science-review-question summary{padding:12px 16px;cursor:pointer;color:#fffaf0;font-size:14px;font-weight:600;background:#1f6f73}
+.science-review-caption,.science-review-unavailable{margin:8px 16px 12px;color:#72523e;font-size:12px;line-height:1.6}
+.science-review-unavailable{grid-column:1/-1;margin:6px 0}
+.science-history-player{min-width:0;margin:8px 12px 16px;color-scheme:light;overflow:visible}
+.science-history-player .science-player,.science-history-player .logic-player{min-height:0;height:auto;background:#f6f0ff}
+.phrase-drawer:has(.science-review-question[open]){width:min(1080px,100vw)}
+

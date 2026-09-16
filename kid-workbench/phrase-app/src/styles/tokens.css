@@ -1,0 +1,33 @@
+:root {
+  --ink: #14213d;
+  --blue: #2457e6;
+  --blue-deep: #173b9f;
+  --coral: #ff6b57;
+  --lime: #dff45b;
+  --paper: #f8faff;
+  --white: #ffffff;
+  --line: #a9c5ff;
+  --muted: #64708a;
+  --shadow: 0 18px 48px rgba(36, 87, 230, .14);
+  --clay-play: #ff8d7a;
+  --clay-play-hi: #ffc8bb;
+  --clay-play-lo: #e45d4c;
+  --clay-play-ink: #fff8f5;
+  --clay-well: #e7f0ff;
+  --clay-border: 4px;
+  --clay-radius: 28px;
+  --clay-shadow: inset -2px -2px 8px rgba(20, 33, 61, .08), 0 6px 0 #d8e1f2, 4px 8px 12px rgba(36, 87, 230, .12);
+  --clay-shadow-press: inset 0 3px 8px rgba(20, 33, 61, .12), 0 2px 0 #d8e1f2;
+  --clay-bounce: cubic-bezier(.34, 1.56, .64, 1);
+  --clay-press: .2s ease-out;
+  font-family: "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+* { box-sizing: border-box; }
+html, body, #root { min-height: 100%; color-scheme: light; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: radial-gradient(circle at 90% 5%, #e8eeff 0, transparent 36%), var(--paper); }
+html:has(.app-shell.immersive), body:has(.app-shell.immersive), #root:has(.app-shell.immersive) { height: 100%; overflow: hidden; background: var(--paper); }
+body:has(.app-shell.immersive) { background: var(--paper); }
+button, a { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 4px solid var(--lime); outline-offset: 3px; }

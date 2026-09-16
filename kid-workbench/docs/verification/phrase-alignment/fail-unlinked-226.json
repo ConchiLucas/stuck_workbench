@@ -1,0 +1,37 @@
+{
+  "qualified": false,
+  "attemptId": 226,
+  "childId": 8,
+  "kpId": 1197,
+  "title": "Good morning.",
+  "subjectCode": "phrase",
+  "subjectName": "英语短句",
+  "moduleCode": "greet",
+  "moduleName": "问候",
+  "skillCode": "",
+  "skillLabel": "题型未记录",
+  "questionType": "",
+  "occurredAt": "2026-09-14T14:24:37.985385Z",
+  "isCorrect": false,
+  "costMs": 800,
+  "assistance": "unknown",
+  "source": {
+    "kind": "phrase_plan"
+  },
+  "questionFidelity": "missing",
+  "selectionFidelity": "missing",
+  "mediaFidelity": "missing",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "evidence_incomplete"
+  ],
+  "evidenceReasonCodes": [
+    "unlinked_plan_item"
+  ],
+  "question": null,
+  "response": {
+    "kind": "unknown"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

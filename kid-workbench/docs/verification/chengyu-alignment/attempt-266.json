@@ -1,0 +1,100 @@
+{
+  "attemptId": 266,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "example",
+  "skillLabel": "看句子",
+  "questionType": "example",
+  "occurredAt": "2026-09-15T12:56:30.181778Z",
+  "isCorrect": true,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "chengyu_plan",
+    "planId": 211,
+    "itemId": 667
+  },
+  "planId": 211,
+  "planItemId": 667,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "做作业要____。"
+    },
+    "options": [
+      {
+        "id": "1165",
+        "label": "一心一意"
+      },
+      {
+        "id": "1170",
+        "label": "十全十美"
+      },
+      {
+        "id": "1167",
+        "label": "三心二意"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      }
+    ],
+    "answerOptionId": "1165",
+    "targetText": "一心一意"
+  },
+  "chengyuExample": {
+    "kind": "example",
+    "prompt": "做作业要____。",
+    "speech": "一心一意",
+    "options": [
+      {
+        "id": "1165",
+        "label": "一心一意"
+      },
+      {
+        "id": "1170",
+        "label": "十全十美"
+      },
+      {
+        "id": "1167",
+        "label": "三心二意"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      }
+    ],
+    "answerId": "1165",
+    "chengyu": "一心一意",
+    "pinyin": "yì xīn yì yì",
+    "meaning": "集中精神，做事专心",
+    "example": "做作业要一心一意。",
+    "blank": {
+      "full": "做作业要一心一意。",
+      "blanked": "做作业要____。",
+      "target": "一心一意",
+      "start": 4,
+      "length": 4
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "1165",
+    "value": "1165"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

@@ -1,0 +1,419 @@
+{
+  "id": 4,
+  "title": "【验收演示】算术·补全算式·math-review-demo-v1",
+  "status": "draft",
+  "rangeMax": 20,
+  "count": 6,
+  "titles": [
+    "补全算式"
+  ],
+  "groups": [
+    "加法",
+    "减法"
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "sourceId": "addition-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "3 + □ = 8",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "13 + □ = 19",
+          "options": [
+            "6",
+            "18",
+            "19",
+            "12"
+          ],
+          "answer": "6",
+          "operation": "add",
+          "counts": [
+            13,
+            6
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "sourceId": "subtraction-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "12 − □ = 7",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "0 − □ = 0",
+          "options": [
+            "2",
+            "0",
+            "11",
+            "19"
+          ],
+          "answer": "0",
+          "operation": "sub",
+          "counts": [
+            0,
+            0
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o2"
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "sourceId": "addition-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "3 + □ = 8",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "5 + □ = 10",
+          "options": [
+            "6",
+            "9",
+            "5",
+            "20"
+          ],
+          "answer": "5",
+          "operation": "add",
+          "counts": [
+            5,
+            5
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "sourceId": "subtraction-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "12 − □ = 7",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "13 − □ = 11",
+          "options": [
+            "19",
+            "0",
+            "2",
+            "20"
+          ],
+          "answer": "2",
+          "operation": "sub",
+          "counts": [
+            13,
+            2
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "sourceId": "addition-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "3 + □ = 8",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "addition-missing",
+        "groupId": "addition",
+        "title": "补全算式",
+        "moduleTitle": "20 以内加法",
+        "learningGoal": "根据加法关系找出缺少的加数或和，建立数之间的联系。",
+        "rules": [
+          "先看空格在算式中的位置",
+          "用已知数字推算缺少的数",
+          "把答案放回算式检查"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "17 + □ = 20",
+          "options": [
+            "16",
+            "3",
+            "9",
+            "13"
+          ],
+          "answer": "3",
+          "operation": "add",
+          "counts": [
+            17,
+            3
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o2"
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "sourceId": "subtraction-missing",
+      "sourceRevision": 1,
+      "source": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "12 − □ = 7",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5"
+        }
+      },
+      "detail": {
+        "id": "subtraction-missing",
+        "groupId": "subtraction",
+        "title": "补全算式",
+        "moduleTitle": "20 以内减法",
+        "learningGoal": "运用减法各部分之间的关系，推算缺少的数字。",
+        "rules": [
+          "确定空格表示哪一部分",
+          "根据已知数字进行推算",
+          "代回原算式检查结果"
+        ],
+        "revision": 1,
+        "publishedRevision": 1,
+        "example": {
+          "kind": "missing",
+          "prompt": "9 − □ = 8",
+          "options": [
+            "5",
+            "1",
+            "10",
+            "16"
+          ],
+          "answer": "1",
+          "operation": "sub",
+          "counts": [
+            9,
+            1
+          ],
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o2"
+        }
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T12:11:14.847495Z"
+}

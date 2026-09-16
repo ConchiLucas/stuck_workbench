@@ -1,0 +1,13 @@
+.poem-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.poem-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.poem-task-form{max-width:600px;margin:auto;display:grid;gap:20px}
+.poem-task-form>label{display:grid;gap:8px}
+.poem-task-form input:not([type=checkbox]){font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.poem-task-form fieldset{display:flex;flex-wrap:wrap;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.poem-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.poem-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.poem-media-source small{display:block}
+.poem-task-player{min-width:0;margin:16px 0;color-scheme:light;overflow:visible}
+.poem-task-player .poem-player{height:auto;background:#fff8ee}
+.task-preview-dialog:has(.poem-task-player){width:min(1080px,100vw);max-width:none}
+@media(max-width:929px){.poem-task-player{margin:12px 0}}
+@media(max-width:390px){.poem-task-player{margin:8px 0}}

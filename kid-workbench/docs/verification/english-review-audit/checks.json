@@ -1,0 +1,8 @@
+{
+  "mediaReferences": 48,
+  "tasks": 5,
+  "questions": 15,
+  "wrongEvidenceKinds": 5,
+  "unitTests": "englishtask and englishcontent passed",
+  "verdict": "requires_changes"
+}

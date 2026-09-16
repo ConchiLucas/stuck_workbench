@@ -1,0 +1,12 @@
+{
+  "name": "算数练习本",
+  "short_name": "算数",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#eaf5fb",
+  "background_color": "#f7fcff",
+  "icons": [
+    { "src": "/math-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

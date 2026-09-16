@@ -1,0 +1,24 @@
+.DS_Store
+*.log
+*.local
+
+# Node
+node_modules/
+dist/
+
+# Go backend
+parent-dashboard/backend/bin/
+parent-dashboard/backend/data/
+parent-dashboard/backend/internal/http/dist/assets/
+content-admin/backend/bin/
+content-admin/backend/internal/http/dist/
+content-admin/.superpowers/
+task-admin/backend/bin/
+task-admin/backend/internal/http/dist/assets/
+diagnosis-admin/backend/bin/
+diagnosis-admin/backend/internal/http/dist/assets/
+
+# IDE
+.idea/
+.vscode/
+.worktrees/

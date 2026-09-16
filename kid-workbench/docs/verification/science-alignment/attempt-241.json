@@ -1,0 +1,85 @@
+{
+  "attemptId": 241,
+  "childId": 10,
+  "kpId": 124182,
+  "title": "标注根",
+  "subjectCode": "science",
+  "subjectName": "科普",
+  "moduleCode": "observe",
+  "moduleName": "观察与过程",
+  "skillCode": "label",
+  "skillLabel": "结构标注题",
+  "questionType": "label",
+  "occurredAt": "2026-09-14T16:25:05.029617Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "science_plan",
+    "planId": 204,
+    "itemId": 626
+  },
+  "planId": 204,
+  "planItemId": 626,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_mapping",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "label",
+    "stem": {
+      "text": "把“根”标到植物的正确位置。"
+    },
+    "options": [],
+    "targetText": "标注根"
+  },
+  "scienceExample": {
+    "kind": "label",
+    "prompt": "把“根”标到植物的正确位置。",
+    "diagramKey": "plant-structure",
+    "diagramVersion": 1,
+    "labelTargets": [
+      {
+        "id": "flower",
+        "label": "花",
+        "x": 0.78,
+        "y": 0.14
+      },
+      {
+        "id": "leaf",
+        "label": "叶",
+        "x": 0.18,
+        "y": 0.48
+      },
+      {
+        "id": "root",
+        "label": "根",
+        "x": 0.5,
+        "y": 0.9
+      }
+    ],
+    "labelTokens": [
+      {
+        "id": "root",
+        "label": "根"
+      }
+    ],
+    "labelAnswers": {
+      "root": "root"
+    },
+    "explanation": "根藏在土壤下，负责吸收水分。",
+    "tip": "看一看植物最下面、埋在土里的部分。",
+    "rationale": "结构图部位与标签必须对应：根在地下、叶在茎侧、花在上部。坐标为相对图幅 0–1，随容器缩放。"
+  },
+  "response": {
+    "kind": "label",
+    "selectedOptionId": "{\"kind\":\"label\",\"labels\":{\"flower\":\"root\"}}",
+    "value": "{\"kind\":\"label\",\"labels\":{\"flower\":\"root\"}}"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

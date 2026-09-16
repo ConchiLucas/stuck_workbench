@@ -1,0 +1,91 @@
+{
+  "attemptId": 213,
+  "childId": 7,
+  "kpId": 754,
+  "title": "cat",
+  "subjectCode": "english",
+  "subjectName": "英语",
+  "moduleCode": "animals",
+  "moduleName": "Animals",
+  "skillCode": "listen",
+  "skillLabel": "听音选词",
+  "questionType": "listen",
+  "occurredAt": "2026-09-13T23:41:21.661571Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "english_plan",
+    "planId": 188,
+    "itemId": 548
+  },
+  "planId": 188,
+  "planItemId": 548,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "听一听，点出这个单词",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "763",
+        "label": "熊猫"
+      },
+      {
+        "id": "761",
+        "label": "熊"
+      },
+      {
+        "id": "754",
+        "label": "猫"
+      },
+      {
+        "id": "757",
+        "label": "鱼"
+      }
+    ],
+    "answerOptionId": "754",
+    "targetText": "cat"
+  },
+  "englishExample": {
+    "kind": "audio-choice",
+    "prompt": "听一听，点出这个单词",
+    "speech": "cat",
+    "speechUrl": "/api/v1/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+    "options": [
+      {
+        "id": "763",
+        "label": "熊猫"
+      },
+      {
+        "id": "761",
+        "label": "熊"
+      },
+      {
+        "id": "754",
+        "label": "猫"
+      },
+      {
+        "id": "757",
+        "label": "鱼"
+      }
+    ],
+    "answerId": "754"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "757",
+    "value": "757"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

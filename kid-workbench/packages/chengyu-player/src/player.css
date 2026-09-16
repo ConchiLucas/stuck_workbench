@@ -1,0 +1,86 @@
+.chengyu-player {
+  --ink: #432819;
+  --muted: #8a6a52;
+  --seal: #c23a2b;
+  --seal-deep: #9c2b1a;
+  --paper: #f6ead4;
+  --white: #fff8ee;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  color: var(--ink);
+}
+.chengyu-player .question-workspace { min-height: 0; height: 100%; width: 100%; margin: 0; padding: 0; display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+.chengyu-player .question-body { min-width: 0; min-height: 0; height: 100%; display: grid; grid-template-columns: minmax(0, .62fr) minmax(0, 1.38fr); gap: 18px; align-items: stretch; }
+.chengyu-player.type-example .question-body,
+.chengyu-player.type-pinyin .question-body { grid-template-columns: minmax(0, .46fr) minmax(0, 1.54fr); }
+.chengyu-player.type-meaning .question-body { grid-template-columns: minmax(0, .52fr) minmax(0, 1.48fr); }
+.chengyu-player .sound-panel { min-width: 0; min-height: 0; height: 100%; padding: 12px; display: grid; place-items: center; gap: 16px; }
+.chengyu-player .sound-panel.is-pick,
+.chengyu-player .sound-panel.is-pinyin,
+.chengyu-player .sound-panel.is-example {
+  padding: 28px 24px; background: var(--white); border: 3px solid #e0c9a8; border-radius: 28px;
+  box-shadow: inset -2px -2px 8px rgba(80, 40, 20, .08), 0 8px 0 #e0c8a4;
+}
+.chengyu-player .chengyu-stem { margin: 0; color: var(--muted); font-size: clamp(16px, 2vw, 22px); font-weight: 800; text-align: center; }
+.chengyu-player .chengyu-prompt { margin: 0; color: var(--seal-deep); font-size: clamp(36px, 5vw, 64px); font-weight: 900; letter-spacing: .08em; line-height: 1.2; text-align: center; }
+.chengyu-player .chengyu-prompt.is-pinyin { letter-spacing: .02em; font-size: clamp(40px, 6vw, 72px); font-family: "Avenir Next", "PingFang SC", sans-serif; line-height: 1.45; padding: 6px 4px 0; overflow: visible; }
+.chengyu-player .chengyu-prompt.is-meaning { font-size: clamp(26px, 3.6vw, 44px); letter-spacing: .02em; line-height: 1.35; }
+.chengyu-player .chengyu-prompt.is-example { font-size: clamp(32px, 4.4vw, 56px); letter-spacing: .04em; line-height: 1.45; }
+.chengyu-player .play-sound { --play-size: min(42vw, 268px); position: relative; z-index: 1; display: grid; width: var(--play-size); aspect-ratio: 1; height: auto; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; color: #fff; }
+.chengyu-player .play-sound:disabled { cursor: default; opacity: .72; }
+.chengyu-player .play-sound::before { content: ""; position: absolute; inset: -28%; z-index: -1; border-radius: 50%; pointer-events: none; background: radial-gradient(circle, rgba(156, 43, 26, .32) 0 32%, transparent 68%); }
+.chengyu-player .play-sound-rings { position: absolute; inset: -16%; pointer-events: none; }
+.chengyu-player .play-sound-rings i { position: absolute; inset: 16%; border-radius: 50%; border: 3px solid rgba(156, 43, 26, .42); opacity: 0; }
+.chengyu-player .play-sound-face {
+  position: relative; display: grid; width: 100%; height: 100%; place-items: center; border-radius: 50%; color: #fff8f0;
+  background: radial-gradient(circle at 32% 28%, rgba(255, 236, 210, .95) 0 14%, transparent 44%), linear-gradient(160deg, #e07a4b 0%, #c23a2b 52%, #8a2418 100%);
+  box-shadow: inset 7px 8px 14px rgba(255,255,255,.38), inset -8px -10px 16px rgba(90, 20, 16, .38), 0 16px 36px rgba(156, 43, 26, .32);
+}
+.chengyu-player .play-sound-face svg { display: block; width: 42%; height: 42%; }
+.chengyu-player .play-sound.is-playing .play-sound-rings i { animation: chengyu-clay-ring 1.6s ease-out infinite; }
+.chengyu-player .play-sound.is-playing .play-sound-rings i:nth-child(2) { animation-delay: .28s; }
+.chengyu-player .play-sound.is-playing .play-sound-rings i:nth-child(3) { animation-delay: .56s; }
+@keyframes chengyu-clay-ring { 0% { transform: scale(.72); opacity: .55; } 100% { transform: scale(1.28); opacity: 0; } }
+.chengyu-player .answer-area { min-width: 0; min-height: 0; height: 100%; display: flex; }
+.chengyu-player .option-grid { flex: 1; min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: 1fr 1fr; gap: 16px; }
+.chengyu-player .option-button {
+  container-type: size; display: grid; place-items: center; min-width: 0; min-height: 0; height: 100%; padding: 16px 18px;
+  border: 3px solid #e0c9a8; border-radius: 28px; background: var(--white); color: var(--ink); cursor: pointer; text-align: center;
+}
+.chengyu-player .option-button strong {
+  overflow-wrap: anywhere;
+  font: 800 clamp(28px, 4.2vw, 52px)/1.2 "Songti SC", "PingFang SC", serif;
+  letter-spacing: .08em; color: var(--seal-deep);
+}
+.chengyu-player.type-pick .option-button strong,
+.chengyu-player.type-pinyin .option-button strong,
+.chengyu-player.type-example .option-button strong {
+  font-size: min(52cqh, calc((100cqw - 36px) / 4.15));
+  letter-spacing: .06em;
+  line-height: 1;
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+.chengyu-player.type-meaning .option-button strong {
+  font-size: min(36cqh, calc((100cqw - 36px) / 4.15));
+  letter-spacing: .06em;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+.chengyu-player .option-button:disabled { cursor: default; }
+.chengyu-player .option-button.is-picked { border-color: var(--seal); background: #fbeee4; }
+.chengyu-player .option-button.is-right { border-color: #7a9a3a; background: #eef6d8; }
+.chengyu-player .option-button.is-wrong { border-color: #c23a2b; background: #fde8e2; }
+.chengyu-player .media-missing { margin: 0; color: #9a2f22; font-size: 14px; font-weight: 800; text-align: center; }
+.chengyu-player .history-caption { min-height: 28px; margin: 8px 0 0; color: var(--muted); font-size: 14px; font-weight: 800; text-align: center; }
+@media (max-width: 760px), (orientation: portrait) {
+  .chengyu-player .question-body,
+  .chengyu-player.type-example .question-body,
+  .chengyu-player.type-pinyin .question-body,
+  .chengyu-player.type-meaning .question-body { grid-template-columns: 1fr; }
+  .chengyu-player .option-button { min-height: 92px; }
+}

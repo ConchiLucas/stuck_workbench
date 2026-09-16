@@ -1,0 +1,37 @@
+{
+  "qualified": false,
+  "attemptId": 243,
+  "childId": 10,
+  "kpId": 124172,
+  "title": "鸭子的脚掌",
+  "subjectCode": "science",
+  "subjectName": "科普",
+  "moduleCode": "observe",
+  "moduleName": "观察与过程",
+  "skillCode": "",
+  "skillLabel": "题型未记录",
+  "questionType": "",
+  "occurredAt": "2026-09-14T16:25:05.173394Z",
+  "isCorrect": false,
+  "costMs": 800,
+  "assistance": "unknown",
+  "source": {
+    "kind": "science_plan"
+  },
+  "questionFidelity": "missing",
+  "selectionFidelity": "missing",
+  "mediaFidelity": "missing",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "evidence_incomplete"
+  ],
+  "evidenceReasonCodes": [
+    "unlinked_plan_item"
+  ],
+  "question": null,
+  "response": {
+    "kind": "unknown"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

@@ -1,0 +1,96 @@
+{
+  "attemptId": 224,
+  "childId": 8,
+  "kpId": 1203,
+  "title": "I'm fine.",
+  "subjectCode": "phrase",
+  "subjectName": "英语短句",
+  "moduleCode": "greet",
+  "moduleName": "问候",
+  "skillCode": "reply",
+  "skillLabel": "问与答",
+  "questionType": "reply",
+  "occurredAt": "2026-09-14T14:24:37.761522Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "phrase_plan",
+    "planId": 193,
+    "itemId": 572
+  },
+  "planId": 193,
+  "planItemId": 572,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "How are you?",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "label:Nice to meet you.",
+        "label": "Nice to meet you."
+      },
+      {
+        "id": "label:Good morning.",
+        "label": "Good morning."
+      },
+      {
+        "id": "label:Hello!",
+        "label": "Hello!"
+      },
+      {
+        "id": "label:I'm fine.",
+        "label": "I'm fine."
+      }
+    ],
+    "answerOptionId": "label:I'm fine.",
+    "targetText": "I'm fine."
+  },
+  "phraseExample": {
+    "kind": "reply",
+    "stem": "对方说了这句话，你怎么答？",
+    "prompt": "How are you?",
+    "speech": "How are you?",
+    "speechUrl": "/api/v1/phrase/task-media/7db75ee862b184d55f942009a51fa7a1d2a0afb38834d6e8a1fd2caf1184a8a0.mp3",
+    "options": [
+      {
+        "id": "label:Nice to meet you.",
+        "label": "Nice to meet you."
+      },
+      {
+        "id": "label:Good morning.",
+        "label": "Good morning."
+      },
+      {
+        "id": "label:Hello!",
+        "label": "Hello!"
+      },
+      {
+        "id": "label:I'm fine.",
+        "label": "I'm fine."
+      }
+    ],
+    "answerId": "label:I'm fine.",
+    "phrase": "I'm fine.",
+    "meaningZh": "我很好。",
+    "scene": "别人问你好不好",
+    "replyTo": "How are you?"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "label:Nice to meet you.",
+    "value": "label:Nice to meet you."
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

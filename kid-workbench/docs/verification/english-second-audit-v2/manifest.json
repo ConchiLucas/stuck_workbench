@@ -1,0 +1,86 @@
+{
+  "tag": "english-second-audit-v1",
+  "run": "162c9881c7",
+  "childId": 5,
+  "childName": "英语二次审核演示（非真实记录）",
+  "emptyChildId": 6,
+  "emptyChildName": "英语二次审核空账本（非真实记录）",
+  "retryPlanId": 185,
+  "retryItemId": 528,
+  "questionId": 1806,
+  "kpId": 754,
+  "wrongAttemptId": 196,
+  "rightAttemptId": 197,
+  "wrongSelected": "761",
+  "rightSelected": "754",
+  "statsPlanId": 186,
+  "partialPlanId": 187,
+  "planDateRange": {
+    "from": "2026-09-13",
+    "to": "2026-09-14"
+  },
+  "statsAccuracy": 80,
+  "partialUnanswered": 3,
+  "eligibleLiveQuestions": 362,
+  "media": {
+    "url": "/api/v1/english/words/754/speech.mp3",
+    "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+    "bytes": 12288,
+    "contentType": "audio/mpeg",
+    "progressProxy": "/api/english/words/754/speech.mp3",
+    "progressBytes": 12288,
+    "knowledgeMedia": {
+      "url": "http://localhost:19211/api/v1/children/5/knowledge/attempts/196/media/stem-audio",
+      "status": 200,
+      "bytes": 12288
+    }
+  },
+  "sourceEditRestored": true,
+  "brokenChild4Evidence": {
+    "present": true,
+    "childId": 4,
+    "qualified": false,
+    "attempts149and174": [
+      {
+        "attemptId": 149,
+        "createdAt": "2026-09-13T15:30:28.196847+00:00",
+        "isCorrect": false,
+        "planItemId": 474,
+        "speechUrl": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+        "selected": "885",
+        "labelSample": "自行车",
+        "speechHttp": {
+          "url": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+          "status": 200,
+          "bytes": 14976
+        },
+        "qualified": false,
+        "reason": "pre-repair evidence: inverted timestamps and/or snapshot mutation with unplayable media"
+      },
+      {
+        "attemptId": 174,
+        "createdAt": "2026-09-13T15:05:28.196847+00:00",
+        "isCorrect": true,
+        "planItemId": 499,
+        "speechUrl": "/api/v1/english/task-media/ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.mp3",
+        "selected": "894",
+        "labelSample": "圆形",
+        "speechHttp": {
+          "url": "/api/v1/english/task-media/ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.mp3",
+          "status": 404,
+          "bytes": 0
+        },
+        "qualified": false,
+        "reason": "pre-repair evidence: inverted timestamps and/or snapshot mutation with unplayable media"
+      }
+    ],
+    "note": "Kept as pre-repair evidence. Not a qualified sample. Do not mutate these snapshots."
+  },
+  "protectedChildAttempts": {
+    "卢沁一": 85,
+    "英语审核修复演示（非真实记录）": 26,
+    "英语验收演示（非真实记录）": 25,
+    "算术验收演示（非真实记录）": 36
+  },
+  "note": "Qualified samples come from POST /english/plans and /answer. Child 4 attempts 149/174 remain pre-repair evidence and are not in this checklist."
+}

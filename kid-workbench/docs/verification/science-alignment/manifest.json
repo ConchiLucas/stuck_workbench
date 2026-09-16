@@ -1,0 +1,137 @@
+{
+  "qualified": true,
+  "childId": 10,
+  "emptyChildId": 11,
+  "taskId": 1,
+  "plans": [
+    {
+      "planId": 204,
+      "itemIds": [
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634
+      ],
+      "reused": false
+    }
+  ],
+  "attempts": [
+    {
+      "kind": "choice",
+      "item": 623,
+      "kpId": 124172,
+      "attempts": [
+        {
+          "id": 235,
+          "selected": "cat",
+          "correct": false
+        },
+        {
+          "id": 236,
+          "selected": "duck",
+          "correct": true
+        }
+      ],
+      "optionOrder": "duck,cat,rabbit"
+    },
+    {
+      "kind": "match",
+      "item": 624,
+      "kpId": 124176,
+      "attempts": [
+        {
+          "id": 237,
+          "selected": "{\"kind\":\"match\",\"pairs\":{\"bear\":\"forest\",\"camel\":\"desert\",\"frog\":\"ice\"}}",
+          "correct": false
+        },
+        {
+          "id": 238,
+          "selected": "{\"kind\":\"match\",\"pairs\":{\"bear\":\"ice\",\"camel\":\"desert\",\"frog\":\"forest\"}}",
+          "correct": true
+        }
+      ],
+      "optionOrder": "camel,frog,bear|forest,desert,ice"
+    },
+    {
+      "kind": "sequence",
+      "item": 625,
+      "kpId": 124179,
+      "attempts": [
+        {
+          "id": 239,
+          "selected": "{\"kind\":\"sequence\",\"sequence\":[\"sprout\",\"seed\",\"seedling\"]}",
+          "correct": false
+        },
+        {
+          "id": 240,
+          "selected": "{\"kind\":\"sequence\",\"sequence\":[\"seed\",\"sprout\",\"seedling\"]}",
+          "correct": true
+        }
+      ],
+      "optionOrder": "sprout,seed,seedling"
+    },
+    {
+      "kind": "label",
+      "item": 626,
+      "kpId": 124182,
+      "attempts": [
+        {
+          "id": 241,
+          "selected": "{\"kind\":\"label\",\"labels\":{\"flower\":\"root\"}}",
+          "correct": false
+        },
+        {
+          "id": 242,
+          "selected": "{\"kind\":\"label\",\"labels\":{\"root\":\"root\"}}",
+          "correct": true
+        }
+      ],
+      "optionOrder": ""
+    }
+  ],
+  "mediaChecks": [
+    {
+      "item": 624,
+      "sha256": "61d09e0e55a37164e4e03e5546afc5af7ecdca9ce8f538498c4630b787ab77f8",
+      "bytes": 2416515
+    },
+    {
+      "item": 624,
+      "sha256": "0dc33495417df5f6bbf4859aa8d54160933df6e3a4e10dd1deb6a32301fbedd9",
+      "bytes": 2114308
+    },
+    {
+      "item": 624,
+      "sha256": "1ce19fc00bc412298d58b002600098520b506fe6bdf1100bd4f51200b6bf99cc",
+      "bytes": 2020197
+    }
+  ],
+  "sourceReplacement": {
+    "kpId": 124169,
+    "sourceChanged": true,
+    "historyUnchanged": true,
+    "sha256": "61d09e0e55a37164e4e03e5546afc5af7ecdca9ce8f538498c4630b787ab77f8"
+  },
+  "failSamples": [
+    {
+      "id": 243,
+      "qualified": false,
+      "reason": "unlinked plan item"
+    },
+    {
+      "id": 244,
+      "qualified": false,
+      "reason": "live diagram url not frozen"
+    }
+  ],
+  "protectedAttemptsUnchanged": true,
+  "emptyOverviewAttempts": 0
+}

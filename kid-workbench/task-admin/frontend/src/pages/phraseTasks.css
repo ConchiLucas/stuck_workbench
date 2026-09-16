@@ -1,0 +1,12 @@
+.phrase-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.phrase-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.phrase-task-form{max-width:600px;margin:auto;display:grid;gap:20px}
+.phrase-task-form>label{display:grid;gap:8px}
+.phrase-task-form input:not([type=checkbox]){font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.phrase-task-form fieldset{display:flex;flex-wrap:wrap;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.phrase-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.phrase-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.phrase-media-source small{display:block}
+/* Host must not set max-width:760px. App stacks at 900px viewport or portrait. */
+.phrase-task-player{min-width:0;margin:16px 0;color-scheme:light;overflow:visible}
+.phrase-task-player .phrase-player{height:auto;background:#eef3ff}
+@media(max-width:900px){.phrase-task-player{margin:12px}}

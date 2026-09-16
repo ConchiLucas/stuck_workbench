@@ -1,0 +1,93 @@
+{
+  "attemptId": 263,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "pinyin",
+  "skillLabel": "看拼音",
+  "questionType": "pinyin",
+  "occurredAt": "2026-09-15T12:56:29.929283Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "chengyu_plan",
+    "planId": 210,
+    "itemId": 663
+  },
+  "planId": 210,
+  "planItemId": 663,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "yì xīn yì yì"
+    },
+    "options": [
+      {
+        "id": "1165",
+        "label": "一心一意"
+      },
+      {
+        "id": "1166",
+        "label": "二话不说"
+      },
+      {
+        "id": "1170",
+        "label": "十全十美"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      }
+    ],
+    "answerOptionId": "1165",
+    "targetText": "一心一意"
+  },
+  "chengyuExample": {
+    "kind": "pinyin",
+    "prompt": "yì xīn yì yì",
+    "speech": "一心一意",
+    "options": [
+      {
+        "id": "1165",
+        "label": "一心一意"
+      },
+      {
+        "id": "1166",
+        "label": "二话不说"
+      },
+      {
+        "id": "1170",
+        "label": "十全十美"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      }
+    ],
+    "answerId": "1165",
+    "chengyu": "一心一意",
+    "pinyin": "yì xīn yì yì",
+    "meaning": "集中精神，做事专心",
+    "example": "做作业要一心一意。"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "1166",
+    "value": "1166"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

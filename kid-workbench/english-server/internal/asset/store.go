@@ -1,0 +1,60 @@
+package asset
+
+import (
+	"context"
+	"errors"
+	"io"
+	"path"
+	"strings"
+
+	"github.com/minio/minio-go/v7"
+	"github.com/minio/minio-go/v7/pkg/credentials"
+
+	"github.com/conchi/english-server/internal/config"
+)
+
+var ErrObjectNotFound = errors.New("object not found")
+
+type Store struct {
+	client           *minio.Client
+	bucket, basePath string
+}
+
+func NewStore(cfg config.ObjectStorage) (*Store, error) {
+	endpoint := strings.TrimPrefix(strings.TrimPrefix(strings.TrimSpace(cfg.Endpoint), "http://"), "https://")
+	client, err := minio.New(endpoint, &minio.Options{Creds: credentials.NewStaticV4(cfg.AccessKey, cfg.SecretKey, ""), Secure: cfg.UseTLS})
+	if err != nil {
+		return nil, err
+	}
+	return &Store{client: client, bucket: cfg.Bucket, basePath: strings.Trim(cfg.BasePath, "/")}, nil
+}
+
+func (s *Store) Get(ctx context.Context, key string) ([]byte, error) {
+	if s.basePath != "" {
+		key = path.Join(s.basePath, key)
+	}
+	object, err := s.client.GetObject(ctx, s.bucket, key, minio.GetObjectOptions{})
+	if err != nil {
+		return nil, classify(err)
+	}
+	defer object.Close()
+	data, err := io.ReadAll(object)
+	return data, classify(err)
+}
+
+func (s *Store) Ping(ctx context.Context) error {
+	_, err := s.client.BucketExists(ctx, s.bucket)
+	return err
+}
+func (s *Store) Check(ctx context.Context) error { return s.Ping(ctx) }
+
+func classify(err error) error {
+	if err == nil {
+		return nil
+	}
+	response := minio.ToErrorResponse(err)
+	if response.Code == "NoSuchKey" || response.Code == "NoSuchObject" || response.StatusCode == 404 {
+		return ErrObjectNotFound
+	}
+	return err
+}

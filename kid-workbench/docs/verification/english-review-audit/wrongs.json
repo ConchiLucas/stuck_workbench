@@ -1,0 +1,439 @@
+{
+  "items": [
+    {
+      "attemptId": 124,
+      "childId": 3,
+      "kpId": 821,
+      "title": "mango",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "fruits",
+      "moduleName": "Fruits",
+      "skillCode": "listen",
+      "skillLabel": "听音选词",
+      "questionType": "listen",
+      "occurredAt": "2026-09-10T13:31:33.661436Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 129,
+        "itemId": 449
+      },
+      "planId": 129,
+      "planItemId": 449,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "771",
+            "label": "橙色",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "851",
+            "label": "学生",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "900",
+            "label": "长方形",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "821",
+            "label": "芒果",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "821",
+        "targetText": "mango"
+      },
+      "englishExample": {
+        "kind": "audio-choice",
+        "speech": "mango",
+        "speechUrl": "/api/v1/english/task-media/7f21970f6ead1c87fe3fde6b0ff93b850d443ae6900cb86424ce4823df84051e.mp3",
+        "options": [
+          {
+            "id": "771",
+            "label": "橙色",
+            "picture": "/api/v1/english/task-media/8e042d418f64326e69e2f31c8a2577d24eb47c7f017ed7609acccfb207276ccd.jpg"
+          },
+          {
+            "id": "851",
+            "label": "学生",
+            "picture": "/api/v1/english/task-media/a44ecf4ee858139a877643472c422f0752f963298b93f9b4e45571372bcca975.jpg"
+          },
+          {
+            "id": "900",
+            "label": "长方形",
+            "picture": "/api/v1/english/task-media/07c34d70ecad678938aabc7cf634700c10e143272a99ec16e103eb3d90d30a19.jpg"
+          },
+          {
+            "id": "821",
+            "label": "芒果",
+            "picture": "/api/v1/english/task-media/aa6979526d0382fa4851dea9c1f56307b53e56159970740c2b19b0a0f4dc86d9.jpg"
+          }
+        ],
+        "answerId": "821"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "771",
+        "value": "771"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 129,
+      "childId": 3,
+      "kpId": 829,
+      "title": "hot",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "skillCode": "picture",
+      "skillLabel": "看图选词",
+      "questionType": "picture",
+      "occurredAt": "2026-09-10T13:26:33.661436Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 134,
+        "itemId": 454
+      },
+      "planId": 134,
+      "planItemId": 454,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "哪一张图是 hot？"
+        },
+        "options": [
+          {
+            "id": "931",
+            "label": "star",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "754",
+            "label": "cat",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "829",
+            "label": "hot",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "820",
+            "label": "cherry",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "829",
+        "targetText": "hot"
+      },
+      "englishExample": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 hot？",
+        "options": [
+          {
+            "id": "931",
+            "label": "star",
+            "picture": "/api/v1/english/task-media/599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f.jpg"
+          },
+          {
+            "id": "754",
+            "label": "cat",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "829",
+            "label": "hot",
+            "picture": "/api/v1/english/task-media/b23c49ba7031cf8ddf699a35d08a54cc2e95ecb68f9a54419ff1a1a971cf0950.jpg"
+          },
+          {
+            "id": "820",
+            "label": "cherry",
+            "picture": "/api/v1/english/task-media/3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1.jpg"
+          }
+        ],
+        "answerId": "829"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "931",
+        "value": "931"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 134,
+      "childId": 3,
+      "kpId": 782,
+      "title": "nine",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "numbers",
+      "moduleName": "Numbers",
+      "skillCode": "build",
+      "skillLabel": "组句子",
+      "questionType": "build",
+      "occurredAt": "2026-09-10T13:21:33.661436Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 139,
+        "itemId": 459
+      },
+      "planId": 139,
+      "planItemId": 459,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "order",
+        "stem": {
+          "text": "把单词排成一句话",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "bank-0",
+            "label": "This"
+          },
+          {
+            "id": "bank-1",
+            "label": "is"
+          },
+          {
+            "id": "bank-2",
+            "label": "a"
+          },
+          {
+            "id": "bank-3",
+            "label": "nine"
+          }
+        ],
+        "targetText": "This is a nine"
+      },
+      "englishExample": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a nine",
+        "speechUrl": "/api/v1/english/task-media/54291c8ac68f5aa91fcc713fc53347fbe7a257bd276e3404fc4e67146ba04960.mp3",
+        "bank": [
+          "This",
+          "is",
+          "a",
+          "nine"
+        ],
+        "answer": "This is a nine"
+      },
+      "response": {
+        "kind": "order",
+        "selectedOptionId": "nine a is This",
+        "value": "nine a is This"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 139,
+      "childId": 3,
+      "kpId": 832,
+      "title": "cool",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "skillCode": "type",
+      "skillLabel": "写单词",
+      "questionType": "type",
+      "occurredAt": "2026-09-10T13:16:33.661436Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 144,
+        "itemId": 464
+      },
+      "planId": 144,
+      "planItemId": 464,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "input",
+        "stem": {
+          "text": "写出这个单词",
+          "imageMediaId": "stem-image",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [],
+        "targetText": "cool"
+      },
+      "englishExample": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "cool",
+        "speechUrl": "/api/v1/english/task-media/820fc43925b3750e177145287e81f09be2803bccc99864027d24de2ec8927c19.mp3",
+        "cue": "/api/v1/english/task-media/7ff9347a4a10798af54dfdea9caf0f53837aaa257e949cc3d40deaa1f564ca78.jpg",
+        "answer": "cool"
+      },
+      "response": {
+        "kind": "input",
+        "selectedOptionId": "zzzz",
+        "value": "zzzz"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 144,
+      "childId": 3,
+      "kpId": 846,
+      "title": "pencil",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "school",
+      "moduleName": "School",
+      "skillCode": "read",
+      "skillLabel": "读一读",
+      "questionType": "read",
+      "occurredAt": "2026-09-10T13:11:33.661436Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 149,
+        "itemId": 469
+      },
+      "planId": 149,
+      "planItemId": 469,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "Lucy 把什么放在桌上？"
+        },
+        "options": [
+          {
+            "id": "931",
+            "label": "星星",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "846",
+            "label": "铅笔",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "820",
+            "label": "樱桃",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "768",
+            "label": "粉色",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "846",
+        "targetText": "pencil"
+      },
+      "englishExample": {
+        "kind": "reading-qa",
+        "prompt": "Lucy 把什么放在桌上？",
+        "passage": "Lucy has a red pencil. She puts it on the table.",
+        "options": [
+          {
+            "id": "931",
+            "label": "星星",
+            "picture": "/api/v1/english/task-media/599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f.jpg"
+          },
+          {
+            "id": "846",
+            "label": "铅笔",
+            "picture": "/api/v1/english/task-media/aa2e98af87b44a8c1e3c548ffdb028fa3be2e753f8d68b50f3d37e7911855967.jpg"
+          },
+          {
+            "id": "820",
+            "label": "樱桃",
+            "picture": "/api/v1/english/task-media/3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1.jpg"
+          },
+          {
+            "id": "768",
+            "label": "粉色",
+            "picture": "/api/v1/english/task-media/bc49814c882d2e40a4ed3adbbc40c3094c285856ff6ecb34a778f0f5ebffa71d.jpg"
+          }
+        ],
+        "answerId": "846"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "931",
+        "value": "931"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    }
+  ],
+  "hasMore": false,
+  "evidenceAsOf": "2026-09-13T14:20:36.743133209Z",
+  "stateReadAt": "2026-09-13T14:20:36.742128292Z",
+  "coverage": {
+    "level": "partial",
+    "reasonCodes": [
+      "legacy_selection_missing"
+    ]
+  }
+}

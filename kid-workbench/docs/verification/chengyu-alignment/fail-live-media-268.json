@@ -1,0 +1,75 @@
+{
+  "qualified": false,
+  "attemptId": 268,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "meaning",
+  "skillLabel": "听释义",
+  "questionType": "meaning",
+  "occurredAt": "2026-09-15T12:56:30.448965Z",
+  "isCorrect": false,
+  "costMs": 700,
+  "assistance": "none",
+  "source": {
+    "kind": "chengyu_plan",
+    "planId": 212,
+    "itemId": 671
+  },
+  "planId": 212,
+  "planItemId": 671,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "mutable_reference",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [
+    "media_not_frozen"
+  ],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": ""
+    },
+    "options": [
+      {
+        "id": "label:a",
+        "label": "集中精神，做事专心"
+      },
+      {
+        "id": "label:b",
+        "label": "心思不专一"
+      }
+    ],
+    "answerOptionId": "label:a",
+    "targetText": "一心一意"
+  },
+  "chengyuExample": {
+    "kind": "meaning",
+    "speech": "一心一意",
+    "options": [
+      {
+        "id": "label:a",
+        "label": "集中精神，做事专心"
+      },
+      {
+        "id": "label:b",
+        "label": "心思不专一"
+      }
+    ],
+    "answerId": "label:a"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "label:b",
+    "value": "label:b"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

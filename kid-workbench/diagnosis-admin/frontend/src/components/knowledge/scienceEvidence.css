@@ -1,0 +1,5 @@
+.science-evidence-player{min-width:0;margin:8px 0 12px;color-scheme:light;overflow:visible}
+.science-evidence-player .science-player,.science-evidence-player .logic-player{min-height:0;height:auto;background:#f6f0ff}
+.science-evidence-note{margin:8px 0 0;color:#5b4636;font-size:12px;line-height:1.6}
+@media(max-width:929px){.science-evidence-player{margin:8px 0 10px}}
+@media(max-width:390px){.science-evidence-player{margin:6px 0 8px}}

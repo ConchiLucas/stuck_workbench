@@ -1,0 +1,6 @@
+.pinyin-review-question{grid-column:1/-1;min-width:0;margin-top:10px;border:1px solid #584367;border-radius:14px;overflow:hidden;background:#f8faff}
+.pinyin-review-question summary{padding:12px 16px;cursor:pointer;color:#f6d2e5;font-size:14px;font-weight:600;background:#201529}
+.pinyin-review-caption,.pinyin-review-unavailable{margin:8px 16px 12px;color:#bba9c7;font-size:12px;line-height:1.6}
+.pinyin-review-unavailable{grid-column:1/-1;margin:6px 0}
+.pinyin-review-question .pinyin-question{height:auto;min-height:360px;padding:8px 12px 16px}
+.pinyin-drawer:has(.pinyin-review-question[open]){width:min(960px,100vw)}

@@ -1,0 +1,7 @@
+import { useListReturn } from '../../lib/listNavigation'
+import { Link } from 'react-router-dom'
+import { statusLabel } from '../../api/knowledge'
+import type { Point } from '../../api/knowledgeTypes'
+export function LoadState({loading,error}:{loading:boolean;error:Error|null}){if(loading)return <p className="state-line" role="status">正在整理学习记录…</p>;if(error)return <div className="error-box" role="alert"><strong>{error.message}</strong><button onClick={()=>window.location.reload()}>重新加载</button></div>;return null}
+export function PointRow({point:p}:{point:Point} ){const returnState=useListReturn();return <Link state={returnState()} to={`/knowledge-points/${p.kpId}`} className="knowledge-row"><div className="point-title"><strong>{p.title}</strong><small>{p.subjectName} · {p.moduleName}</small></div><div className="skill-tags">{p.skills.length?p.skills.map(sk=><span key={sk.skillCode} className={`skill-tag state-${sk.masteryStatus}`}><b>{sk.label}</b>{statusLabel(sk.masteryStatus)}</span>):<span className={`skill-tag state-${p.masteryStatus}`}>{statusLabel(p.masteryStatus)}</span>}</div><div className="point-facts"><span>{p.stats.observedAttempts} 次练习</span><span>{p.wrongCount?`${p.wrongCount} 次错误`:'暂无错误'}</span><span aria-hidden="true">↗</span></div></Link>}
+export function MoreButton({more,loading,onClick}:{more:boolean;loading:boolean;onClick:()=>void}){return more?<button className="load-more" disabled={loading} onClick={onClick}>{loading?'正在读取…':'查看更多'}</button>:null}

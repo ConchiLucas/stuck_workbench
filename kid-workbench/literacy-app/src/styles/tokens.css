@@ -1,0 +1,54 @@
+:root {
+  --paper: #f3e6c8;
+  --paper-deep: #e7d4a8;
+  --ink: #1f1812;
+  --cinnabar: #9f2e22;
+  --cinnabar-deep: #7d241c;
+  --moss: #2f5d40;
+  --grid: #d4b896;
+  --muted: #534636;
+  --white: #fffaf2;
+  --success-bg: #e4efe6;
+  --danger-bg: #f8e4df;
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --color-primary: var(--cinnabar);
+  --color-on-primary: var(--white);
+  --color-card: var(--white);
+  --color-muted-foreground: var(--muted);
+  --color-border: var(--grid);
+  --color-ring: var(--cinnabar);
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --duration: 180ms;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --font-ui: "Noto Sans SC", "PingFang SC", sans-serif;
+  --font-han: "Noto Serif SC", "Songti SC", "STSong", serif;
+  --font-display: "ZCOOL XiaoWei", "Noto Serif SC", serif;
+  --radius: 16px;
+  --tap: 48px;
+  font-family: var(--font-ui);
+  color: var(--ink);
+  background: var(--paper);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body, #root { min-height: 100%; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--paper);
+  touch-action: manipulation;
+}
+button, a { font: inherit; cursor: pointer; }
+button:disabled { cursor: default; }
+button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 3px;
+}
+h1, h2, .brand-name { font-family: var(--font-display); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

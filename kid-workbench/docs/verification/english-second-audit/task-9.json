@@ -1,0 +1,85 @@
+{
+  "id": 9,
+  "title": "【审核修复】英语·写单词·english-audit-fix-v1",
+  "count": 3,
+  "types": [
+    "input-gap"
+  ],
+  "groups": [
+    "Actions",
+    "Weather",
+    "Nature"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 868,
+      "sourceId": 868,
+      "sourceTable": "english_assets",
+      "moduleCode": "actions",
+      "moduleName": "Actions",
+      "sourceContentHash": "84a115b9fdb6e21516f097e7",
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "stand",
+        "speechUrl": "/api/v1/english/task-media/4f6dce0f21f0d734af77e4728aadf02a44aafbcff315f0e785b7bf955b587c0f.mp3",
+        "cue": "/api/v1/english/task-media/a606745e85202639d46dffab6e4d11e5852a30e58b03217b8ef153f3f091d962.jpg",
+        "answer": "stand"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/868/sense.png": "a606745e85202639d46dffab6e4d11e5852a30e58b03217b8ef153f3f091d962",
+        "/api/v1/english/words/868/speech.mp3": "4f6dce0f21f0d734af77e4728aadf02a44aafbcff315f0e785b7bf955b587c0f"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 826,
+      "sourceId": 826,
+      "sourceTable": "english_assets",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "sourceContentHash": "30ba6ad0c6ef604d72afc878",
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "cloudy",
+        "speechUrl": "/api/v1/english/task-media/f8d0ff54968f3d9016f6d21a51c3f5b7399224c626e00704be4811012af5dd17.mp3",
+        "cue": "/api/v1/english/task-media/db8c70799780c24af7917fe1cf2e6d36fe8e3c978ccee5a6f84378d18658fdb2.jpg",
+        "answer": "cloudy"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/826/sense.png": "db8c70799780c24af7917fe1cf2e6d36fe8e3c978ccee5a6f84378d18658fdb2",
+        "/api/v1/english/words/826/speech.mp3": "f8d0ff54968f3d9016f6d21a51c3f5b7399224c626e00704be4811012af5dd17"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 928,
+      "sourceId": 928,
+      "sourceTable": "english_assets",
+      "moduleCode": "nature",
+      "moduleName": "Nature",
+      "sourceContentHash": "fb5f75fb02617121201d9c47",
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "mountain",
+        "speechUrl": "/api/v1/english/task-media/63e39daea954c2832ef22309bddab5b4828f45d9be443328c439a47984e6fb22.mp3",
+        "cue": "/api/v1/english/task-media/f1664f094c8150e9ecab788210932a0acb50a5407f3193ea48acb7c9221a7669.jpg",
+        "answer": "mountain"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/928/sense.png": "f1664f094c8150e9ecab788210932a0acb50a5407f3193ea48acb7c9221a7669",
+        "/api/v1/english/words/928/speech.mp3": "63e39daea954c2832ef22309bddab5b4828f45d9be443328c439a47984e6fb22"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T15:33:27.400347Z"
+}

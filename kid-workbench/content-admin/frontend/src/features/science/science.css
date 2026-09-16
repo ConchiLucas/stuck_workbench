@@ -1,0 +1,5 @@
+.science-material-player{min-width:0;margin:16px 0;color-scheme:light;overflow:visible}
+.science-material-player .science-player{height:auto;background:#eef6f4}
+.science-material-player .logic-player{height:auto;background:#f6f0ff}
+@media(max-width:929px){.science-material-player{margin:12px 0}}
+@media(max-width:390px){.science-material-player{margin:8px 0}}

@@ -1,0 +1,9 @@
+{
+  "name": "成语小园",
+  "short_name": "成语",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#9c2b1a",
+  "background_color": "#f4ead6"
+}

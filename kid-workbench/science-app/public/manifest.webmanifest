@@ -1,0 +1,12 @@
+{
+  "name": "小小发现局",
+  "short_name": "发现局",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#102a43",
+  "background_color": "#eef8f7",
+  "icons": [
+    { "src": "/science-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

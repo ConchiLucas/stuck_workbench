@@ -1,0 +1,67 @@
+.logic-player {
+  min-width: 0;
+  color: #2a1848;
+  color-scheme: light;
+}
+.logic-player .question-workspace {
+  min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+}
+.logic-player .question-workspace.is-split {
+  display: grid; grid-template-columns: minmax(220px, .62fr) minmax(0, 1.38fr); gap: 18px;
+  align-items: stretch; text-align: left;
+}
+.logic-player .question-stem {
+  min-width: 0; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 8px;
+}
+.logic-player .question-stem h1 { margin: 0; font-size: clamp(1.7rem, 3.2vw, 3.1rem); line-height: 1.15; }
+.logic-player .eyebrow { margin: 0 0 7px; color: #7c5cbf; font-size: .72rem; font-weight: 800; letter-spacing: .19em; }
+.logic-player .stem-hint { margin: 0; color: #6b5a86; font-size: clamp(1rem, 2vw, 1.3rem); font-weight: 800; }
+.logic-player .choice-row { min-width: 0; min-height: 0; height: 100%; }
+.logic-player .seq-row { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 10px; margin: 4px 0 0; }
+.logic-player .seq-row .logic-glyph, .logic-player .seq-row img { width: clamp(40px, 6vw, 72px); height: auto; }
+.logic-player .seq-hole { color: #6b5a86; font-size: clamp(2.1rem, 5.4vw, 4rem); }
+.logic-player .order-slots {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 10px;
+  width: 100%; margin: 8px 0 0; padding: 0; list-style: none;
+}
+.logic-player .order-slots li {
+  min-height: 88px; display: grid; gap: 6px; justify-items: center; align-content: center;
+  padding: 10px 8px; border-radius: 20px; background: #fff; border: 3px dashed #ead9ff;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+}
+.logic-player .order-slots b {
+  width: 24px; height: 24px; display: grid; place-items: center; border-radius: 50%;
+  background: #7c5cbf; color: white; font-size: 13px;
+}
+.logic-player .option-grid {
+  display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px; width: 100%; height: 100%; min-height: 220px;
+}
+.logic-player .option-button {
+  container-type: size; height: 100%; min-height: 92px; min-width: 0; padding: 10px 12px;
+  display: grid; grid-template-rows: minmax(0, 1fr); place-items: center; gap: 4px;
+  border: 3px solid #ead9ff; border-radius: 24px; background: white; cursor: pointer;
+  font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 800;
+}
+.logic-player .option-button.has-caption { grid-template-rows: minmax(0, 1fr) auto; }
+.logic-player .option-glyph { line-height: 1; width: min(68cqh, 42cqw); height: min(68cqh, 42cqw); display: grid; place-items: center; }
+.logic-player .option-glyph .logic-glyph, .logic-player .option-glyph img, .logic-player .option-glyph .logic-emoji {
+  width: 100%; height: 100%; object-fit: contain;
+}
+.logic-player .option-caption { max-width: 100%; color: #2a1848; font-size: min(18cqh, 14cqw, 22px); font-weight: 800; line-height: 1.1; }
+.logic-player .option-grid.is-compare .option-button[data-weight="1"] .option-glyph { width: min(32cqh, 24cqw); height: min(32cqh, 24cqw); }
+.logic-player .option-grid.is-compare .option-button[data-weight="2"] .option-glyph { width: min(48cqh, 32cqw); height: min(48cqh, 32cqw); }
+.logic-player .option-grid.is-compare .option-button[data-weight="3"] .option-glyph { width: min(62cqh, 40cqw); height: min(62cqh, 40cqw); }
+.logic-player .option-grid.is-compare .option-button[data-weight="4"] .option-glyph { width: min(82cqh, 54cqw); height: min(82cqh, 54cqw); }
+.logic-player .option-button.is-picked { background: #f3e8ff; border-color: #7c5cbf; }
+.logic-player .option-button.is-wrong { background: #ffe4dc; border-color: #e24a38; }
+.logic-player .option-button:disabled { cursor: default; }
+.logic-player .kid-feedback { margin: 8px 0 0; font-size: clamp(1.3rem, 3vw, 1.8rem); font-weight: 800; color: #5b3d9a; }
+.logic-player.is-readonly button { cursor: default; }
+.logic-facts { margin: 12px 0 0; padding-left: 1.2em; font-weight: 700; }
+@media (max-width: 760px) {
+  .logic-player .question-workspace.is-split {
+    grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(240px, 1fr);
+  }
+  .logic-player .question-stem { justify-content: flex-start; }
+}

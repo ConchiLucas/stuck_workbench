@@ -1,0 +1,97 @@
+.poem-player {
+  --clay-1: #7dcc8a;
+  --clay-2: #f08a4b;
+  --clay-3: #b08ad6;
+  --clay-4: #6eb6e8;
+  --ink: #24160f;
+  --silk: #fff8ee;
+  --cinnabar: #c23a2b;
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 20px;
+  min-width: 0;
+  color: var(--ink);
+  color-scheme: light;
+  font-family: "Noto Serif SC", "Songti SC", serif;
+}
+.poem-player .poem-scroll {
+  background: #fff8ee;
+  border-radius: 28px;
+  box-shadow: inset 6px 8px 14px rgba(255,255,255,.7), inset -6px -8px 14px rgba(160,110,60,.16), 0 10px 0 #e0c8a4;
+  display: grid;
+  place-items: center;
+  padding: 18px 0;
+  min-width: 0;
+}
+.poem-player .clue-line {
+  margin: 0;
+  writing-mode: vertical-rl;
+  font-family: "Ma Shan Zheng", "Noto Serif SC", serif;
+  font-size: 28px;
+  letter-spacing: .28em;
+  overflow-wrap: anywhere;
+}
+.poem-player .clue-main { display: grid; align-content: start; gap: 16px; min-width: 0; }
+.poem-player .clue-prompt { display: flex; gap: 14px; align-items: center; min-width: 0; }
+.poem-player .clue-kicker {
+  margin: 0 0 4px; display: inline-block; padding: 4px 14px; border-radius: 999px;
+  background: rgba(16, 24, 40, .72); color: #fff; letter-spacing: .28em; font-size: 12px;
+}
+.poem-player .clue-prompt h1 {
+  margin: 0; font-size: clamp(22px, 3.4vw, 40px); font-weight: 700; color: #24160f;
+  background: rgba(255, 248, 238, .9); padding: 8px 16px; border-radius: 18px;
+  box-shadow: 0 6px 0 rgba(224, 200, 164, .8);
+}
+.poem-player .play-btn {
+  width: 56px; height: 56px; flex: none; border: 0; background: #f08a4b; color: #fff;
+  border-radius: 50%; box-shadow: inset 4px 5px 8px rgba(255,255,255,.35), 0 8px 0 #d56d32;
+  display: grid; place-items: center; cursor: pointer;
+}
+.poem-player .play-btn.is-playing { background: #c23a2b; }
+.poem-player .poem-audio-missing { margin: 0; max-width: 12rem; font-size: 13px; line-height: 1.4; color: #5a5146; }
+.poem-player .option-grid { display: grid; gap: 12px; min-width: 0; }
+.poem-player .cols-4, .poem-player .is-lines { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.poem-player .cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.poem-player .cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.poem-player .option-card {
+  min-height: 88px; display: grid; justify-items: center; align-content: center; gap: 8px;
+  padding: 12px 10px; color: #fff; border: 0; border-radius: 28px;
+  box-shadow: inset 6px 8px 12px rgba(255,255,255,.28), inset -6px -8px 14px rgba(40,20,10,.18), 0 10px 0 rgba(40, 40, 40, .18);
+  cursor: pointer;
+}
+.poem-player .option-card:nth-child(1) { background: var(--clay-1); }
+.poem-player .option-card:nth-child(2) { background: var(--clay-2); }
+.poem-player .option-card:nth-child(3) { background: var(--clay-3); }
+.poem-player .option-card:nth-child(4) { background: var(--clay-4); }
+.poem-player .option-card strong { font-size: clamp(22px, 3vw, 32px); font-weight: 800; text-align: center; overflow-wrap: anywhere; }
+.poem-player .option-card.is-picked { outline: 4px solid #fff8ee; }
+.poem-player .option-card.is-right { background: #7a9a3a; box-shadow: inset 6px 8px 12px rgba(255,255,255,.28), 0 10px 0 #5d7828; }
+.poem-player .option-card.is-wrong { background: #c23a2b; box-shadow: inset 6px 8px 12px rgba(255,255,255,.22), 0 10px 0 #9a2c22; }
+.poem-player .option-card:disabled { cursor: default; }
+.poem-player .kid-feedback { margin: 4px 0 0; color: #fff; font-size: 22px; font-weight: 700; letter-spacing: .08em; text-shadow: 0 2px 0 rgba(40,80,120,.35); }
+.poem-player .tap-count { margin: 0; color: #fff; font-weight: 700; letter-spacing: .12em; text-shadow: 0 2px 0 rgba(40,80,120,.35); }
+.poem-player .order-slots {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px;
+  margin: 0; padding: 0; list-style: none;
+}
+.poem-player .order-slots li {
+  min-height: 72px; display: grid; gap: 4px; justify-items: center; align-content: center;
+  padding: 8px 6px; background: #fff8ee; border-radius: 20px;
+  box-shadow: inset 4px 5px 8px rgba(255,255,255,.7), 0 6px 0 #e0c8a4;
+}
+.poem-player .order-slots b {
+  width: 22px; height: 22px; display: grid; place-items: center; color: #fff;
+  background: #c23a2b; border-radius: 50%; font-size: 12px;
+}
+.poem-player .order-slots span { font-size: 15px; text-align: center; line-height: 1.3; overflow-wrap: anywhere; }
+.poem-player .order-slots li.is-wrong { outline: 3px solid #c23a2b; }
+.poem-player .order-slots li.is-right { outline: 3px solid #5a9a3a; }
+.poem-player.is-readonly button { cursor: default; }
+.poem-facts { margin: 8px 0 0; padding-left: 1.2em; font-size: 13px; line-height: 1.6; }
+
+@media (max-width: 760px) {
+  .poem-player { grid-template-columns: 1fr; }
+  .poem-player .poem-scroll { min-height: 72px; }
+  .poem-player .clue-line { writing-mode: horizontal-tb; letter-spacing: .2em; }
+  .poem-player .option-grid.is-lines { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

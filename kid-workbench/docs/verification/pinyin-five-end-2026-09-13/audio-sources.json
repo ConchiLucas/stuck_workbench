@@ -1,0 +1,104 @@
+{
+  "source": "https://github.com/hugolpz/audio-cmn",
+  "author": "Chen Wang",
+  "license": "CC-by-sa (upstream README)",
+  "changes": "Unmodified MP3 recordings",
+  "files": [
+    {
+      "name": "ba1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-ba1.mp3",
+      "bytes": 8796,
+      "sha256": "7130b5cadc1c890e3795fb877749ba3eedaa54efca989ce6c857637fb2378637"
+    },
+    {
+      "name": "pa1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-pa1.mp3",
+      "bytes": 8412,
+      "sha256": "021c2544b6e86cd8fd90573cf729afbac63dedf76a9f022369f31b97608ee6e9"
+    },
+    {
+      "name": "ma1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-ma1.mp3",
+      "bytes": 9180,
+      "sha256": "6a3194446f891fceb224d2a2497c284203566a2859cc7e0ac2fe4060be69ec3f"
+    },
+    {
+      "name": "fa1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-fa1.mp3",
+      "bytes": 9564,
+      "sha256": "bde5cc165b6c9f073b7a10efb436e0c39614a4ab71db50aaad8775ff51aa7418"
+    },
+    {
+      "name": "da4",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-da4.mp3",
+      "bytes": 8028,
+      "sha256": "033350136f17ce98a81fad8bc8a15d26510b0578e2055e8e9ad9c721a81c844e"
+    },
+    {
+      "name": "ta4",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-ta4.mp3",
+      "bytes": 8796,
+      "sha256": "f8915329cebd47adb5cb48e951138453988235c60578c1e2ee05d38e0de7fbe3"
+    },
+    {
+      "name": "na4",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-na4.mp3",
+      "bytes": 8028,
+      "sha256": "0d9459c1b75274e3ee29876f7229c3fabcb32d650435c055b2ab63e9706dff77"
+    },
+    {
+      "name": "la4",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-la4.mp3",
+      "bytes": 8796,
+      "sha256": "8181611591400de8a2fc0788c6b1c8b354e0d78d83ed2b91d8bc311a8d55b4d0"
+    },
+    {
+      "name": "ji1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-ji1.mp3",
+      "bytes": 9180,
+      "sha256": "86633a0e9d816cf86120a94c0bb726aad6265aa97d95297d7ad5eec6142ac411"
+    },
+    {
+      "name": "qi1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-qi1.mp3",
+      "bytes": 9948,
+      "sha256": "3b80a1a84a92f357b8e8856312c20164b7db5e24b9fe04fe2d14fb4cb5dc8017"
+    },
+    {
+      "name": "xi1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-xi1.mp3",
+      "bytes": 9564,
+      "sha256": "28a49bfbf4faf8548d7f276a8ea9ba1dfa32fbc1b70e7ce5f529108e85248b31"
+    },
+    {
+      "name": "yi1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-yi1.mp3",
+      "bytes": 9180,
+      "sha256": "36540ca523dcddcfd1f09e59f1386f576dfe4142cd22494e49d82b604ca045c6"
+    },
+    {
+      "name": "zhu1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-zhu1.mp3",
+      "bytes": 8798,
+      "sha256": "081f95f2e8b63985359b8a08e744fb02039cf8e65d03d73040da4a5a7ec05361"
+    },
+    {
+      "name": "chu1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-chu1.mp3",
+      "bytes": 8030,
+      "sha256": "b891fbe2421da65ab0095b56de4681e1a39e5f1fd687aaa0e918446052ff283e"
+    },
+    {
+      "name": "shu1",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-shu1.mp3",
+      "bytes": 9950,
+      "sha256": "eb30c2b3893e5723a54e1e5688d891fe7b11fb34ec500d9c3f110de491c3da5d"
+    },
+    {
+      "name": "ru2",
+      "url": "https://raw.githubusercontent.com/hugolpz/audio-cmn/master/64k/syllabs/cmn-ru2.mp3",
+      "bytes": 9564,
+      "sha256": "ee5563f16edc7f8b8fd701a04c539f60f0f7e9007570f697601a82f9b743c688"
+    }
+  ]
+}

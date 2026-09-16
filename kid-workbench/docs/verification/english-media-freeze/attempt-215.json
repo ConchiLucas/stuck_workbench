@@ -1,0 +1,99 @@
+{
+  "attemptId": 215,
+  "childId": 7,
+  "kpId": 754,
+  "title": "cat",
+  "subjectCode": "english",
+  "subjectName": "英语",
+  "moduleCode": "animals",
+  "moduleName": "Animals",
+  "skillCode": "picture",
+  "skillLabel": "看图选词",
+  "questionType": "picture",
+  "occurredAt": "2026-09-13T23:41:22.029863Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "english_plan",
+    "planId": 188,
+    "itemId": 549
+  },
+  "planId": 188,
+  "planItemId": 549,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "听一听，点出对应的图",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "754",
+        "label": "猫",
+        "imageMediaId": "option-0-image"
+      },
+      {
+        "id": "763",
+        "label": "熊猫",
+        "imageMediaId": "option-1-image"
+      },
+      {
+        "id": "759",
+        "label": "老虎",
+        "imageMediaId": "option-2-image"
+      },
+      {
+        "id": "758",
+        "label": "兔子",
+        "imageMediaId": "option-3-image"
+      }
+    ],
+    "answerOptionId": "754",
+    "targetText": "cat"
+  },
+  "englishExample": {
+    "kind": "image-text",
+    "prompt": "听一听，点出对应的图",
+    "speech": "cat",
+    "speechUrl": "/api/v1/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+    "options": [
+      {
+        "id": "754",
+        "label": "猫",
+        "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+      },
+      {
+        "id": "763",
+        "label": "熊猫",
+        "picture": "/api/v1/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg"
+      },
+      {
+        "id": "759",
+        "label": "老虎",
+        "picture": "/api/v1/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg"
+      },
+      {
+        "id": "758",
+        "label": "兔子",
+        "picture": "/api/v1/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg"
+      }
+    ],
+    "answerId": "754"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "763",
+    "value": "763"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "code": "this-is-an-apple",
+    "text": "This is an apple",
+    "voice": "existing-file",
+    "sha256": "f56e059135555f1cfc8c0e3289bdeb86921d49c41752dbaa9a1c19369943c332",
+    "bytes": 7617,
+    "duration": "Duration: 00:00:00.94, start: 0.050113, bitrate: 64 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "this-is-a-cat",
+    "text": "This is a cat",
+    "voice": "existing-file",
+    "sha256": "5dbdfeef8ebaede83c82a3ba2a0d97dfef13bdab491c6c044b4aed75e66c27e2",
+    "bytes": 7382,
+    "duration": "Duration: 00:00:00.89, start: 0.050113, bitrate: 66 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "this-is-a-dog",
+    "text": "This is a dog",
+    "voice": "existing-file",
+    "sha256": "2766ae0583722f15dec1cc5153d68cac5570c284fdac904a4e15a77c9462ab46",
+    "bytes": 7228,
+    "duration": "Duration: 00:00:00.82, start: 0.050113, bitrate: 70 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "this-is-a-bird",
+    "text": "This is a bird",
+    "voice": "existing-file",
+    "sha256": "2b887666f49a5128db5f5d2e0f4379a15851e173ba2f662fb33dc17fdafbdf52",
+    "bytes": 7019,
+    "duration": "Duration: 00:00:00.81, start: 0.050113, bitrate: 69 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "this-is-a-banana",
+    "text": "This is a banana",
+    "voice": "existing-file",
+    "sha256": "2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103",
+    "bytes": 8110,
+    "duration": "Duration: 00:00:00.96, start: 0.050113, bitrate: 67 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "this-is-a-pencil",
+    "text": "This is a pencil",
+    "voice": "existing-file",
+    "sha256": "229f3550f604d43e90b48d9200f1e51de659141ba74c960f51bc68f65cc047b3",
+    "bytes": 8581,
+    "duration": "Duration: 00:00:01.00, start: 0.050113, bitrate: 68 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "i-like-the-dog",
+    "text": "I like the dog",
+    "voice": "existing-file",
+    "sha256": "71e50522912e835bc25d456a889fa8cdb1f9987394946c6143863de8ac797cd2",
+    "bytes": 7777,
+    "duration": "Duration: 00:00:00.87, start: 0.050113, bitrate: 71 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "she-has-a-cat",
+    "text": "She has a cat",
+    "voice": "existing-file",
+    "sha256": "afbf4198ca08d96cd1d5e06c2bb07f492cf7eb0a545dc63ec9d5a88822a55035",
+    "bytes": 7983,
+    "duration": "Duration: 00:00:00.94, start: 0.050113, bitrate: 68 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "we-see-a-bird",
+    "text": "We see a bird",
+    "voice": "existing-file",
+    "sha256": "363fabba821074faa8021c842ccbb1156a463f36e9c294135fafe854439c88ce",
+    "bytes": 6991,
+    "duration": "Duration: 00:00:00.80, start: 0.050113, bitrate: 69 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  },
+  {
+    "code": "he-has-a-ball",
+    "text": "He has a ball",
+    "voice": "existing-file",
+    "sha256": "d1e1c0446738767831cf458854e6d4650c11474393afcece83598218b4b0effd",
+    "bytes": 6601,
+    "duration": "Duration: 00:00:00.81, start: 0.050113, bitrate: 65 kb/s",
+    "played": true,
+    "playError": "",
+    "source": "existing-content-admin"
+  }
+]

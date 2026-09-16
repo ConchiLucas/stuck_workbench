@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="42" fill="#2457e6"/>
+  <path d="M22 48h136M22 76h136M22 104h136M22 132h136" stroke="#a9c5ff" stroke-width="4"/>
+  <path d="M22 90h136" stroke="#ff6b57" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="90" y="132" text-anchor="middle" font-family="Baskerville,serif" font-size="118" font-style="italic" font-weight="700" fill="white">b</text>
+</svg>

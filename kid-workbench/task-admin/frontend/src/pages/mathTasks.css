@@ -1,0 +1,19 @@
+.math-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.math-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.math-task-form{max-width:720px;margin:auto;display:grid;gap:20px}
+.math-task-form>label{display:grid;gap:8px}
+.math-task-form input:not([type=checkbox]),.math-task-form select{font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.math-task-form fieldset{display:grid;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.math-task-type-group{display:flex;flex-wrap:wrap;gap:12px 16px}
+.math-task-type-group legend{font-weight:700;margin-bottom:8px}
+.math-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.math-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.math-media-source small{display:block}
+
+.math-task-player{min-width:0;margin:20px;color-scheme:light}
+.math-task-player .math-kid-player{height:auto;min-height:0;padding:0}
+.math-task-player .math-kid-options{min-height:0;grid-template-rows:repeat(2,minmax(140px,auto))}
+.math-task-player .math-kid-options.options-2{grid-template-rows:minmax(140px,auto)}
+.math-task-player .math-kid-options.options-3{grid-template-rows:repeat(3,minmax(140px,auto))}
+.math-task-player .math-kid-options button{min-height:120px}
+/* Direction and the 760px viewport breakpoint come from the shared App player. */
+@media(max-width:760px){.math-task-player{margin:12px}}

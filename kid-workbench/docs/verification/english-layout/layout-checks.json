@@ -1,0 +1,113 @@
+{
+  "breakpoint": "App and english-player stack at viewport max-width 800px, not 760px. Hosts must not set max-width:760px or container queries.",
+  "measurements": {
+    "app-audio-choice-1280": {
+      "columns": "302.812px 841.188px",
+      "promptLeft": true,
+      "overflowX": false
+    },
+    "app-audio-choice-929": {
+      "columns": "220px 597.531px",
+      "promptX": 37,
+      "workX": 294,
+      "overflowX": false
+    },
+    "app-audio-choice-390": {
+      "columns": "358px",
+      "stacked": true,
+      "overflowX": false
+    },
+    "task-audio-choice-1280": {
+      "columns": "291.703px 810.297px",
+      "hostMaxWidth": "none",
+      "overflowX": false
+    },
+    "task-audio-choice-929": {
+      "columns": "220px 555.531px",
+      "promptX": 58,
+      "workX": 315,
+      "sameY": true,
+      "overflowX": false
+    },
+    "task-audio-choice-390": {
+      "columns": "316px",
+      "stacked": true,
+      "overflowX": false
+    },
+    "task-image-text-929": {
+      "columns": "220px 555.531px",
+      "promptX": 58,
+      "workX": 315,
+      "sameY": true
+    },
+    "task-card-builder-929": {
+      "columns": "220px 555.531px",
+      "promptX": 58,
+      "workX": 315,
+      "sameY": true
+    },
+    "task-input-gap-929": {
+      "columns": "220px 555.531px",
+      "promptX": 58,
+      "workX": 315
+    },
+    "task-reading-qa-929": {
+      "columns": "220px 555.531px",
+      "promptX": 58,
+      "workX": 315,
+      "sameY": true
+    },
+    "diagnosis-wrongs-1280": {
+      "columns": "222.344px 617.656px",
+      "sameY": true,
+      "overflowX": false
+    },
+    "diagnosis-wrongs-929": {
+      "columns": "220px 293.531px",
+      "promptX": 294,
+      "workX": 551,
+      "sameY": true,
+      "overflowX": false
+    },
+    "diagnosis-wrongs-390": {
+      "columns": "280px",
+      "stacked": true,
+      "overflowX": false
+    },
+    "progress-nine-history-929": {
+      "columns": "220px 522.531px",
+      "promptX": 75,
+      "workX": 332,
+      "sameY": true,
+      "overflowX": false
+    },
+    "progress-nine-history-390": {
+      "columns": "283px",
+      "stacked": true,
+      "overflowX": false
+    },
+    "content-mango-player-1280": {
+      "columns": "290.109px 805.891px",
+      "promptX": 72,
+      "workX": 402,
+      "sameY": true
+    }
+  },
+  "attemptsAfterPreview": {
+    "1": 85,
+    "2": 36,
+    "3": 25
+  },
+  "mediaGET": {
+    "taskAdminMp3": "200 audio/mpeg",
+    "progressProxyMp3": "200 audio/mpeg",
+    "contentSpeech": "200 audio/mpeg",
+    "diagnosisStemAudio": "200 audio/mpeg 14976 MPEG",
+    "diagnosisOptionImage": "200 image/jpeg JPEG 1280x720"
+  },
+  "notes": [
+    "Chrome Auto Dark Mode was disabled via CDP for screenshots; computed CSS is cream #f4efe4.",
+    "Overview calendar synthesizes empty days; 2026-09-10/11/12 are real demo attempts.",
+    "HEAD on media URLs returns 404; GET returns the file. Players use GET/Audio()."
+  ]
+}

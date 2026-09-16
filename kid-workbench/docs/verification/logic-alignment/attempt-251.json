@@ -1,0 +1,133 @@
+{
+  "attemptId": 251,
+  "childId": 12,
+  "kpId": 124661,
+  "title": "颜色轮换",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "shape_reason",
+  "skillLabel": "图形推理",
+  "questionType": "shape_reason",
+  "occurredAt": "2026-09-15T01:14:32.553023Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 639
+  },
+  "planId": 206,
+  "planItemId": 639,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "下一个图形是哪个？"
+    },
+    "options": [
+      {
+        "id": "sc2",
+        "label": "蓝圆",
+        "imageMediaId": "glyph-sc2"
+      },
+      {
+        "id": "sc4",
+        "label": "绿圆",
+        "imageMediaId": "glyph-sc4"
+      },
+      {
+        "id": "sc1",
+        "label": "红圆",
+        "imageMediaId": "glyph-sc1"
+      }
+    ],
+    "answerOptionId": "sc1",
+    "targetText": "颜色轮换"
+  },
+  "logicExample": {
+    "kind": "shape_reason",
+    "prompt": "下一个图形是哪个？",
+    "rule": {
+      "type": "ABC-color",
+      "dimension": "color",
+      "explain": "颜色轮换：图形按该维度变化。"
+    },
+    "objects": [
+      {
+        "id": "sc1",
+        "caption": "红圆",
+        "glyph": "circle",
+        "fill": "#e11d48",
+        "scale": 2,
+        "attrs": {
+          "color": "red"
+        }
+      },
+      {
+        "id": "sc2",
+        "caption": "蓝圆",
+        "glyph": "circle",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "color": "blue"
+        }
+      },
+      {
+        "id": "sc3",
+        "caption": "黄圆",
+        "glyph": "circle",
+        "fill": "#eab308",
+        "scale": 2,
+        "attrs": {
+          "color": "yellow"
+        }
+      },
+      {
+        "id": "sc4",
+        "caption": "绿圆",
+        "glyph": "circle",
+        "fill": "#16a34a",
+        "scale": 2,
+        "attrs": {
+          "color": "green"
+        }
+      }
+    ],
+    "sequence": [
+      "sc1",
+      "sc2",
+      "sc3"
+    ],
+    "options": [
+      "sc2",
+      "sc4",
+      "sc1"
+    ],
+    "answerId": "sc1",
+    "glyphVersion": "1",
+    "imageUrls": {
+      "sc1": "/api/v1/logic/task-media/269ef8a3c8a6e1d156e3ff2a75f53d1e8bcd0b5f71199b25ececa16bb8948767.svg",
+      "sc2": "/api/v1/logic/task-media/cb9b77f2a5862e869ac76eb53b782322499281273f4eb1e0035dfd538bbc4073.svg",
+      "sc3": "/api/v1/logic/task-media/a96bac4d17d6ea40008378274a11a5824989423ab617224edbeb678c6ba80073.svg",
+      "sc4": "/api/v1/logic/task-media/423eea207ecc1f246270e11828090b797c31ebbaa68a1d0eee3adadd31c68f21.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "sc2",
+    "value": "sc2"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

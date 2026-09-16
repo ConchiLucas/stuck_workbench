@@ -1,0 +1,15 @@
+{
+  "taskId": 3,
+  "revisionId": 3,
+  "childId": 2,
+  "planId": 87,
+  "browserPlanId": 88,
+  "wrongKpIds": [
+    1,
+    2
+  ],
+  "answerCount": 10,
+  "concurrentSameKey": 4,
+  "concurrentAliasKeys": 4,
+  "conflictStatus": 409
+}

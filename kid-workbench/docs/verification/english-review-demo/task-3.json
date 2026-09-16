@@ -1,0 +1,94 @@
+{
+  "id": 3,
+  "title": "【验收演示】英语·组句子·english-review-demo-v1",
+  "count": 3,
+  "types": [
+    "card-builder"
+  ],
+  "groups": [
+    "Numbers",
+    "Colors",
+    "Shapes"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 782,
+      "sourceTable": "english_assets",
+      "moduleCode": "numbers",
+      "moduleName": "Numbers",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a nine",
+        "speechUrl": "/api/v1/english/task-media/54291c8ac68f5aa91fcc713fc53347fbe7a257bd276e3404fc4e67146ba04960.mp3",
+        "bank": [
+          "This",
+          "is",
+          "a",
+          "nine"
+        ],
+        "answer": "This is a nine"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/782/speech.mp3": "54291c8ac68f5aa91fcc713fc53347fbe7a257bd276e3404fc4e67146ba04960"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 770,
+      "sourceTable": "english_assets",
+      "moduleCode": "colors",
+      "moduleName": "Colors",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a white",
+        "speechUrl": "/api/v1/english/task-media/654f4f7a2e7ccff1531238ec1c2b64bb2140fd08a1dca3b87a39595d26e83e84.mp3",
+        "bank": [
+          "This",
+          "is",
+          "a",
+          "white"
+        ],
+        "answer": "This is a white"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/770/speech.mp3": "654f4f7a2e7ccff1531238ec1c2b64bb2140fd08a1dca3b87a39595d26e83e84"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 900,
+      "sourceTable": "english_assets",
+      "moduleCode": "shapes",
+      "moduleName": "Shapes",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a rectangle",
+        "speechUrl": "/api/v1/english/task-media/3692d566681f81416a8b840982e1cd41742846c2d065871cad66f23ebeaec79f.mp3",
+        "bank": [
+          "a",
+          "is",
+          "This",
+          "rectangle"
+        ],
+        "answer": "This is a rectangle"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/900/speech.mp3": "3692d566681f81416a8b840982e1cd41742846c2d065871cad66f23ebeaec79f"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T13:32:32.739557Z"
+}

@@ -1,0 +1,145 @@
+{
+  "id": 2,
+  "title": "【验收演示】英语·看图选词·english-review-demo-v1",
+  "count": 3,
+  "types": [
+    "image-text"
+  ],
+  "groups": [
+    "Weather",
+    "Jobs",
+    "Toys"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 829,
+      "sourceTable": "english_assets",
+      "moduleCode": "weather",
+      "moduleName": "Weather",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 hot？",
+        "options": [
+          {
+            "id": "931",
+            "label": "star",
+            "picture": "/api/v1/english/task-media/599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f.jpg"
+          },
+          {
+            "id": "754",
+            "label": "cat",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "829",
+            "label": "hot",
+            "picture": "/api/v1/english/task-media/b23c49ba7031cf8ddf699a35d08a54cc2e95ecb68f9a54419ff1a1a971cf0950.jpg"
+          },
+          {
+            "id": "820",
+            "label": "cherry",
+            "picture": "/api/v1/english/task-media/3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1.jpg"
+          }
+        ],
+        "answerId": "829"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/754/sense.png": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+        "/api/v1/english/words/820/sense.png": "3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1",
+        "/api/v1/english/words/829/sense.png": "b23c49ba7031cf8ddf699a35d08a54cc2e95ecb68f9a54419ff1a1a971cf0950",
+        "/api/v1/english/words/931/sense.png": "599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 939,
+      "sourceTable": "english_assets",
+      "moduleCode": "jobs",
+      "moduleName": "Jobs",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 farmer？",
+        "options": [
+          {
+            "id": "802",
+            "label": "aunt",
+            "picture": "/api/v1/english/task-media/b76cf6bc22d012c90d806806c75ad19e88370020303b919095a1b8e9bac5e544.jpg"
+          },
+          {
+            "id": "939",
+            "label": "farmer",
+            "picture": "/api/v1/english/task-media/a65d14c84a593cc67dff2b1ec85039ca6a1a62a330c235c1d531511408b3c2ac.jpg"
+          },
+          {
+            "id": "774",
+            "label": "one",
+            "picture": "/api/v1/english/task-media/9e38f2084634380953b0b7c56d4c600c7bc2669137a606a25bc65550101dd551.jpg"
+          },
+          {
+            "id": "878",
+            "label": "farm",
+            "picture": "/api/v1/english/task-media/546bf7af217fa112862022e8e195ca2e3fd6019337607511bed94c1667edb650.jpg"
+          }
+        ],
+        "answerId": "939"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/774/sense.png": "9e38f2084634380953b0b7c56d4c600c7bc2669137a606a25bc65550101dd551",
+        "/api/v1/english/words/802/sense.png": "b76cf6bc22d012c90d806806c75ad19e88370020303b919095a1b8e9bac5e544",
+        "/api/v1/english/words/878/sense.png": "546bf7af217fa112862022e8e195ca2e3fd6019337607511bed94c1667edb650",
+        "/api/v1/english/words/939/sense.png": "a65d14c84a593cc67dff2b1ec85039ca6a1a62a330c235c1d531511408b3c2ac"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 839,
+      "sourceTable": "english_assets",
+      "moduleCode": "toys",
+      "moduleName": "Toys",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 train？",
+        "options": [
+          {
+            "id": "839",
+            "label": "train",
+            "picture": "/api/v1/english/task-media/b2834f80ccb5bbee0b920cc1760d20fd1b44cafba5b52dd46217bb619bd6ddbd.jpg"
+          },
+          {
+            "id": "764",
+            "label": "red",
+            "picture": "/api/v1/english/task-media/722144ef4bc19cda24eadf046d1240b000990ee11a934c4f5cf46ab5cc5779ed.jpg"
+          },
+          {
+            "id": "774",
+            "label": "one",
+            "picture": "/api/v1/english/task-media/9e38f2084634380953b0b7c56d4c600c7bc2669137a606a25bc65550101dd551.jpg"
+          },
+          {
+            "id": "788",
+            "label": "egg",
+            "picture": "/api/v1/english/task-media/2f519bee321b2da45e9db62340030df53f0a5a1226e4445310b81f1d9abf63b0.jpg"
+          }
+        ],
+        "answerId": "839"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/764/sense.png": "722144ef4bc19cda24eadf046d1240b000990ee11a934c4f5cf46ab5cc5779ed",
+        "/api/v1/english/words/774/sense.png": "9e38f2084634380953b0b7c56d4c600c7bc2669137a606a25bc65550101dd551",
+        "/api/v1/english/words/788/sense.png": "2f519bee321b2da45e9db62340030df53f0a5a1226e4445310b81f1d9abf63b0",
+        "/api/v1/english/words/839/sense.png": "b2834f80ccb5bbee0b920cc1760d20fd1b44cafba5b52dd46217bb619bd6ddbd"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T13:32:32.710197Z"
+}

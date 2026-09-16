@@ -1,0 +1,454 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: conchi
+      POSTGRES_PASSWORD: conchi123456
+      POSTGRES_DB: study_workbench
+    ports:
+      - "15432:5432"
+    volumes:
+      - study_workbench_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U conchi -d study_workbench"]
+      interval: 3s
+      timeout: 3s
+      retries: 15
+    restart: unless-stopped
+
+  seed:
+    build:
+      context: .
+      dockerfile: parent-dashboard/backend/Dockerfile
+      target: seed
+    environment: &db_env
+      APP_DB_DRIVER: postgres
+      APP_DB_HOST: postgres
+      APP_DB_PORT: "5432"
+      APP_DB_USER: conchi
+      APP_DB_PASSWORD: conchi123456
+      APP_DB_NAME: study_workbench
+      APP_DB_CONFIG: sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    build:
+      context: .
+      dockerfile: parent-dashboard/backend/Dockerfile
+      target: backend
+      args:
+        VITE_KID_APP_URL: http://localhost:19152
+        VITE_DIAGNOSIS_URL: http://localhost:19211
+    environment:
+      <<: *db_env
+      APP_ADDR: :19081
+      TASK_ADMIN_URL: http://task-admin:19201
+      ENGLISH_SERVER_URL: http://english-server:19131
+      SCIENCE_SERVER_URL: http://science-server:19121
+      POEM_SERVER_URL: http://poem-server:19161
+      LOGIC_SERVER_URL: http://logic-server:19191
+    ports:
+      - "19081:19081"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  literacy-server:
+    build:
+      context: .
+      dockerfile: literacy-server/Dockerfile
+    environment:
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      <<: *db_env
+      # Avoid the unrelated postgres alias on vibedeploy-shared.
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_ADDR: :19151
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-minioadmin}
+      APP_MINIO_SECRET_KEY: ${APP_MINIO_SECRET_KEY:-minioadmin}
+      APP_MINIO_BUCKET: ${APP_MINIO_BUCKET:-study-assets}
+      APP_MINIO_BASE_PATH: ${APP_MINIO_BASE_PATH:-}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+    ports:
+      - "19151:19151"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  literacy-app:
+    build:
+      context: .
+      dockerfile: literacy-app/Dockerfile
+    ports:
+      - "19152:80"
+    depends_on:
+      literacy-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  pinyin-server:
+    build:
+      context: .
+      dockerfile: pinyin-server/Dockerfile
+    environment:
+      <<: *db_env
+      # Use this project database; shared network also has a postgres alias.
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_ADDR: :19111
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      # Match shared config center / content-admin. The MinIO image default
+      # minioadmin cannot read english-material and returns 503 for sense/speech.
+      APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-conchi}
+      APP_MINIO_SECRET_KEY: ${APP_MINIO_SECRET_KEY:-conchi123456}
+      APP_MINIO_BUCKET: ${APP_MINIO_BUCKET:-english-material}
+      APP_MINIO_BASE_PATH: ${APP_MINIO_BASE_PATH:-image-story}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+    ports:
+      - "127.0.0.1:19111:19111"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  pinyin-app:
+    build:
+      context: .
+      dockerfile: pinyin-app/Dockerfile
+    ports:
+      - "19112:80"
+    depends_on:
+      pinyin-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  english-server:
+    build:
+      context: .
+      dockerfile: english-server/Dockerfile
+    environment:
+      <<: *db_env
+      # Use this project database; shared network also has a postgres alias.
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_ADDR: :19131
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      # Match shared config center / content-admin. The MinIO image default
+      # minioadmin cannot read english-material and returns 503 for sense/speech.
+      APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-conchi}
+      APP_MINIO_SECRET_KEY: ${APP_MINIO_SECRET_KEY:-conchi123456}
+      APP_MINIO_BUCKET: ${APP_MINIO_BUCKET:-english-material}
+      APP_MINIO_BASE_PATH: ${APP_MINIO_BASE_PATH:-image-story}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+    ports:
+      - "19131:19131"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  english-app:
+    build:
+      context: .
+      dockerfile: english-app/Dockerfile
+    ports:
+      - "19132:80"
+    depends_on:
+      english-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  phrase-server:
+    build:
+      context: .
+      dockerfile: phrase-server/Dockerfile
+    environment:
+      <<: *db_env
+      APP_ADDR: :19171
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+    ports:
+      - "19171:19171"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  phrase-app:
+    build:
+      context: .
+      dockerfile: phrase-app/Dockerfile
+    ports:
+      - "19172:80"
+    depends_on:
+      phrase-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  chengyu-server:
+    build:
+      context: .
+      dockerfile: chengyu-server/Dockerfile
+    environment:
+      <<: *db_env
+      APP_ADDR: :19181
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+    ports:
+      - "19181:19181"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  chengyu-app:
+    build:
+      context: .
+      dockerfile: chengyu-app/Dockerfile
+    ports:
+      - "19182:80"
+    depends_on:
+      chengyu-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  science-server:
+    build:
+      context: .
+      dockerfile: science-server/Dockerfile
+    environment:
+      <<: *db_env
+      # Use this project database; shared network also has a postgres alias.
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      APP_ADDR: :19121
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-minioadmin}
+      APP_MINIO_SECRET_KEY: ${APP_MINIO_SECRET_KEY:-minioadmin}
+      APP_MINIO_BUCKET: ${APP_MINIO_BUCKET:-study-assets}
+      APP_MINIO_BASE_PATH: ${APP_MINIO_BASE_PATH:-}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+    ports:
+      - "19121:19121"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  science-app:
+    build:
+      context: .
+      dockerfile: science-app/Dockerfile
+    ports:
+      - "19122:80"
+    depends_on:
+      science-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  math-server:
+    build:
+      context: .
+      dockerfile: math-server/Dockerfile
+    environment:
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      <<: *db_env
+      # Use this project database; shared network also has a postgres alias.
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_ADDR: :19141
+      # Match content-admin storage; legacy plan audio must read the same objects.
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-conchi}
+      APP_MINIO_SECRET_KEY: ${APP_MINIO_SECRET_KEY:-conchi123456}
+      APP_MINIO_BUCKET: ${APP_MINIO_BUCKET:-english-material}
+      APP_MINIO_BASE_PATH: ${APP_MINIO_BASE_PATH:-image-story}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+    ports:
+      - "19141:19141"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  math-app:
+    build:
+      context: .
+      dockerfile: math-app/Dockerfile
+    ports:
+      - "19142:80"
+    depends_on:
+      math-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  logic-server:
+    build:
+      context: .
+      dockerfile: logic-server/Dockerfile
+    environment:
+      <<: *db_env
+      APP_ADDR: :19191
+    ports:
+      - "19191:19191"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  logic-app:
+    build:
+      context: .
+      dockerfile: logic-app/Dockerfile
+    ports:
+      - "19192:80"
+    depends_on:
+      logic-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  poem-server:
+    build:
+      context: .
+      dockerfile: poem-server/Dockerfile
+    environment:
+      <<: *db_env
+      APP_DB_HOST: kid-workbench-postgres-1
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      APP_ADDR: :19161
+    ports:
+      - "19161:19161"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  poem-app:
+    build:
+      context: .
+      dockerfile: poem-app/Dockerfile
+    ports:
+      - "19162:80"
+    depends_on:
+      poem-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+  content-admin:
+    build:
+      context: .
+      dockerfile: content-admin/Dockerfile
+    ports:
+      - "19091:19091"
+    environment:
+      APP_ADDR: :19091
+      APP_TASK_ADMIN_URL: http://task-admin:19201
+      SHARED_CONFIG_CENTER_BASE_URL: ${SHARED_CONFIG_CENTER_BASE_URL:-http://shared-config-center-api:8080}
+      # Reach workbench Postgres via published host port (works with existing stack too).
+      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
+      APP_DB_PORT: ${APP_DB_PORT:-15432}
+      APP_DB_USER: ${APP_DB_USER:-conchi}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
+      APP_DB_CONFIG: sslmode=disable
+      APP_MINIO_PUBLIC_BASE: ${APP_MINIO_PUBLIC_BASE:-http://localhost:19100}
+      # Endpoint only: bucket/basePath/keys come from the shared config center
+      # (english-material / image-story). Do not default to study-assets — that bucket
+      # does not exist and would hide already-generated literacy glyphs and senses.
+      APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
+      APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
+      APP_PUBLIC_BASE: ${APP_PUBLIC_BASE:-http://localhost:19091}
+      GLYPH_FONT_PATH: /app/assets/fonts/NotoSerifSC-Regular.otf
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      default: {}
+      vibedeploy-shared: {}
+    restart: unless-stopped
+
+  task-admin:
+    build:
+      context: .
+      dockerfile: task-admin/Dockerfile
+    ports:
+      - "19201:19201"
+    environment:
+      APP_ADDR: :19201
+      APP_LITERACY_SERVER_URL: http://literacy-server:19151
+      APP_LITERACY_APP_URL: http://literacy-app:80
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      APP_AUTO_REVIEW_ENABLED: "false"
+      APP_REVIEW_SUGGESTIONS_ENABLED: "true"
+      APP_WRITING_ENABLED: ${APP_WRITING_ENABLED:-true}
+      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
+      APP_DB_PORT: ${APP_DB_PORT:-15432}
+      APP_DB_USER: ${APP_DB_USER:-conchi}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
+      APP_DB_CONFIG: sslmode=disable
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  diagnosis-admin:
+    build:
+      context: .
+      dockerfile: diagnosis-admin/Dockerfile
+    ports:
+      - "19211:19211"
+    environment:
+      APP_ADDR: :19211
+      APP_TASK_ADMIN_URL: http://task-admin:19201
+      APP_ENGLISH_SERVER_URL: http://english-server:19131
+      APP_SCIENCE_SERVER_URL: http://science-server:19121
+      APP_POEM_SERVER_URL: http://poem-server:19161
+      APP_LOGIC_SERVER_URL: http://logic-server:19191
+      APP_CONTENT_ADMIN_URL: http://content-admin:19091
+      APP_PINYIN_SERVER_URL: http://pinyin-server:19111
+      APP_MATH_SERVER_URL: http://math-server:19141
+      APP_REVIEW_SUGGESTIONS_ENABLED: "true"
+      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
+      APP_DB_PORT: ${APP_DB_PORT:-15432}
+      APP_DB_USER: ${APP_DB_USER:-conchi}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
+      APP_DB_CONFIG: sslmode=disable
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  study_workbench_pg:
+
+networks:
+  vibedeploy-shared:
+    name: vibedeploy-shared
+    external: true

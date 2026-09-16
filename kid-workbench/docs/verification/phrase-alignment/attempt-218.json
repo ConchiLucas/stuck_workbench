@@ -1,0 +1,94 @@
+{
+  "attemptId": 218,
+  "childId": 8,
+  "kpId": 1197,
+  "title": "Good morning.",
+  "subjectCode": "phrase",
+  "subjectName": "英语短句",
+  "moduleCode": "greet",
+  "moduleName": "问候",
+  "skillCode": "listen_zh",
+  "skillLabel": "听一听",
+  "questionType": "listen_zh",
+  "occurredAt": "2026-09-14T14:14:19.853652Z",
+  "isCorrect": true,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "phrase_plan",
+    "planId": 189,
+    "itemId": 556
+  },
+  "planId": 189,
+  "planItemId": 556,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "label:早上好。",
+        "label": "早上好。"
+      },
+      {
+        "id": "label:晚安。",
+        "label": "晚安。"
+      },
+      {
+        "id": "label:下午好。",
+        "label": "下午好。"
+      },
+      {
+        "id": "label:晚上好。",
+        "label": "晚上好。"
+      }
+    ],
+    "answerOptionId": "label:早上好。",
+    "targetText": "Good morning."
+  },
+  "phraseExample": {
+    "kind": "listen_zh",
+    "stem": "听一听，选出中文意思",
+    "speech": "Good morning.",
+    "speechUrl": "/api/v1/phrase/task-media/59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec.mp3",
+    "options": [
+      {
+        "id": "label:早上好。",
+        "label": "早上好。"
+      },
+      {
+        "id": "label:晚安。",
+        "label": "晚安。"
+      },
+      {
+        "id": "label:下午好。",
+        "label": "下午好。"
+      },
+      {
+        "id": "label:晚上好。",
+        "label": "晚上好。"
+      }
+    ],
+    "answerId": "label:早上好。",
+    "phrase": "Good morning.",
+    "meaningZh": "早上好。",
+    "scene": "早上见到老师"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "label:早上好。",
+    "value": "label:早上好。"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

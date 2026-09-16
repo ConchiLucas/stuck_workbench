@@ -1,0 +1,1099 @@
+{
+  "id": 6,
+  "title": "【验收演示】算术·认识图形·math-review-demo-v1",
+  "status": "draft",
+  "rangeMax": 20,
+  "count": 12,
+  "titles": [
+    "听名称找图形",
+    "看图选名称",
+    "按特征找图形",
+    "图形分类"
+  ],
+  "groups": [
+    "图形"
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "sourceId": "shape-find",
+      "sourceRevision": 3,
+      "source": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "audioUrl": "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "◇",
+            "△",
+            "□",
+            "○"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "rhombus",
+            "triangle",
+            "square",
+            "circle"
+          ],
+          "audioUrl": "/api/v1/math/task-media/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3": "cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1",
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 2,
+      "sourceId": "shape-name",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "圆形",
+            "三角形",
+            "正方形",
+            "长方形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "圆形",
+            "正方形",
+            "长方形",
+            "三角形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 3,
+      "sourceId": "shape-feature",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "○",
+            "◇",
+            "□",
+            "△"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "rhombus",
+            "square",
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 4,
+      "sourceId": "shape-sort",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/task-media/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139",
+        "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg": "e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c"
+      }
+    },
+    {
+      "sequence": 5,
+      "sourceId": "shape-find",
+      "sourceRevision": 3,
+      "source": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "audioUrl": "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "△",
+            "□",
+            "○",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "triangle",
+            "square",
+            "circle",
+            "rhombus"
+          ],
+          "audioUrl": "/api/v1/math/task-media/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3": "cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1",
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 6,
+      "sourceId": "shape-name",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "圆形",
+            "三角形",
+            "正方形",
+            "长方形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "长方形",
+            "圆形",
+            "正方形",
+            "三角形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 7,
+      "sourceId": "shape-feature",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "◇",
+            "○",
+            "□",
+            "△"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "rhombus",
+            "circle",
+            "square",
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o2"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 8,
+      "sourceId": "shape-sort",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/task-media/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139",
+        "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg": "e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c"
+      }
+    },
+    {
+      "sequence": 9,
+      "sourceId": "shape-find",
+      "sourceRevision": 3,
+      "source": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "audioUrl": "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-find",
+        "groupId": "shape",
+        "title": "听名称找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "把听到的图形名称和它的外形准确对应起来。",
+        "rules": [
+          "认真听清图形名称",
+          "回想它的边、角或曲线",
+          "从候选图形中找到对应项"
+        ],
+        "revision": 3,
+        "publishedRevision": 3,
+        "example": {
+          "kind": "audio-shape",
+          "prompt": "听到：圆形",
+          "options": [
+            "○",
+            "◇",
+            "□",
+            "△"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "rhombus",
+            "square",
+            "triangle"
+          ],
+          "audioUrl": "/api/v1/math/task-media/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3",
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o1"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-audio/cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1.mp3": "cf86fb214f2aca9c1aabb0bb8809d07879e342ee8cb126cad5c5f952563ea9b1",
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 10,
+      "sourceId": "shape-name",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "圆形",
+            "三角形",
+            "正方形",
+            "长方形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-name",
+        "groupId": "shape",
+        "title": "看图选名称",
+        "moduleTitle": "认识图形",
+        "learningGoal": "观察图形外形并说出或选出正确名称。",
+        "rules": [
+          "仔细观察目标图形",
+          "辨认它的边和角",
+          "选择对应的图形名称"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-name",
+          "prompt": "△",
+          "options": [
+            "长方形",
+            "圆形",
+            "正方形",
+            "三角形"
+          ],
+          "answer": "三角形",
+          "shapeKeys": [
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o4"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 11,
+      "sourceId": "shape-feature",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "○",
+            "△",
+            "□",
+            "◇"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "circle",
+            "triangle",
+            "square",
+            "rhombus"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-feature",
+        "groupId": "shape",
+        "title": "按特征找图形",
+        "moduleTitle": "认识图形",
+        "learningGoal": "根据边、角和曲线等特征辨认图形，而不只记住名称。",
+        "rules": [
+          "读清题目描述的特征",
+          "逐个观察候选图形",
+          "选择符合全部特征的图形"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-feature",
+          "prompt": "找出没有角的图形",
+          "options": [
+            "□",
+            "◇",
+            "○",
+            "△"
+          ],
+          "answer": "○",
+          "shapeKeys": [
+            "square",
+            "rhombus",
+            "circle",
+            "triangle"
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          },
+          "optionIds": [
+            "o1",
+            "o2",
+            "o3",
+            "o4"
+          ],
+          "answerOptionId": "o3"
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139"
+      }
+    },
+    {
+      "sequence": 12,
+      "sourceId": "shape-sort",
+      "sourceRevision": 2,
+      "source": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "detail": {
+        "id": "shape-sort",
+        "groupId": "shape",
+        "title": "图形分类",
+        "moduleTitle": "认识图形",
+        "learningGoal": "发现图形之间的共同特征，并按照明确规则进行分类。",
+        "rules": [
+          "先观察所有图形的特点",
+          "确定这次分类使用的规则",
+          "把每个图形放进对应小组"
+        ],
+        "revision": 2,
+        "publishedRevision": 2,
+        "example": {
+          "kind": "shape-sort",
+          "prompt": "按“有没有角”分成两组",
+          "buckets": [
+            {
+              "label": "没有角",
+              "items": [
+                "○",
+                "◯"
+              ]
+            },
+            {
+              "label": "有角",
+              "items": [
+                "△",
+                "□",
+                "◇"
+              ]
+            }
+          ],
+          "shapeImageUrls": {
+            "circle": "/api/v1/math/task-media/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg",
+            "oval": "/api/v1/math/task-media/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg",
+            "rhombus": "/api/v1/math/task-media/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg",
+            "square": "/api/v1/math/task-media/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg",
+            "triangle": "/api/v1/math/task-media/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg"
+          }
+        }
+      },
+      "mediaSHA256": {
+        "/api/v1/math/detail-image/4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4.jpg": "4a63636389779b4b2659a3e79a39a4768fd4dee6d299e93251d256131f7713b4",
+        "/api/v1/math/detail-image/87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd.jpg": "87ed08d7e83e2461af6f38a805c71bb22365ea4e5db99119690709db01f459dd",
+        "/api/v1/math/detail-image/ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb.jpg": "ae066f7ae740ba04207a6cf439f3b49a0a93fe26d0aea5e9e2b15b7fdbc1a3fb",
+        "/api/v1/math/detail-image/e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139.jpg": "e25069f327a587cd46203edd9006f00fbddab5a3c46b11852afb761f34b83139",
+        "/api/v1/math/detail-image/e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c.jpg": "e5f06e11bee948160eaa1495a893336e971afdeb45f3662841442566640c9b4c"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T12:11:14.891995Z"
+}

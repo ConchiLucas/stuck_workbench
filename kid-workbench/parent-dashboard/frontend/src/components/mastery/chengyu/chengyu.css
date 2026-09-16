@@ -1,0 +1,84 @@
+.chengyu-modal { position:fixed; inset:0; z-index:60; }
+.chengyu-scrim { position:absolute; inset:0; background:#08040e70; }
+.chengyu-drawer { position:absolute; right:0; top:0; bottom:0; width:min(980px,100vw); padding:24px; overflow-y:auto; overflow-wrap:anywhere; color:#efe5f5; background:#201529; border-left:1px solid #583e61; box-shadow:-15px 0 50px #0004; }
+.chengyu-drawer > header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:16px; border-bottom:1px solid #46334f; font-size:13px; }
+.chengyu-drawer > header button { flex-shrink:0; width:40px; height:40px; border-radius:7px; font-size:23px; color:#d7b8de; }
+.chengyu-detail-hero { display:flex; align-items:center; flex-wrap:wrap; gap:20px; padding:24px 0; }
+.chengyu-detail-hero h2 { min-width:120px; max-width:100%; padding:12px; border:1px solid #684466; border-radius:12px; font-size:28px; line-height:1.35; overflow-wrap:anywhere; }
+.chengyu-detail-hero p { color:#bca7c8; font-size:12px; margin-top:12px; }
+.chengyu-status { display:inline-block; font-size:11px; color:#dcc9e6; background:#44304e; border:1px solid #6a4c72; border-radius:20px; padding:4px 9px; }
+.chengyu-status.lit { color:#fff0f7; background:#a53a71; border-color:#d36397; }
+.chengyu-drawer section { padding:20px 0; border-top:1px solid #46334f; }
+.chengyu-drawer h3 { font-weight:600; font-size:15px; margin-bottom:16px; }
+.chengyu-detail-skills { display:flex; flex-direction:column; gap:10px; }
+.chengyu-detail-skill { background:#271c32; border:1px solid #42314e; border-radius:12px; padding:12px; }
+.chengyu-detail-skill > div { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+.chengyu-detail-skill strong { flex:1; font-size:13px; font-weight:500; }
+.chengyu-detail-mark { display:grid; place-items:center; width:27px; height:27px; border-radius:6px; font-size:12px; }
+.chengyu-detail-mark.lit { background:#b93f78; color:white; }
+.chengyu-detail-mark.unlit { background:#35273f; color:#bca8c7; }
+.chengyu-detail-skill p { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-size:11px; color:#bca7c8; margin-top:12px; }
+.chengyu-detail-skill small { display:block; margin-top:8px; font-size:11px; color:#bca7c8; }
+.chengyu-detail-note { color:#a99ab6; font-size:12px; margin-top:12px; }
+.chengyu-history li { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) auto; gap:10px; padding:12px 0; border-bottom:1px solid #382940; font-size:11px; color:#c6b4d2; }
+.chengyu-history strong { font-weight:500; }
+.chengyu-history .answer-correct { color:#86dca5; }
+.chengyu-history .answer-wrong { color:#efa1bd; }
+.chengyu-empty { padding:36px 20px; text-align:center; color:#b9a9c5; font-size:14px; }
+.chengyu-empty button { display:block; margin:16px auto 0; padding:8px 18px; border:1px solid #845774; border-radius:8px; color:#f6b3d1; }
+.chengyu-notice { color:#f5b7d3; font-size:12px; padding:12px 0; }
+.chengyu-drawer .chengyu-history-player { overflow:visible; }
+.chengyu-drawer button:focus-visible { outline:2px solid #f8b5d3; outline-offset:3px; }
+.chengyu-page { color:#f7eef5; min-width:0; }
+.chengyu-heading { margin-bottom:22px; }
+.chengyu-heading > a { color:#b8a9c4; font-size:12px; }
+.chengyu-heading h1 { margin:12px 0 8px; font-size:30px; line-height:1.25; font-weight:700; letter-spacing:-.6px; }
+.chengyu-heading p,.chengyu-rule,.chengyu-map-heading p { color:#afa2ba; font-size:13px; }
+.chengyu-summary { padding:24px; }
+.chengyu-type-bars { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
+.chengyu-type-bars > div > span { display:block; font-size:13px; margin-bottom:12px; }
+.chengyu-bar { display:flex; height:9px; background:#372e45; overflow:hidden; border-radius:999px; }
+.chengyu-bar > span { height:100%; }
+.chengyu-page .is-mastered { background:#f45b9b; }
+.chengyu-page .is-answered { background:#885c80; }
+.chengyu-page .is-unattempted { background:#372e45; }
+.chengyu-legend { display:flex; justify-content:center; flex-wrap:wrap; gap:18px; margin-top:22px; font-size:11px; color:#afa2ba; }
+.chengyu-legend > span { display:flex; align-items:center; gap:6px; }
+.chengyu-legend i { width:8px; height:8px; border-radius:50%; }
+.chengyu-rule { font-size:12px; line-height:1.8; margin:12px 0; }
+.chengyu-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin:24px 0; }
+.chengyu-search { display:flex; align-items:center; gap:10px; border:1px solid #45334e; background:#201528; border-radius:12px; padding:8px 12px; color:#c4b5ce; max-width:100%; }
+.chengyu-search input { background:none; outline:none; color:#f7eef5; width:270px; min-width:0; font-size:13px; }
+.chengyu-search input::placeholder { color:#a99ab6; }
+.chengyu-search button { min-width:24px; min-height:28px; }
+.chengyu-search:focus-within { border-color:#f45b9b; }
+.chengyu-map { margin-top:30px; }
+.chengyu-map-heading { margin-bottom:16px; }
+.chengyu-map-heading h2 { font-size:20px; font-weight:600; margin-bottom:8px; }
+.chengyu-group { padding:20px; margin-bottom:16px; }
+.chengyu-group > header { margin-bottom:18px; }
+.chengyu-group h3 { font-size:16px; font-weight:600; }
+.chengyu-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(148px,1fr)); gap:10px; }
+.chengyu-card { position:relative; min-height:108px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; border:1px solid #392d45; border-radius:9px; background:#201929; color:#b1a3bb; padding:14px 8px 10px; }
+.chengyu-card.is-partial { background:#342038; border-color:#59324b; color:#f4e6f2; }
+.chengyu-card.is-complete { background:#683049; border-color:#a54b75; color:#fff5fa; }
+.chengyu-card:hover { border-color:#e680b0; }
+.chengyu-card[data-selected="true"] { outline:2px solid #f8b5d3; outline-offset:2px; }
+.chengyu-card:focus-visible { outline:2px solid #f8b5d3; outline-offset:2px; }
+.chengyu-glyph { font-size:16px; line-height:1.3; font-weight:600; overflow-wrap:anywhere; text-align:center; }
+.chengyu-check { position:absolute; top:6px; right:8px; font-size:12px; }
+.chengyu-marks { display:flex; gap:3px; }
+.chengyu-marks span { display:grid; place-items:center; min-width:16px; height:16px; border-radius:4px; font-size:10px; }
+.chengyu-marks .lit { background:#b93f78; color:#fff; }
+.chengyu-marks .unlit { background:#35273f; color:#bca8c7; }
+@media(max-width:900px) {
+  .chengyu-shell { flex-direction:column; }
+  .chengyu-shell > aside { min-height:0; width:100%; flex-direction:row; align-items:center; gap:8px; overflow-x:auto; padding:10px; }
+  .chengyu-shell > aside > div { display:none; }
+  .chengyu-shell > aside > .sidebar-subjects { display:contents; }
+  .chengyu-shell > aside a { flex-shrink:0; white-space:nowrap; }
+  .chengyu-shell main { padding:20px 14px; }
+  .chengyu-drawer { width:100vw; }
+  .chengyu-type-bars { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .chengyu-search input { width:180px; }
+}

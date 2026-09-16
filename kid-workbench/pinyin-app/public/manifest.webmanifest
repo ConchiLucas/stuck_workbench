@@ -1,0 +1,13 @@
+{
+  "name": "拼音星球",
+  "short_name": "拼音",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#2457e6",
+  "background_color": "#f8faff",
+  "icons": [
+    { "src": "/pinyin-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/pinyin-icon-180.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,1028 @@
+{
+  "qualified": true,
+  "note": "脚本与测试通过不等于用户验收通过",
+  "childId": 14,
+  "emptyChildId": 15,
+  "taskId": 1,
+  "pinyinTaskId": 2,
+  "polyphoneKpId": 1189,
+  "plans": [
+    {
+      "kind": "meaning",
+      "planId": 208,
+      "itemIds": [
+        655,
+        656,
+        657,
+        658
+      ],
+      "reused": false
+    },
+    {
+      "kind": "pick",
+      "planId": 209,
+      "itemIds": [
+        659,
+        660,
+        661,
+        662
+      ],
+      "reused": false
+    },
+    {
+      "kind": "pinyin",
+      "planId": 210,
+      "itemIds": [
+        663,
+        664,
+        665,
+        666
+      ],
+      "reused": false
+    },
+    {
+      "kind": "example",
+      "planId": 211,
+      "itemIds": [
+        667,
+        668,
+        669,
+        670
+      ],
+      "reused": false
+    }
+  ],
+  "attempts": [
+    {
+      "kind": "meaning",
+      "item": 655,
+      "attempts": [
+        {
+          "id": 259,
+          "selected": "label:慢慢来",
+          "correct": false
+        },
+        {
+          "id": 260,
+          "selected": "label:集中精神，做事专心",
+          "correct": true
+        }
+      ],
+      "optionOrder": "0,2,1,3"
+    },
+    {
+      "kind": "pick",
+      "item": 659,
+      "attempts": [
+        {
+          "id": 261,
+          "selected": "1167",
+          "correct": false
+        },
+        {
+          "id": 262,
+          "selected": "1165",
+          "correct": true
+        }
+      ],
+      "optionOrder": "3,2,0,1"
+    },
+    {
+      "kind": "pinyin",
+      "item": 663,
+      "attempts": [
+        {
+          "id": 263,
+          "selected": "1166",
+          "correct": false
+        },
+        {
+          "id": 264,
+          "selected": "1165",
+          "correct": true
+        }
+      ],
+      "optionOrder": "0,2,1,3"
+    },
+    {
+      "kind": "example",
+      "item": 667,
+      "attempts": [
+        {
+          "id": 265,
+          "selected": "1170",
+          "correct": false
+        },
+        {
+          "id": 266,
+          "selected": "1165",
+          "correct": true
+        }
+      ],
+      "optionOrder": "3,0,2,1"
+    }
+  ],
+  "speech": [
+    {
+      "kpId": 1165,
+      "title": "一心一意",
+      "kind": "chengyu",
+      "sha256": "2474467ea21478efa8bec3b6ac546a82b917f471d5f5bc17826b59c4c8d5ae75",
+      "bytes": 6470,
+      "durationSec": 0.792971,
+      "uploaded": true
+    },
+    {
+      "kpId": 1165,
+      "title": "一心一意",
+      "kind": "meaning",
+      "sha256": "6bc58c1f0ba6c58541e19d2043138b710f591ee6f26ad4e486543825190a764f",
+      "bytes": 18345,
+      "durationSec": 2.420045,
+      "uploaded": true
+    },
+    {
+      "kpId": 1165,
+      "title": "一心一意",
+      "kind": "example",
+      "sha256": "9b7aaac0e4ae8c874f53fd78d3cae0ee70d972bc044960f57c715767bd77338f",
+      "bytes": 13471,
+      "durationSec": 1.722948,
+      "uploaded": true
+    },
+    {
+      "kpId": 1166,
+      "title": "二话不说",
+      "kind": "chengyu",
+      "sha256": "ae5c271aff2a9b192aaf90acac4469b7bc710b335aca23dfe5ed5fbe33cab03d",
+      "bytes": 8191,
+      "durationSec": 0.957234,
+      "uploaded": true
+    },
+    {
+      "kpId": 1166,
+      "title": "二话不说",
+      "kind": "meaning",
+      "sha256": "8eed8c899346d4a9a98add2d475d89d1090cab3026cae16a3471f82016689200",
+      "bytes": 16522,
+      "durationSec": 2.22907,
+      "uploaded": true
+    },
+    {
+      "kpId": 1166,
+      "title": "二话不说",
+      "kind": "example",
+      "sha256": "428f1d754630c1e251c9b87a430af1bc9fa849971c821bec5452dbce3316d76c",
+      "bytes": 27194,
+      "durationSec": 3.567483,
+      "uploaded": true
+    },
+    {
+      "kpId": 1167,
+      "title": "三心二意",
+      "kind": "chengyu",
+      "sha256": "7eaff4e3c17ec93d8e99947aa39a7d748adffa4620a335b259b69aa283079823",
+      "bytes": 8401,
+      "durationSec": 0.988707,
+      "uploaded": true
+    },
+    {
+      "kpId": 1167,
+      "title": "三心二意",
+      "kind": "meaning",
+      "sha256": "c7d47c801030a243f3d6136f7ee4f2a446c692105d99620f236cbdbf0bfdb112",
+      "bytes": 16548,
+      "durationSec": 2.220181,
+      "uploaded": true
+    },
+    {
+      "kpId": 1167,
+      "title": "三心二意",
+      "kind": "example",
+      "sha256": "b031da0ba4e659348884bd18591d96773938e97c7096e137464d2ba1dd82ba28",
+      "bytes": 15298,
+      "durationSec": 1.862812,
+      "uploaded": true
+    },
+    {
+      "kpId": 1168,
+      "title": "五颜六色",
+      "kind": "chengyu",
+      "sha256": "560be1e8b08074f02a8bd28a26a3473ecf0e989223ccef213f6703298c413c97",
+      "bytes": 7176,
+      "durationSec": 0.864172,
+      "uploaded": true
+    },
+    {
+      "kpId": 1168,
+      "title": "五颜六色",
+      "kind": "meaning",
+      "sha256": "930a862d2b4e152f3313ab470639dddedbc0f094b2601f962e889f48742f8d57",
+      "bytes": 12221,
+      "durationSec": 1.523583,
+      "uploaded": true
+    },
+    {
+      "kpId": 1168,
+      "title": "五颜六色",
+      "kind": "example",
+      "sha256": "2fbfcd6e2becbb11082e17f5466e00f07b61f756691b82e8510f3cd10176a69b",
+      "bytes": 18623,
+      "durationSec": 2.437687,
+      "uploaded": true
+    },
+    {
+      "kpId": 1169,
+      "title": "七上八下",
+      "kind": "chengyu",
+      "sha256": "ce58c943839edc8857564512fa4dcbff2c23386bb249172db0d5d266c6299b3b",
+      "bytes": 8582,
+      "durationSec": 0.992018,
+      "uploaded": true
+    },
+    {
+      "kpId": 1169,
+      "title": "七上八下",
+      "kind": "meaning",
+      "sha256": "8d27d989c013577a857fd75647c92a00d600ff296fc747026c993649ff169718",
+      "bytes": 11234,
+      "durationSec": 1.430703,
+      "uploaded": true
+    },
+    {
+      "kpId": 1169,
+      "title": "七上八下",
+      "kind": "example",
+      "sha256": "22d4f9c0bd355084a40d37c3efd7009fdea17ddf04ff55b6ed7db568152b73d7",
+      "bytes": 24101,
+      "durationSec": 3.081859,
+      "uploaded": true
+    },
+    {
+      "kpId": 1170,
+      "title": "十全十美",
+      "kind": "chengyu",
+      "sha256": "6607a9e5da3ec672e5e9e9b20fe40ca9d9f4c0031af878d1002abef7f4771ba2",
+      "bytes": 9104,
+      "durationSec": 1.080952,
+      "uploaded": true
+    },
+    {
+      "kpId": 1170,
+      "title": "十全十美",
+      "kind": "meaning",
+      "sha256": "0a0f67b3ddf3de202f77f47223e685feb7a80d05d0aa33a86cf73c44ce19cf4f",
+      "bytes": 16051,
+      "durationSec": 2.23229,
+      "uploaded": true
+    },
+    {
+      "kpId": 1170,
+      "title": "十全十美",
+      "kind": "example",
+      "sha256": "e6c7a322a727b892b055ceae99a8f9a5ebf7bd2127c805fddc3d6509b53d0ceb",
+      "bytes": 19171,
+      "durationSec": 2.390295,
+      "uploaded": true
+    },
+    {
+      "kpId": 1171,
+      "title": "一毛不拔",
+      "kind": "chengyu",
+      "sha256": "5cea93e9ed5c4aee4295307a062f496594e0843ec134679259354688a8896546",
+      "bytes": 6889,
+      "durationSec": 0.8278,
+      "uploaded": true
+    },
+    {
+      "kpId": 1171,
+      "title": "一毛不拔",
+      "kind": "meaning",
+      "sha256": "c6fa30e51e6981b964f61b0f2ca2a27bdafd802b5126b7666b8481e4e39eb3db",
+      "bytes": 11939,
+      "durationSec": 1.465533,
+      "uploaded": true
+    },
+    {
+      "kpId": 1171,
+      "title": "一毛不拔",
+      "kind": "example",
+      "sha256": "ff36d66e861cdd1ba9ba754b0e0c1ce249669d37430995f764d338670f85d7b1",
+      "bytes": 20012,
+      "durationSec": 2.603492,
+      "uploaded": true
+    },
+    {
+      "kpId": 1172,
+      "title": "一举两得",
+      "kind": "chengyu",
+      "sha256": "075de2776149833a7317c1d76eba3ed79d573194c8ddc30300974f2b96cfc630",
+      "bytes": 7463,
+      "durationSec": 0.896236,
+      "uploaded": true
+    },
+    {
+      "kpId": 1172,
+      "title": "一举两得",
+      "kind": "meaning",
+      "sha256": "0f227b02daf999cd0eec49ec9e9f4134e1dcf2e5bc479ea4c78dfec0afdde048",
+      "bytes": 19675,
+      "durationSec": 2.349887,
+      "uploaded": true
+    },
+    {
+      "kpId": 1172,
+      "title": "一举两得",
+      "kind": "example",
+      "sha256": "6d547e505e669f30b3af9d076aaa0868b50b55ee12bf6509d79458ec31aa7d62",
+      "bytes": 34631,
+      "durationSec": 4.892472,
+      "uploaded": true
+    },
+    {
+      "kpId": 1173,
+      "title": "狐假虎威",
+      "kind": "chengyu",
+      "sha256": "272db89dbd739cf1b73339be6d255deeb410403c6f5e7f975203cbe4f0f8e969",
+      "bytes": 7018,
+      "durationSec": 0.881859,
+      "uploaded": true
+    },
+    {
+      "kpId": 1173,
+      "title": "狐假虎威",
+      "kind": "meaning",
+      "sha256": "248d21c8a74d8caef0b432f791f4738f31af4d395ca7689e26f78bcb1a16ba8e",
+      "bytes": 17150,
+      "durationSec": 2.100045,
+      "uploaded": true
+    },
+    {
+      "kpId": 1173,
+      "title": "狐假虎威",
+      "kind": "example",
+      "sha256": "870d8300d36c88a6f4b139d8a01823ea61405e41b53272c70f86a1515468c169",
+      "bytes": 27425,
+      "durationSec": 3.66,
+      "uploaded": true
+    },
+    {
+      "kpId": 1174,
+      "title": "鸡犬不宁",
+      "kind": "chengyu",
+      "sha256": "0557fe8509ee0e8731588fc66efa97af9d98002c417ac262a8ee6aa7971842e0",
+      "bytes": 8190,
+      "durationSec": 1.026848,
+      "uploaded": true
+    },
+    {
+      "kpId": 1174,
+      "title": "鸡犬不宁",
+      "kind": "meaning",
+      "sha256": "14d53cecc7117404555c8c31e01da45c887b411def6f355495cc742274849255",
+      "bytes": 15060,
+      "durationSec": 1.941542,
+      "uploaded": true
+    },
+    {
+      "kpId": 1174,
+      "title": "鸡犬不宁",
+      "kind": "example",
+      "sha256": "729cffa6f31c10aa4c2f466ba15583f92108d7fb77db3dddca0e0bb5985a8804",
+      "bytes": 22010,
+      "durationSec": 2.96322,
+      "uploaded": true
+    },
+    {
+      "kpId": 1175,
+      "title": "龙飞凤舞",
+      "kind": "chengyu",
+      "sha256": "f0b553d64bc121b1898cb3ea1f7e903837c05d6ed39b960df76a0574b22badd1",
+      "bytes": 7486,
+      "durationSec": 0.932653,
+      "uploaded": true
+    },
+    {
+      "kpId": 1175,
+      "title": "龙飞凤舞",
+      "kind": "meaning",
+      "sha256": "8fdeda00d29000061c4c76f44b42a8f679a9ade7d687e8094e92fe7b52a6e336",
+      "bytes": 16237,
+      "durationSec": 1.918322,
+      "uploaded": true
+    },
+    {
+      "kpId": 1175,
+      "title": "龙飞凤舞",
+      "kind": "example",
+      "sha256": "9abe859f6faa38618a95ee47f273994b564592459aded68dd693f465ccb208e7",
+      "bytes": 14355,
+      "durationSec": 1.872925,
+      "uploaded": true
+    },
+    {
+      "kpId": 1176,
+      "title": "虎头蛇尾",
+      "kind": "chengyu",
+      "sha256": "af5b185a173bdc564c3c7bbfc681f40c260fb8b75f57f83ddc28229d36baf646",
+      "bytes": 7697,
+      "durationSec": 0.881859,
+      "uploaded": true
+    },
+    {
+      "kpId": 1176,
+      "title": "虎头蛇尾",
+      "kind": "meaning",
+      "sha256": "4cdf33b839f190ef791420f12085ccc7338272ba23eafc20b92121072e6f48e0",
+      "bytes": 21205,
+      "durationSec": 2.767166,
+      "uploaded": true
+    },
+    {
+      "kpId": 1176,
+      "title": "虎头蛇尾",
+      "kind": "example",
+      "sha256": "92267bef9c9cd51209a7fe3785fb7a813508f556c246fc4f4d5b065d3e75b1cb",
+      "bytes": 14127,
+      "durationSec": 1.734558,
+      "uploaded": true
+    },
+    {
+      "kpId": 1177,
+      "title": "鹤立鸡群",
+      "kind": "chengyu",
+      "sha256": "8b6b2ede5687861199f473911b4ffa2e330551f30926eb543b6993f285237a15",
+      "bytes": 8479,
+      "durationSec": 1.053379,
+      "uploaded": true
+    },
+    {
+      "kpId": 1177,
+      "title": "鹤立鸡群",
+      "kind": "meaning",
+      "sha256": "9b9503501ca8b85df1d1938e4e318e6d089d0cb16248fabaf7b789dfbb14fc49",
+      "bytes": 15580,
+      "durationSec": 1.950431,
+      "uploaded": true
+    },
+    {
+      "kpId": 1177,
+      "title": "鹤立鸡群",
+      "kind": "example",
+      "sha256": "730f74ba0134a9d6e5759a0506e55f7bfbeed8e0aa9ccca7e7ecfbbd009ff99d",
+      "bytes": 17431,
+      "durationSec": 2.255193,
+      "uploaded": true
+    },
+    {
+      "kpId": 1178,
+      "title": "笨鸟先飞",
+      "kind": "chengyu",
+      "sha256": "4d6126dc75c10deddd69768ba1db678b794c6c482593db837843ad521cb24eb3",
+      "bytes": 8322,
+      "durationSec": 0.975193,
+      "uploaded": true
+    },
+    {
+      "kpId": 1178,
+      "title": "笨鸟先飞",
+      "kind": "meaning",
+      "sha256": "a6b8657db734d507d753e81b178c0e17d83e179b8ce2cf8841ea4c58073ede46",
+      "bytes": 13418,
+      "durationSec": 1.654195,
+      "uploaded": true
+    },
+    {
+      "kpId": 1178,
+      "title": "笨鸟先飞",
+      "kind": "example",
+      "sha256": "2021450af362c58d5219ef3c6d893bce94044ab983ba527c83d9615b5e1adfa9",
+      "bytes": 25006,
+      "durationSec": 3.485079,
+      "uploaded": true
+    },
+    {
+      "kpId": 1179,
+      "title": "鸟语花香",
+      "kind": "chengyu",
+      "sha256": "e58a9a35b4b3d41c96a936539c0b59b4bbd8e909fe031015eb241cc8aa346ed3",
+      "bytes": 8244,
+      "durationSec": 0.994785,
+      "uploaded": true
+    },
+    {
+      "kpId": 1179,
+      "title": "鸟语花香",
+      "kind": "meaning",
+      "sha256": "387eccad082c5721fd7f73f673a845976fe65a7388cbb3016e64300d1bdd8076",
+      "bytes": 17565,
+      "durationSec": 2.138912,
+      "uploaded": true
+    },
+    {
+      "kpId": 1179,
+      "title": "鸟语花香",
+      "kind": "example",
+      "sha256": "7f979a98bc557702e89a3b2f2143c277e8616da3cd0069f0d88ea59b8d0c70e2",
+      "bytes": 21307,
+      "durationSec": 2.852517,
+      "uploaded": true
+    },
+    {
+      "kpId": 1180,
+      "title": "如鱼得水",
+      "kind": "chengyu",
+      "sha256": "24b89a29042ae6f9d79227c785e70551de10f4d6cb2555c7ac907d7a88728ea6",
+      "bytes": 7696,
+      "durationSec": 0.935011,
+      "uploaded": true
+    },
+    {
+      "kpId": 1180,
+      "title": "如鱼得水",
+      "kind": "meaning",
+      "sha256": "ceb9e1d67e3df9dd3b4f2c36a43b8dc146a9f5ef0f397044d01c073cb8c31a39",
+      "bytes": 14728,
+      "durationSec": 1.787891,
+      "uploaded": true
+    },
+    {
+      "kpId": 1180,
+      "title": "如鱼得水",
+      "kind": "example",
+      "sha256": "50685ecc3d5e6ac19c71841d9ae1461b3377fcbdbccebea1b26f0a1cd4ab226e",
+      "bytes": 19432,
+      "durationSec": 2.614512,
+      "uploaded": true
+    },
+    {
+      "kpId": 1181,
+      "title": "守株待兔",
+      "kind": "chengyu",
+      "sha256": "91f57ee5fd667ea28a1604824feca8f187824136af8b31acc5a26d5d207c64e6",
+      "bytes": 8401,
+      "durationSec": 0.953243,
+      "uploaded": true
+    },
+    {
+      "kpId": 1181,
+      "title": "守株待兔",
+      "kind": "meaning",
+      "sha256": "76f3543f852cd5e37522a79aed428cf575b2a60b1f39eb32289a144f6658106d",
+      "bytes": 19205,
+      "durationSec": 2.22254,
+      "uploaded": true
+    },
+    {
+      "kpId": 1181,
+      "title": "守株待兔",
+      "kind": "example",
+      "sha256": "bd30c39f869c4bb2ae10e78ed64730a188952d5772a5813ca32c8889972c3638",
+      "bytes": 21830,
+      "durationSec": 2.867619,
+      "uploaded": true
+    },
+    {
+      "kpId": 1182,
+      "title": "画蛇添足",
+      "kind": "chengyu",
+      "sha256": "bdaeb0dfcbc38c819d589ef5d00140d8f6f3d401ece2ee5e2e2250a209418268",
+      "bytes": 8921,
+      "durationSec": 1.0561,
+      "uploaded": true
+    },
+    {
+      "kpId": 1182,
+      "title": "画蛇添足",
+      "kind": "meaning",
+      "sha256": "e58ee5cc4acf73c9f90efe9d3a3185e94baa57c6ae3f8f63486c433a5e234ef2",
+      "bytes": 20640,
+      "durationSec": 2.628526,
+      "uploaded": true
+    },
+    {
+      "kpId": 1182,
+      "title": "画蛇添足",
+      "kind": "example",
+      "sha256": "7b9f5fa9d9e7b757956edec343361a83deee7ce0d4fcea4cdbee3e3a17c9a49b",
+      "bytes": 21696,
+      "durationSec": 2.959184,
+      "uploaded": true
+    },
+    {
+      "kpId": 1183,
+      "title": "亡羊补牢",
+      "kind": "chengyu",
+      "sha256": "08e20b50edc5147f047097a080c1ee7d1253695962a8660d84ec318effced26a",
+      "bytes": 7697,
+      "durationSec": 0.909342,
+      "uploaded": true
+    },
+    {
+      "kpId": 1183,
+      "title": "亡羊补牢",
+      "kind": "meaning",
+      "sha256": "525ff55813ba41a8066b16ed7b78e7669bee8abbb19588738b4a99bdfa6c088f",
+      "bytes": 21651,
+      "durationSec": 2.620317,
+      "uploaded": true
+    },
+    {
+      "kpId": 1183,
+      "title": "亡羊补牢",
+      "kind": "example",
+      "sha256": "c2775a883196aa6db89202ef78ce678a2807d2df2273c444a23fbc5e0cb6470d",
+      "bytes": 22035,
+      "durationSec": 2.985941,
+      "uploaded": true
+    },
+    {
+      "kpId": 1184,
+      "title": "掩耳盗铃",
+      "kind": "chengyu",
+      "sha256": "0c8e95397ebc44bf28b0201087deb1b6fa2aa32cc53135856360f10f7e3ab918",
+      "bytes": 7907,
+      "durationSec": 0.968662,
+      "uploaded": true
+    },
+    {
+      "kpId": 1184,
+      "title": "掩耳盗铃",
+      "kind": "meaning",
+      "sha256": "842c6741e6c016d19c2418c06d4d46d5aedca007861344a2ecdf993f2299b96e",
+      "bytes": 11577,
+      "durationSec": 1.397868,
+      "uploaded": true
+    },
+    {
+      "kpId": 1184,
+      "title": "掩耳盗铃",
+      "kind": "example",
+      "sha256": "8fab3127d24a69e884b2fdd594a899b82149b9880245ef74b20136d9f6c1379d",
+      "bytes": 25313,
+      "durationSec": 3.452154,
+      "uploaded": true
+    },
+    {
+      "kpId": 1185,
+      "title": "井底之蛙",
+      "kind": "chengyu",
+      "sha256": "4aa9666567fa78ed5b22a79da121ba71b3f9491c236c0b96fba14f2561ce8e66",
+      "bytes": 7542,
+      "durationSec": 0.887528,
+      "uploaded": true
+    },
+    {
+      "kpId": 1185,
+      "title": "井底之蛙",
+      "kind": "meaning",
+      "sha256": "a9c41b1b9d0d50b4c66b7067f07c356c709da344cf398d15eac01e702bf0c552",
+      "bytes": 11812,
+      "durationSec": 1.375147,
+      "uploaded": true
+    },
+    {
+      "kpId": 1185,
+      "title": "井底之蛙",
+      "kind": "example",
+      "sha256": "0a0c7b738cfdbd377169d990bdb0af5b1b9210ff9957d74e2587b9b20da9df71",
+      "bytes": 19564,
+      "durationSec": 2.603991,
+      "uploaded": true
+    },
+    {
+      "kpId": 1186,
+      "title": "对牛弹琴",
+      "kind": "chengyu",
+      "sha256": "fbbe75db2a1b0c427e1a470b33d5e84c1082e506e6d2ec7612bf9249a564fbae",
+      "bytes": 8501,
+      "durationSec": 1.096054,
+      "uploaded": true
+    },
+    {
+      "kpId": 1186,
+      "title": "对牛弹琴",
+      "kind": "meaning",
+      "sha256": "da0d4794cc958aaa09bbbd5aabfab524d7b19e25c3142346d251a635dcca0fec",
+      "bytes": 12407,
+      "durationSec": 1.537234,
+      "uploaded": true
+    },
+    {
+      "kpId": 1186,
+      "title": "对牛弹琴",
+      "kind": "example",
+      "sha256": "ec3c3bed1ad155b0c6de90c83582c64d57d786b0e7d639ac050eacab136d5e2c",
+      "bytes": 23343,
+      "durationSec": 3.063719,
+      "uploaded": true
+    },
+    {
+      "kpId": 1187,
+      "title": "拔苗助长",
+      "kind": "chengyu",
+      "sha256": "67bcc57c3b97ecfb4a26f2249c5e9e5103c94ceb7c8c23dda18d52097763f71c",
+      "bytes": 8636,
+      "durationSec": 0.940363,
+      "uploaded": true
+    },
+    {
+      "kpId": 1187,
+      "title": "拔苗助长",
+      "kind": "meaning",
+      "sha256": "f38683dfe245b001f0c741a8181587c97db492af59e228227671b01b93aca18a",
+      "bytes": 17228,
+      "durationSec": 2.002086,
+      "uploaded": true
+    },
+    {
+      "kpId": 1187,
+      "title": "拔苗助长",
+      "kind": "example",
+      "sha256": "ca535463daf2dd4c26852a608054c3af797f70405ca7c0696d6b618d0f31cbe9",
+      "bytes": 15820,
+      "durationSec": 1.874422,
+      "uploaded": true
+    },
+    {
+      "kpId": 1188,
+      "title": "刻舟求剑",
+      "kind": "chengyu",
+      "sha256": "2589df99a39314ecbe90b105aef63de3d879d7562afc50c1abb6471409d669cc",
+      "bytes": 8323,
+      "durationSec": 0.990023,
+      "uploaded": true
+    },
+    {
+      "kpId": 1188,
+      "title": "刻舟求剑",
+      "kind": "meaning",
+      "sha256": "3751552f05d14de268cc901d0679a9aff0127c19359db0461690a096d8e367fb",
+      "bytes": 15293,
+      "durationSec": 2.19424,
+      "uploaded": true
+    },
+    {
+      "kpId": 1188,
+      "title": "刻舟求剑",
+      "kind": "example",
+      "sha256": "d527804cf9ccd3795bbd95dd0a48bd4c9c58d81208b4e258a902c6fbe4d47de5",
+      "bytes": 22036,
+      "durationSec": 2.977324,
+      "uploaded": true
+    },
+    {
+      "kpId": 1189,
+      "title": "助人为乐",
+      "kind": "chengyu",
+      "sha256": "ea96e8d813704135d0a07535a7252b28a7a5a16efe1f5f837793c92b2fabc6d6",
+      "bytes": 6734,
+      "durationSec": 0.775918,
+      "uploaded": true
+    },
+    {
+      "kpId": 1189,
+      "title": "助人为乐",
+      "kind": "meaning",
+      "sha256": "1e8ffbfa9db7d2e963158ea94586aa1e5f90c1f21e682509ae67d3ded3d6555d",
+      "bytes": 16702,
+      "durationSec": 2.020091,
+      "uploaded": true
+    },
+    {
+      "kpId": 1189,
+      "title": "助人为乐",
+      "kind": "example",
+      "sha256": "3a569cc05a00522dcc91b29c20bb487f52356ff390ff2191871fe7fc9a4747ef",
+      "bytes": 20162,
+      "durationSec": 2.552245,
+      "uploaded": true
+    },
+    {
+      "kpId": 1190,
+      "title": "团结友爱",
+      "kind": "chengyu",
+      "sha256": "fcedab95816e2454ac277808f85e4efaa0f448e4cfca19dea80f8a383adad93b",
+      "bytes": 8213,
+      "durationSec": 1.048118,
+      "uploaded": true
+    },
+    {
+      "kpId": 1190,
+      "title": "团结友爱",
+      "kind": "meaning",
+      "sha256": "4e76433b45dcf067de0ecd941519c86ea1ba92c74bb5047c18cc2bf3697b6714",
+      "bytes": 16206,
+      "durationSec": 2.190023,
+      "uploaded": true
+    },
+    {
+      "kpId": 1190,
+      "title": "团结友爱",
+      "kind": "example",
+      "sha256": "46ed8cc40b2c9698b3391a049957b10cb5bd371fc21f922192bbf2a63a64dde4",
+      "bytes": 12798,
+      "durationSec": 1.559592,
+      "uploaded": true
+    },
+    {
+      "kpId": 1191,
+      "title": "谦虚礼让",
+      "kind": "chengyu",
+      "sha256": "718700237dc230fd85ebb9f148d1d825771e8361aa49fbcc2c0cbae5c17d9d56",
+      "bytes": 7851,
+      "durationSec": 0.980408,
+      "uploaded": true
+    },
+    {
+      "kpId": 1191,
+      "title": "谦虚礼让",
+      "kind": "meaning",
+      "sha256": "582bde9d35acff1ea91b130bab46bdf36d6c759487763fb6f05fbac59aa996bc",
+      "bytes": 13421,
+      "durationSec": 1.944082,
+      "uploaded": true
+    },
+    {
+      "kpId": 1191,
+      "title": "谦虚礼让",
+      "kind": "example",
+      "sha256": "46878b5ae3116d636bd4757773164c50be78ab8a63f5eabdb330beb29b393a25",
+      "bytes": 15479,
+      "durationSec": 1.926848,
+      "uploaded": true
+    },
+    {
+      "kpId": 1192,
+      "title": "诚实守信",
+      "kind": "chengyu",
+      "sha256": "68eadd37058dd846931885c333bc8443ad26a9f3995d975b9ca2c49aa8b1fce7",
+      "bytes": 9156,
+      "durationSec": 1.052971,
+      "uploaded": true
+    },
+    {
+      "kpId": 1192,
+      "title": "诚实守信",
+      "kind": "meaning",
+      "sha256": "94d5310b643740e589a14d2c7ce6f500059f8cca8085931fdac3104b33271b33",
+      "bytes": 16992,
+      "durationSec": 2.17229,
+      "uploaded": true
+    },
+    {
+      "kpId": 1192,
+      "title": "诚实守信",
+      "kind": "example",
+      "sha256": "a532b387fd9355282d4f0ee08b109c69bad12f69446ce83c5fcf40a5e3507c71",
+      "bytes": 15929,
+      "durationSec": 1.746168,
+      "uploaded": true
+    },
+    {
+      "kpId": 1193,
+      "title": "勤俭节约",
+      "kind": "chengyu",
+      "sha256": "10a4816ff1ea21f340e91dcec91448613acab71d5914c5e3ae82d0e94d67d918",
+      "bytes": 8553,
+      "durationSec": 1.038458,
+      "uploaded": true
+    },
+    {
+      "kpId": 1193,
+      "title": "勤俭节约",
+      "kind": "meaning",
+      "sha256": "8128902c4822baede437e5dbb8f77c4a10ab8c3a8e6c297174b46e1f8c87c70d",
+      "bytes": 14410,
+      "durationSec": 2.002086,
+      "uploaded": true
+    },
+    {
+      "kpId": 1193,
+      "title": "勤俭节约",
+      "kind": "example",
+      "sha256": "aa8cfeb439ffedf1dcde1970e800b8f16d125efe4aef4e0fb7ff811227723cd1",
+      "bytes": 13139,
+      "durationSec": 1.524762,
+      "uploaded": true
+    },
+    {
+      "kpId": 1194,
+      "title": "尊老爱幼",
+      "kind": "chengyu",
+      "sha256": "8cf5869c365ef19ee23f9dbe3ff9039ddc06febbffac191dc358990e5e2d37b4",
+      "bytes": 7432,
+      "durationSec": 0.93483,
+      "uploaded": true
+    },
+    {
+      "kpId": 1194,
+      "title": "尊老爱幼",
+      "kind": "meaning",
+      "sha256": "90c77326432a2608c438bc14160e4995449323b82c12cc9b02450b206b03e7bd",
+      "bytes": 18914,
+      "durationSec": 2.525397,
+      "uploaded": true
+    },
+    {
+      "kpId": 1194,
+      "title": "尊老爱幼",
+      "kind": "example",
+      "sha256": "3edf5cde28a5036af104d59b787ecd78d88ec3c9d6d05876cd567958f8b4dbd6",
+      "bytes": 18707,
+      "durationSec": 2.285079,
+      "uploaded": true
+    },
+    {
+      "kpId": 1195,
+      "title": "持之以恒",
+      "kind": "chengyu",
+      "sha256": "7166f7a29df33e2e7795c52fdb2aed334d86a6c59855cd806a1dbf740a02f4da",
+      "bytes": 7489,
+      "durationSec": 0.960091,
+      "uploaded": true
+    },
+    {
+      "kpId": 1195,
+      "title": "持之以恒",
+      "kind": "meaning",
+      "sha256": "44215dd607a25a81cc1ac4cda46f49b471e0cf32b8d7dda7e2d4598c7b7957d3",
+      "bytes": 18738,
+      "durationSec": 2.361995,
+      "uploaded": true
+    },
+    {
+      "kpId": 1195,
+      "title": "持之以恒",
+      "kind": "example",
+      "sha256": "08e1a1a44825b3a6ab72f54f85853a19282d9fb1f833abc0bee4677be5fdb4ff",
+      "bytes": 12613,
+      "durationSec": 1.641723,
+      "uploaded": true
+    },
+    {
+      "kpId": 1196,
+      "title": "水滴石穿",
+      "kind": "chengyu",
+      "sha256": "7c56a1588907797e28f2f1b545bf4f3480ac09293256d8a1a7825aa5309dc4b4",
+      "bytes": 9758,
+      "durationSec": 1.139002,
+      "uploaded": true
+    },
+    {
+      "kpId": 1196,
+      "title": "水滴石穿",
+      "kind": "meaning",
+      "sha256": "7350380f67e1c4958b13059d56698c44a2bf36a4b4cd1b226fdd5d5cc69e7f78",
+      "bytes": 24175,
+      "durationSec": 3.139864,
+      "uploaded": true
+    },
+    {
+      "kpId": 1196,
+      "title": "水滴石穿",
+      "kind": "example",
+      "sha256": "854764bdd870c6e059de9eebc3b127f6cf9225ae5028c19d62c5662b948a1bf2",
+      "bytes": 19434,
+      "durationSec": 2.662766,
+      "uploaded": true
+    }
+  ],
+  "mediaChecks": [
+    {
+      "kind": "meaning",
+      "sha256": "2474467ea21478efa8bec3b6ac546a82b917f471d5f5bc17826b59c4c8d5ae75",
+      "bytes": 6470
+    }
+  ],
+  "sourceReplacement": {
+    "kpId": 1165,
+    "sourceChanged": true,
+    "historyUnchanged": true,
+    "sha256": "2474467ea21478efa8bec3b6ac546a82b917f471d5f5bc17826b59c4c8d5ae75"
+  },
+  "payloadIsolation": {
+    "kpId": 1165,
+    "sourceChanged": true,
+    "historyUnchanged": true
+  },
+  "failSamples": [
+    {
+      "id": 267,
+      "qualified": false,
+      "reason": "unlinked plan item"
+    },
+    {
+      "id": 268,
+      "qualified": false,
+      "reason": "live speech url not frozen"
+    }
+  ],
+  "protectedAttemptsUnchanged": true,
+  "questionSeedLog": [
+    "questions already present",
+    "128"
+  ],
+  "emptyOverviewAttempts": 0,
+  "realChild": "卢沁一"
+}

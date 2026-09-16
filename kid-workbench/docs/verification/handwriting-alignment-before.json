@@ -1,0 +1,1194 @@
+{
+  "fixtures": "shared-go/handwriting/testdata/{一,山,水,的}.json",
+  "cases": 50,
+  "results": [
+    {
+      "character": "一",
+      "sample": "blank",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.098876953125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "vertical-mirror",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.098876953125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 0.8567901234567902
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "missing-stroke-1",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "translated-scaled",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.098876953125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "missing-last-stroke",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "only-first-stroke",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.098876953125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "dense-scribble",
+      "appCanvas": {
+        "ok": false,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.86328125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 0.14847285067873303
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "sparse-scribble",
+      "appCanvas": {
+        "ok": false,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.390625,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.55,
+          "minStrokeCover": 1,
+          "precision": 0.019375
+        }
+      }
+    },
+    {
+      "character": "一",
+      "sample": "fragmented-standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.099609375,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.5,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "blank",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.6
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.25,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "vertical-mirror",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.6
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.25,
+          "meanStrokeCover": 0.8166666666666668,
+          "minIndividualStrokeCover": 0.25,
+          "minStrokeCover": 0.6,
+          "precision": 0.46484375
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "missing-stroke-1",
+      "appCanvas": {
+        "ok": false,
+        "score": 0.15
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.45
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.186279296875,
+          "meanStrokeCover": 0.6999999999999998,
+          "minIndividualStrokeCover": 0.45,
+          "minStrokeCover": 0.45,
+          "precision": 0.526867627785059
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "missing-stroke-2",
+      "appCanvas": {
+        "ok": false,
+        "score": 0.05
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.15
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.14453125,
+          "meanStrokeCover": 0.3333333333333333,
+          "minIndividualStrokeCover": 0.15,
+          "minStrokeCover": 0.15,
+          "precision": 0.13513513513513514
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "missing-stroke-3",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.25
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.208740234375,
+          "meanStrokeCover": 0.75,
+          "minIndividualStrokeCover": 0.25,
+          "minStrokeCover": 0.25,
+          "precision": 0.7087719298245614
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "translated-scaled",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.6
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.25,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "missing-last-stroke",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.25
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.208740234375,
+          "meanStrokeCover": 0.75,
+          "minIndividualStrokeCover": 0.25,
+          "minStrokeCover": 0.25,
+          "precision": 0.7087719298245614
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "only-first-stroke",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.101318359375,
+          "meanStrokeCover": 0.3833333333333333,
+          "minIndividualStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0.7373493975903614
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "dense-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.86328125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.45,
+          "minStrokeCover": 1,
+          "precision": 0.36990950226244346
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "sparse-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.9
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.9
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.390625,
+          "meanStrokeCover": 0.9499999999999998,
+          "minIndividualStrokeCover": 0.45,
+          "minStrokeCover": 0.9,
+          "precision": 0.293125
+        }
+      }
+    },
+    {
+      "character": "山",
+      "sample": "fragmented-standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.6
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.25048828125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.4,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "blank",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.8
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.2705078125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "vertical-mirror",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.8
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.2705078125,
+          "meanStrokeCover": 0.9249999999999999,
+          "minIndividualStrokeCover": 0.8,
+          "minStrokeCover": 0.8,
+          "precision": 0.7093862815884476
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "missing-stroke-1",
+      "appCanvas": {
+        "ok": false,
+        "score": 0.1
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.15
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.176513671875,
+          "meanStrokeCover": 0.7875,
+          "minIndividualStrokeCover": 0.15,
+          "minStrokeCover": 0.15,
+          "precision": 0.921161825726141
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "missing-stroke-2",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.7
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.85
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.21728515625,
+          "meanStrokeCover": 0.9625,
+          "minIndividualStrokeCover": 0.85,
+          "minStrokeCover": 0.85,
+          "precision": 0.553932584269663
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "missing-stroke-3",
+      "appCanvas": {
+        "ok": false,
+        "score": 0.45
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.35
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.240234375,
+          "meanStrokeCover": 0.8375,
+          "minIndividualStrokeCover": 0.35,
+          "minStrokeCover": 0.35,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "missing-stroke-4",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.65
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.6
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.2470703125,
+          "meanStrokeCover": 0.9,
+          "minIndividualStrokeCover": 0.6,
+          "minStrokeCover": 0.6,
+          "precision": 0.5158102766798419
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "translated-scaled",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.8
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.2705078125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "missing-last-stroke",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.65
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.6
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.2470703125,
+          "meanStrokeCover": 0.9,
+          "minIndividualStrokeCover": 0.6,
+          "minStrokeCover": 0.6,
+          "precision": 0.5158102766798419
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "only-first-stroke",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.114990234375,
+          "meanStrokeCover": 0.65,
+          "minIndividualStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0.46284501061571126
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "dense-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.86328125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.6,
+          "minStrokeCover": 1,
+          "precision": 0.39394796380090497
+        }
+      }
+    },
+    {
+      "character": "水",
+      "sample": "sparse-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.95
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.95
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.390625,
+          "meanStrokeCover": 0.9875,
+          "minIndividualStrokeCover": 0.55,
+          "minStrokeCover": 0.95,
+          "precision": 0.324375
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "blank",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "meanStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "standard",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.34814453125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "vertical-mirror",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.34814453125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.55,
+          "minStrokeCover": 1,
+          "precision": 0.7601683029453016
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-1",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.6
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.5
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.3193359375,
+          "meanStrokeCover": 0.9375,
+          "minIndividualStrokeCover": 0.5,
+          "minStrokeCover": 0.5,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-2",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.95
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.322265625,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.6,
+          "minStrokeCover": 1,
+          "precision": 0.9598484848484848
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-3",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.291259765625,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.4,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-4",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.33642578125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.9,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-5",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.339111328125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-6",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.55
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.5
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.32763671875,
+          "meanStrokeCover": 0.9375,
+          "minIndividualStrokeCover": 0.45,
+          "minStrokeCover": 0.5,
+          "precision": 0.8941877794336811
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-7",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.75
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.75
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.28564453125,
+          "meanStrokeCover": 0.96875,
+          "minIndividualStrokeCover": 0.4,
+          "minStrokeCover": 0.75,
+          "precision": 0.6418803418803419
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-stroke-8",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.95
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.5
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.325927734375,
+          "meanStrokeCover": 0.9375,
+          "minIndividualStrokeCover": 0.5,
+          "minStrokeCover": 0.5,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "translated-scaled",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.34814453125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 1,
+          "minStrokeCover": 1,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "missing-last-stroke",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.95
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0.5
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.325927734375,
+          "meanStrokeCover": 0.9375,
+          "minIndividualStrokeCover": 0.5,
+          "minStrokeCover": 0.5,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "only-first-stroke",
+      "appCanvas": {
+        "ok": false,
+        "score": 0
+      },
+      "appSameAxis": {
+        "ok": false,
+        "score": 0
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.111328125,
+          "meanStrokeCover": 0.425,
+          "minIndividualStrokeCover": 0,
+          "minStrokeCover": 0,
+          "precision": 0.7192982456140351
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "dense-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 1
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 1
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.86328125,
+          "meanStrokeCover": 1,
+          "minIndividualStrokeCover": 0.6,
+          "minStrokeCover": 1,
+          "precision": 0.5025452488687783
+        }
+      }
+    },
+    {
+      "character": "的",
+      "sample": "sparse-scribble",
+      "appCanvas": {
+        "ok": true,
+        "score": 0.95
+      },
+      "appSameAxis": {
+        "ok": true,
+        "score": 0.95
+      },
+      "server": {
+        "outcome": "not_passed",
+        "assistance": "none",
+        "evaluatorVersion": "ink-match-v1",
+        "metrics": {
+          "inkFraction": 0.390625,
+          "meanStrokeCover": 0.9812500000000001,
+          "minIndividualStrokeCover": 0.5,
+          "minStrokeCover": 0.95,
+          "precision": 0.489375
+        }
+      }
+    }
+  ]
+}

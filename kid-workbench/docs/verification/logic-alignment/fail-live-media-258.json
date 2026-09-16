@@ -1,0 +1,97 @@
+{
+  "qualified": false,
+  "attemptId": 258,
+  "childId": 12,
+  "kpId": 124653,
+  "title": "动物里的例外",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "classify",
+  "skillLabel": "分类",
+  "questionType": "classify",
+  "occurredAt": "2026-09-15T01:14:33.396722Z",
+  "isCorrect": false,
+  "costMs": 700,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 207,
+    "itemId": 654
+  },
+  "planId": 207,
+  "planItemId": 654,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "mutable_reference",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [
+    "media_not_frozen"
+  ],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "哪个不属于这一类？"
+    },
+    "options": [
+      {
+        "id": "cat",
+        "label": "猫"
+      },
+      {
+        "id": "car",
+        "label": "汽车",
+        "imageMediaId": "glyph-car"
+      }
+    ],
+    "answerOptionId": "car",
+    "targetText": "动物里的例外"
+  },
+  "logicExample": {
+    "kind": "classify",
+    "prompt": "哪个不属于这一类？",
+    "rule": {
+      "type": "odd-one-out",
+      "dimension": "kingdom",
+      "inGroup": "animal",
+      "explain": "动物"
+    },
+    "objects": [
+      {
+        "id": "cat",
+        "caption": "猫",
+        "glyph": "cat",
+        "attrs": {
+          "category": "animal"
+        }
+      },
+      {
+        "id": "car",
+        "caption": "汽车",
+        "glyph": "car",
+        "attrs": {
+          "category": "vehicle"
+        }
+      }
+    ],
+    "options": [
+      "cat",
+      "car"
+    ],
+    "answerId": "car",
+    "imageUrls": {
+      "car": "/api/v1/logic/items/124653/glyph/car.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "cat",
+    "value": "cat"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

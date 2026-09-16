@@ -1,0 +1,134 @@
+{
+  "attemptId": 245,
+  "childId": 12,
+  "kpId": 124649,
+  "title": "红蓝交替",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "pattern",
+  "skillLabel": "找规律",
+  "questionType": "pattern",
+  "occurredAt": "2026-09-15T01:14:31.774366Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 636
+  },
+  "planId": 206,
+  "planItemId": 636,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "下一个是哪个？"
+    },
+    "options": [
+      {
+        "id": "g1",
+        "label": "绿",
+        "imageMediaId": "glyph-g1"
+      },
+      {
+        "id": "b1",
+        "label": "蓝",
+        "imageMediaId": "glyph-b1"
+      },
+      {
+        "id": "r1",
+        "label": "红",
+        "imageMediaId": "glyph-r1"
+      }
+    ],
+    "answerOptionId": "b1",
+    "targetText": "红蓝交替"
+  },
+  "logicExample": {
+    "kind": "pattern",
+    "prompt": "下一个是哪个？",
+    "rule": {
+      "type": "AB",
+      "dimension": "color",
+      "period": 2,
+      "explain": "红蓝交替：按已展示序列继续。"
+    },
+    "objects": [
+      {
+        "id": "r1",
+        "caption": "红",
+        "glyph": "circle",
+        "fill": "#e11d48",
+        "scale": 2,
+        "attrs": {
+          "color": "red"
+        }
+      },
+      {
+        "id": "b1",
+        "caption": "蓝",
+        "glyph": "circle",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "color": "blue"
+        }
+      },
+      {
+        "id": "r2",
+        "caption": "红",
+        "glyph": "circle",
+        "fill": "#e11d48",
+        "scale": 2,
+        "attrs": {
+          "color": "red"
+        }
+      },
+      {
+        "id": "g1",
+        "caption": "绿",
+        "glyph": "circle",
+        "fill": "#16a34a",
+        "scale": 2,
+        "attrs": {
+          "color": "green"
+        }
+      }
+    ],
+    "sequence": [
+      "r1",
+      "b1",
+      "r2"
+    ],
+    "options": [
+      "g1",
+      "b1",
+      "r1"
+    ],
+    "answerId": "b1",
+    "glyphVersion": "1",
+    "imageUrls": {
+      "b1": "/api/v1/logic/task-media/cb9b77f2a5862e869ac76eb53b782322499281273f4eb1e0035dfd538bbc4073.svg",
+      "g1": "/api/v1/logic/task-media/423eea207ecc1f246270e11828090b797c31ebbaa68a1d0eee3adadd31c68f21.svg",
+      "r1": "/api/v1/logic/task-media/269ef8a3c8a6e1d156e3ff2a75f53d1e8bcd0b5f71199b25ececa16bb8948767.svg",
+      "r2": "/api/v1/logic/task-media/269ef8a3c8a6e1d156e3ff2a75f53d1e8bcd0b5f71199b25ececa16bb8948767.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "g1",
+    "value": "g1"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

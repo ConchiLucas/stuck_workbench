@@ -1,0 +1,108 @@
+{
+  "attemptId": 237,
+  "childId": 10,
+  "kpId": 124176,
+  "title": "动物和生活环境",
+  "subjectCode": "science",
+  "subjectName": "科普",
+  "moduleCode": "observe",
+  "moduleName": "观察与过程",
+  "skillCode": "match",
+  "skillLabel": "连线题",
+  "questionType": "match",
+  "occurredAt": "2026-09-14T16:25:04.17657Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "science_plan",
+    "planId": 204,
+    "itemId": 624
+  },
+  "planId": 204,
+  "planItemId": 624,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_mapping",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "match",
+    "stem": {
+      "text": "把下面三种动物和它们最常见的生活环境连起来。"
+    },
+    "options": [],
+    "targetText": "动物和生活环境"
+  },
+  "scienceExample": {
+    "kind": "match",
+    "prompt": "把下面三种动物和它们最常见的生活环境连起来。",
+    "matchSources": [
+      {
+        "id": "camel",
+        "label": "骆驼",
+        "icon": "camel"
+      },
+      {
+        "id": "frog",
+        "label": "青蛙",
+        "icon": "frog"
+      },
+      {
+        "id": "bear",
+        "label": "北极熊",
+        "icon": "bear"
+      }
+    ],
+    "matchTargets": [
+      {
+        "id": "forest",
+        "label": "热带雨林",
+        "icon": "rainforest",
+        "imageUrl": "/api/v1/science/task-media/61d09e0e55a37164e4e03e5546afc5af7ecdca9ce8f538498c4630b787ab77f8.png"
+      },
+      {
+        "id": "desert",
+        "label": "沙漠",
+        "icon": "desert",
+        "imageUrl": "/api/v1/science/task-media/0dc33495417df5f6bbf4859aa8d54160933df6e3a4e10dd1deb6a32301fbedd9.png"
+      },
+      {
+        "id": "ice",
+        "label": "冰原",
+        "icon": "ice",
+        "imageUrl": "/api/v1/science/task-media/1ce19fc00bc412298d58b002600098520b506fe6bdf1100bd4f51200b6bf99cc.png"
+      }
+    ],
+    "matchAnswers": {
+      "bear": "ice",
+      "camel": "desert",
+      "frog": "forest"
+    },
+    "matchSourceOrder": [
+      "camel",
+      "frog",
+      "bear"
+    ],
+    "matchTargetOrder": [
+      "forest",
+      "desert",
+      "ice"
+    ],
+    "matchSourceGroup": "动物",
+    "matchTargetGroup": "环境",
+    "explanation": "青蛙常见于潮湿的树林和水边，北极熊生活在冰原，骆驼适应沙漠。",
+    "tip": "看看皮毛、皮肤和脚掌，再想它们适合哪里。",
+    "rationale": "题干限定给定三种动物的最常见环境，做一一对应。青蛙也可生活在池塘等湿地，本题不把复杂栖息地网络做成多对多。"
+  },
+  "response": {
+    "kind": "match",
+    "selectedOptionId": "{\"kind\":\"match\",\"pairs\":{\"bear\":\"forest\",\"camel\":\"desert\",\"frog\":\"ice\"}}",
+    "value": "{\"kind\":\"match\",\"pairs\":{\"bear\":\"forest\",\"camel\":\"desert\",\"frog\":\"ice\"}}"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

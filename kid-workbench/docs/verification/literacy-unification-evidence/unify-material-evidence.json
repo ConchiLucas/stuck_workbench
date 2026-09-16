@@ -1,0 +1,322 @@
+{
+  "verifiedAt": "2026-09-12T11:04:42.355850+00:00",
+  "database": "study_workbench_unify_test_20260912",
+  "contentBase": "http://127.0.0.1:29091/api/v1",
+  "taskId": 10,
+  "taskRevisionId": 9,
+  "questionVersionId": 122,
+  "kpId": 1,
+  "oldTemplateVersion": "9e3c0a86cbd4586ab83f55422e969a3ea573e6e46a64fc9ba31355f07e146c8d",
+  "newTemplateVersion": "4a5939ff306dadb5fa5fe26bc5ccf89d37a4b7637bf640de6bdf57edde9ea73f",
+  "oldFrozenRef": {
+    "revisionId": "26aeedbc71efb73a465d55f101edb294424d839310833b5e2fcf4d824bf7fdc2",
+    "kind": "writing_template",
+    "sha256": "9e3c0a86cbd4586ab83f55422e969a3ea573e6e46a64fc9ba31355f07e146c8d"
+  },
+  "newFrozenRef": {
+    "revisionId": "b33d5d599013ecc11461271eb22d1dcfbc51edf7d86bf185e0344d0f0ffe6774",
+    "kind": "writing_template",
+    "sha256": "4a5939ff306dadb5fa5fe26bc5ccf89d37a4b7637bf640de6bdf57edde9ea73f"
+  },
+  "oldMediaURL": "http://127.0.0.1:29091/api/v1/material-revisions/26aeedbc71efb73a465d55f101edb294424d839310833b5e2fcf4d824bf7fdc2/media/writing_template",
+  "newMediaURL": "http://127.0.0.1:29091/api/v1/material-revisions/b33d5d599013ecc11461271eb22d1dcfbc51edf7d86bf185e0344d0f0ffe6774/media/writing_template",
+  "geometryUnchanged": true,
+  "oldBytesUnchanged": true,
+  "oldTaskRevisionUnchanged": true,
+  "previews": [
+    {
+      "questionType": "glyph_sense",
+      "snapshot": {
+        "interaction": "choice",
+        "responseSchemaVersion": 2,
+        "schemaVersion": 2,
+        "subjectCode": "literacy",
+        "kpId": 1,
+        "targetText": "一",
+        "questionType": "glyph_sense",
+        "skillCode": "glyph_sense",
+        "templateVersion": "literacy-choice-v1",
+        "prompt": "看字，选出对应的图片",
+        "stem": {
+          "text": "一",
+          "image": {
+            "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+            "kind": "glyph",
+            "sha256": "f3942b23a8163cdf43bc2365e3cb94b3b8c037d705889de00cce0aab998f30b4"
+          }
+        },
+        "options": [
+          {
+            "id": "kp:1",
+            "kpId": 1,
+            "text": "一",
+            "image": {
+              "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+              "kind": "sense",
+              "sha256": "371b7dfbf987e2fb5d98d606cc9c1d4e554a34349324224597591c2409506fc2"
+            },
+            "audio": {
+              "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+              "kind": "speech",
+              "sha256": "ea4cb8a06fee90dbe37028bb9a09c5cdb206e4dc3de6bf406dc5241dc80cc1e4"
+            }
+          },
+          {
+            "id": "kp:8",
+            "kpId": 8,
+            "text": "八",
+            "image": {
+              "revisionId": "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+              "kind": "sense",
+              "sha256": "fb225b4128c78a5e9a71e39cbf556e92303d02be7b7bfcefc9bf1a8a18c15df2"
+            },
+            "audio": {
+              "revisionId": "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+              "kind": "speech",
+              "sha256": "465d8457becce43f9304d6cc4807b58c240d1f7465f2f3dd69737811159c8c53"
+            }
+          },
+          {
+            "id": "kp:5",
+            "kpId": 5,
+            "text": "五",
+            "image": {
+              "revisionId": "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+              "kind": "sense",
+              "sha256": "0bd16e811f89f32994b00f586308605571d4300be250a819ece4b100099ba7fe"
+            },
+            "audio": {
+              "revisionId": "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+              "kind": "speech",
+              "sha256": "aa7597e887e088639622ce63c9c3b8c6fe2f2d9c8ef06009ffe221b1be1b3c99"
+            }
+          },
+          {
+            "id": "kp:2",
+            "kpId": 2,
+            "text": "二",
+            "image": {
+              "revisionId": "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+              "kind": "sense",
+              "sha256": "fcacae6055385d9eda99500e08216027d06298ef5b5563f2a39a37608a4d19f1"
+            },
+            "audio": {
+              "revisionId": "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+              "kind": "speech",
+              "sha256": "1559f192016e69827ca0ca6773ecbca4b13958699d2df9d4a49783d79e1d9631"
+            }
+          }
+        ],
+        "answerOptionId": "kp:1",
+        "explanation": "这道题对应的汉字是『一』",
+        "materialRevisionIds": [
+          "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+          "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+          "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+          "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db"
+        ]
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "kp:1"
+      },
+      "result": {
+        "correct": true,
+        "canRetry": true,
+        "answerOptionId": "kp:1"
+      }
+    },
+    {
+      "questionType": "sense_char",
+      "snapshot": {
+        "interaction": "choice",
+        "responseSchemaVersion": 2,
+        "schemaVersion": 2,
+        "subjectCode": "literacy",
+        "kpId": 1,
+        "targetText": "一",
+        "questionType": "sense_char",
+        "skillCode": "sense_char",
+        "templateVersion": "literacy-choice-v1",
+        "prompt": "看图，选出对应的汉字",
+        "stem": {
+          "image": {
+            "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+            "kind": "sense",
+            "sha256": "371b7dfbf987e2fb5d98d606cc9c1d4e554a34349324224597591c2409506fc2"
+          },
+          "audio": {
+            "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+            "kind": "speech",
+            "sha256": "ea4cb8a06fee90dbe37028bb9a09c5cdb206e4dc3de6bf406dc5241dc80cc1e4"
+          }
+        },
+        "options": [
+          {
+            "id": "kp:1",
+            "kpId": 1,
+            "text": "一",
+            "image": {
+              "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+              "kind": "glyph",
+              "sha256": "f3942b23a8163cdf43bc2365e3cb94b3b8c037d705889de00cce0aab998f30b4"
+            },
+            "audio": {
+              "revisionId": "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db",
+              "kind": "speech",
+              "sha256": "ea4cb8a06fee90dbe37028bb9a09c5cdb206e4dc3de6bf406dc5241dc80cc1e4"
+            }
+          },
+          {
+            "id": "kp:8",
+            "kpId": 8,
+            "text": "八",
+            "image": {
+              "revisionId": "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+              "kind": "glyph",
+              "sha256": "63460e08fa723df5ac3d23957815c33ba34f09c781aa3c62ec66acaf7057d1dd"
+            },
+            "audio": {
+              "revisionId": "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+              "kind": "speech",
+              "sha256": "465d8457becce43f9304d6cc4807b58c240d1f7465f2f3dd69737811159c8c53"
+            }
+          },
+          {
+            "id": "kp:5",
+            "kpId": 5,
+            "text": "五",
+            "image": {
+              "revisionId": "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+              "kind": "glyph",
+              "sha256": "3d260603e3655406dcb6afe128b7bab5cc781c0c331aee684fdb4d2220878e8b"
+            },
+            "audio": {
+              "revisionId": "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+              "kind": "speech",
+              "sha256": "aa7597e887e088639622ce63c9c3b8c6fe2f2d9c8ef06009ffe221b1be1b3c99"
+            }
+          },
+          {
+            "id": "kp:2",
+            "kpId": 2,
+            "text": "二",
+            "image": {
+              "revisionId": "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+              "kind": "glyph",
+              "sha256": "cd5127e744ef00c48c8d2fc508d4d4084e646853d587a3c4853ad74b072eb12c"
+            },
+            "audio": {
+              "revisionId": "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+              "kind": "speech",
+              "sha256": "1559f192016e69827ca0ca6773ecbca4b13958699d2df9d4a49783d79e1d9631"
+            }
+          }
+        ],
+        "answerOptionId": "kp:1",
+        "explanation": "这道题对应的汉字是『一』",
+        "materialRevisionIds": [
+          "8cafa5ad7fef354b311cf1dde5d14283a7cc6cb9bb074b0db66bd09fab035f30",
+          "94064db277b270dff473c64a59f363f1301957d6fe6b565865ae68010815ae1a",
+          "95d026079171daa246b8be8f24c2d61d8f5b893fe2bf78ee483bbdf3746120fc",
+          "9e78a07c57cfa88c6505ae7fa421ece92430bca428075d0664765515f59ed7db"
+        ]
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "kp:1"
+      },
+      "result": {
+        "correct": true,
+        "canRetry": true,
+        "answerOptionId": "kp:1"
+      }
+    },
+    {
+      "questionType": "write_char",
+      "snapshot": {
+        "interaction": "handwriting",
+        "responseSchemaVersion": 2,
+        "evaluationPolicyVersion": "ink-match-v1",
+        "presentation": {
+          "showTarget": false
+        },
+        "writingTemplate": {
+          "revisionId": "b33d5d599013ecc11461271eb22d1dcfbc51edf7d86bf185e0344d0f0ffe6774",
+          "kind": "writing_template",
+          "sha256": "4a5939ff306dadb5fa5fe26bc5ccf89d37a4b7637bf640de6bdf57edde9ea73f"
+        },
+        "schemaVersion": 2,
+        "subjectCode": "literacy",
+        "kpId": 1,
+        "targetText": "一",
+        "questionType": "write_char",
+        "skillCode": "write_char",
+        "templateVersion": "literacy-writing-v1",
+        "prompt": "听读音，在田字格里写出汉字",
+        "stem": {
+          "audio": {
+            "revisionId": "b33d5d599013ecc11461271eb22d1dcfbc51edf7d86bf185e0344d0f0ffe6774",
+            "kind": "speech",
+            "sha256": "ea4cb8a06fee90dbe37028bb9a09c5cdb206e4dc3de6bf406dc5241dc80cc1e4"
+          }
+        },
+        "options": null,
+        "answerOptionId": "",
+        "explanation": "",
+        "materialRevisionIds": [
+          "b33d5d599013ecc11461271eb22d1dcfbc51edf7d86bf185e0344d0f0ffe6774"
+        ]
+      },
+      "response": {
+        "kind": "handwriting",
+        "strokes": [
+          [
+            {
+              "x": 0.1181640625,
+              "y": 0.6162109375,
+              "t": 0
+            },
+            {
+              "x": 0.1884765625,
+              "y": 0.63671875,
+              "t": 1
+            },
+            {
+              "x": 0.4072265625,
+              "y": 0.607421875,
+              "t": 2
+            },
+            {
+              "x": 0.8076171875,
+              "y": 0.576171875,
+              "t": 3
+            },
+            {
+              "x": 0.8984375,
+              "y": 0.6083984375,
+              "t": 4
+            }
+          ]
+        ],
+        "hintsUsed": 0
+      },
+      "result": {
+        "correct": true,
+        "canRetry": true,
+        "evaluation": {
+          "outcome": "passed",
+          "assistance": "none",
+          "evaluatorVersion": "ink-match-v1",
+          "metrics": {
+            "inkFraction": 0.098876953125,
+            "meanStrokeCover": 1,
+            "minIndividualStrokeCover": 1,
+            "minStrokeCover": 1,
+            "precision": 1
+          }
+        }
+      }
+    }
+  ]
+}

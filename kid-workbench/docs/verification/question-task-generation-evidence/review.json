@@ -1,0 +1,9 @@
+{
+  "reviewTaskId": 4,
+  "reviewRevisionId": 4,
+  "reviewPlanId": 89,
+  "otherChildStatus": 404,
+  "withdrawNewClaimStatus": 404,
+  "finishedAfterWithdraw": true,
+  "republished": true
+}

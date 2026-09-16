@@ -1,0 +1,94 @@
+{
+  "attemptId": 261,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "pick",
+  "skillLabel": "选成语",
+  "questionType": "pick",
+  "occurredAt": "2026-09-15T12:56:29.668423Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "chengyu_plan",
+    "planId": 209,
+    "itemId": 659
+  },
+  "planId": 209,
+  "planItemId": 659,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "集中精神，做事专心"
+    },
+    "options": [
+      {
+        "id": "1167",
+        "label": "三心二意"
+      },
+      {
+        "id": "1169",
+        "label": "七上八下"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      },
+      {
+        "id": "1165",
+        "label": "一心一意"
+      }
+    ],
+    "answerOptionId": "1165",
+    "targetText": "一心一意"
+  },
+  "chengyuExample": {
+    "kind": "pick",
+    "stem": "看意思，点出这个成语",
+    "prompt": "集中精神，做事专心",
+    "speech": "一心一意",
+    "options": [
+      {
+        "id": "1167",
+        "label": "三心二意"
+      },
+      {
+        "id": "1169",
+        "label": "七上八下"
+      },
+      {
+        "id": "1172",
+        "label": "一举两得"
+      },
+      {
+        "id": "1165",
+        "label": "一心一意"
+      }
+    ],
+    "answerId": "1165",
+    "chengyu": "一心一意",
+    "pinyin": "yì xīn yì yì",
+    "meaning": "集中精神，做事专心",
+    "example": "做作业要一心一意。"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "1167",
+    "value": "1167"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

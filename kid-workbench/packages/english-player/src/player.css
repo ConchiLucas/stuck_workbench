@@ -1,0 +1,85 @@
+.english-player{
+  --ink:#102a43;--paper:#f4efe4;--card:#fff;--play:#2ec4b6;--sun:#f59e0b;--ok:#15785c;--ok-bg:#c8f0d8;--bad:#dc2626;--bad-bg:#ffe3de;--pic:#dff4ef;
+  --shadow-card:0 1px 0 rgb(16 42 67 / .14),6px 6px 0 var(--ink);--shadow-press:0 1px 0 rgb(16 42 67 / .2),2px 2px 0 var(--ink);
+  --ease-press:cubic-bezier(.2,.7,.2,1);
+  font-family:"Baloo 2","PingFang SC","Avenir Next",sans-serif;color:var(--ink);background:var(--paper);color-scheme:light;font-synthesis:none
+}
+.english-player *,.english-player *::before,.english-player *::after{box-sizing:border-box}
+.english-player button,.english-player a{touch-action:manipulation;cursor:pointer;color:inherit;font:inherit}
+.english-player a{text-decoration:none}
+.english-player :focus-visible{outline:4px solid #f4d35e;outline-offset:3px}
+.english-player .kid-stage{flex:1;display:flex;flex-direction:column;margin:0;padding:8px clamp(24px,4vw,48px) calc(28px + env(safe-area-inset-bottom));background:var(--paper);overflow:visible;min-width:0;min-height:0}
+.english-player .kid-board{flex:1;display:grid;grid-template-columns:minmax(220px,.36fr) minmax(0,1fr);gap:clamp(24px,4vw,40px);align-items:stretch;min-height:0;overflow:visible}
+.english-player .kid-prompt{display:flex;flex-direction:column;justify-content:center;overflow:visible}
+.english-player .kid-prompt h1{max-width:12ch;margin:16px 0 24px;font-size:clamp(40px,5.6vw,68px);line-height:1.12;letter-spacing:-.04em}
+.english-player .kid-work{min-width:0;min-height:0;display:flex;flex-direction:column;gap:14px;padding:8px 12px 16px 0}
+.english-player .kid-slots{display:flex;flex-wrap:wrap;gap:12px;align-items:center;min-height:104px}
+.english-player .kid-tag{display:inline-flex;align-items:center;justify-content:center;min-height:48px;min-width:48px;padding:0 16px;border:2px solid var(--ink);border-radius:999px;background:var(--card);color:var(--ink);font:700 16px/1 "Baloo 2","PingFang SC",sans-serif;white-space:nowrap;box-shadow:0 1px 0 rgb(16 42 67 / .12),3px 3px 0 var(--ink)}
+.english-player .kid-slots .kid-tag{min-height:88px;min-width:88px;padding:0 28px;font-size:48px;font-weight:800}
+.english-player .kid-tag.is-kind{background:var(--ink);color:var(--sun)}
+.english-player .kid-tag.is-slot{min-width:88px;min-height:88px;background:transparent;border-style:dashed;box-shadow:none}
+.english-player .kid-reset{min-height:88px;padding:0 36px;font-size:36px;font-weight:800}
+.english-player .kid-options{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:18px;flex:1;min-height:min(58vh,560px)}
+.english-player .kid-options.is-wide{grid-template-columns:repeat(3,1fr)}
+.english-player .kid-option{position:relative;display:flex;width:100%;min-height:0;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px;border:3px solid var(--ink);border-radius:28px;background:var(--card);color:var(--ink);text-align:center;cursor:pointer;box-shadow:var(--shadow-card)}
+.english-player .kid-option.is-pic{gap:0}
+.english-player .kid-option.is-pic .kid-pic{width:min(200px,62%);height:min(200px,62%);font-size:clamp(96px,12vw,148px);background:transparent}
+.english-player .kid-option strong{font:700 clamp(36px,4.2vw,52px)/1 "Baloo 2","PingFang SC",sans-serif}
+.english-player .kid-options.is-wide .kid-option{container-type:size;padding:8px}
+.english-player .kid-options.is-wide .kid-option strong{font-size:min(74cqh,68cqw);font-weight:800}
+.english-player .kid-pic{display:grid;width:132px;height:132px;flex:none;place-items:center;border-radius:32px;background:var(--pic);font-size:88px}
+.english-player .kid-option.is-picked{background:#fff4d6;border-color:var(--sun);box-shadow:0 1px 0 rgb(16 42 67 / .14),6px 6px 0 var(--sun)}
+.english-player .kid-option.is-right{background:var(--ok-bg);border-color:var(--ok);box-shadow:0 1px 0 rgb(21 120 92 / .2),6px 6px 0 var(--ok)}
+.english-player .kid-option.is-wrong{background:var(--bad-bg);border-color:var(--bad);box-shadow:0 1px 0 rgb(220 38 38 / .18),6px 6px 0 var(--bad)}
+.english-player .kid-option.is-used{opacity:.38;box-shadow:none}
+.english-player .kid-option:disabled{cursor:default}
+.english-player .kid-mark{position:absolute;top:12px;right:12px;display:grid;width:40px;height:40px;place-items:center;border-radius:999px;background:var(--ok);color:#fff}
+.english-player .kid-option.is-wrong .kid-mark{background:var(--bad)}
+.english-player .kid-feedback{margin:18px 0 0;padding:16px 22px;border-radius:18px;background:var(--ink);color:#fff;font:700 24px/1.2 "Baloo 2","PingFang SC",sans-serif}
+.english-player .kid-read{max-width:34em;margin:0 0 18px;padding:18px 20px;border-left:8px solid var(--play);background:var(--card);font-size:22px;line-height:1.55}
+.english-player .kid-cue{display:grid;width:120px;height:120px;margin:8px 0 22px;place-items:center;border:3px solid var(--ink);border-radius:28px;background:var(--sun);font-size:72px;box-shadow:0 1px 0 rgb(16 42 67 / .12),8px 8px 0 #e94f37;overflow:hidden}
+.english-player .kid-cue img{width:100%;height:100%;object-fit:cover}
+.english-player .kid-write{display:flex;flex:1;min-height:min(42vh,420px);flex-direction:column;align-items:center;justify-content:center;gap:22px}
+.english-player .kid-write-field{width:min(100%,760px);min-height:148px;padding:28px 36px;border:3px solid var(--ink);border-radius:32px;background:var(--card);color:var(--ink);font:800 clamp(52px,8vw,96px)/1 "Baloo 2","PingFang SC",sans-serif;letter-spacing:.14em;text-align:center;box-shadow:var(--shadow-card);caret-color:#f97316}
+.english-player .kid-write-go{display:inline-flex;align-items:center;justify-content:center;min-height:72px;padding:0 44px;border:0;border-radius:999px;background:#2563eb;color:#fff;font:800 clamp(28px,3vw,36px)/1 "Baloo 2","PingFang SC",sans-serif;box-shadow:0 0 0 6px rgb(37 99 235 / .28),0 8px 18px rgb(16 42 67 / .18)}
+.english-player .kid-write-field:focus{outline:4px solid #f4d35e;outline-offset:4px}
+.english-player .kid-write-field:disabled{cursor:default}
+.english-player .kid-stage img{width:100%;max-height:120px;object-fit:cover;border-radius:18px}
+.english-player .kid-option img.kid-pic{width:min(100%,72%);height:auto;max-height:min(200px,46%);aspect-ratio:1;object-fit:cover;border-radius:24px;background:#efe6d6}
+.english-player .kid-play{--play-size:min(42vw,220px);position:relative;z-index:1;align-self:flex-start;display:grid;width:var(--play-size);aspect-ratio:1;height:auto;margin:0;padding:0;border:0;background:transparent;cursor:pointer;color:#fff;color-scheme:only light}
+.english-player .kid-play::before{content:"";position:absolute;inset:-28%;z-index:-1;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(255,107,87,.38) 0 32%,transparent 68%)}
+.english-player .kid-play-rings{position:absolute;inset:-16%;pointer-events:none}
+.english-player .kid-play-rings i{position:absolute;inset:16%;border-radius:50%;border:3px solid rgba(255,107,87,.42);opacity:0}
+.english-player .kid-play-face{position:relative;display:grid;width:100%;height:100%;place-items:center;border:0;border-radius:50%;color:#fffefb;background:radial-gradient(circle at 32% 28%,rgba(255,236,228,.95) 0 14%,transparent 44%),radial-gradient(circle at 72% 78%,rgba(255,130,110,.5),transparent 48%),linear-gradient(160deg,#ff9a86 0%,#ff6b57 48%,#e24a38 100%);box-shadow:inset 7px 8px 14px rgba(255,255,255,.38),inset -8px -10px 16px rgba(140,32,28,.38),0 1px 0 rgba(255,210,196,.75),0 16px 36px rgba(226,74,56,.36)}
+.english-player .kid-play-face svg{display:block;width:42%;height:42%;filter:drop-shadow(0 4px 0 rgba(148,36,28,.28))}
+.english-player .kid-play:hover .kid-play-face{transform:scale(1.04)}
+.english-player .kid-play:active .kid-play-face{transform:scale(.96)}
+.english-player .kid-play.is-playing .kid-play-rings i{animation:english-play-ring 1.6s ease-out infinite}
+.english-player .kid-play.is-playing .kid-play-rings i:nth-child(2){animation-delay:.28s}
+.english-player .kid-play.is-playing .kid-play-rings i:nth-child(3){animation-delay:.56s}
+.english-player .kid-option,.english-player .kid-tag,.english-player .kid-play-face,.english-player .kid-write-go{transition:box-shadow .2s var(--ease-press),filter .2s var(--ease-press),background .2s var(--ease-press),transform .2s var(--ease-press)}
+.english-player .kid-option:active:not(:disabled),.english-player .kid-tag:active{box-shadow:var(--shadow-press);filter:brightness(.97)}
+.english-player .kid-audio-missing{margin:0 0 16px;padding:12px 16px;border-radius:16px;background:#ffe3de;color:#9b1c1c;font:700 18px/1.4 "Baloo 2","PingFang SC",sans-serif}
+.english-player.is-readonly .kid-option,.english-player.is-readonly .kid-write-field,.english-player.is-readonly .kid-tag{cursor:default}
+@keyframes english-play-ring{0%{transform:scale(.72);opacity:.55}100%{transform:scale(1.28);opacity:0}}
+@keyframes english-play-glow{0%,100%{transform:scale(.92);opacity:.72}50%{transform:scale(1.08);opacity:1}}
+@media(prefers-reduced-motion:no-preference){
+  .english-player .kid-option{animation:english-pop .4s cubic-bezier(.34,1.4,.64,1) both}
+  .english-player .kid-option:nth-child(1){animation-delay:0s}
+  .english-player .kid-option:nth-child(2){animation-delay:.06s}
+  .english-player .kid-option:nth-child(3){animation-delay:.12s}
+  .english-player .kid-option:nth-child(4){animation-delay:.18s}
+  .english-player .kid-play::before{animation:english-play-glow 2.4s ease-in-out infinite}
+}
+@keyframes english-pop{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.english-player .kid-option,.english-player .kid-play-face,.english-player .kid-play::before,.english-player .kid-play-rings i{transition:none;animation:none}}
+@media(max-width:800px){
+  .english-player .kid-board{grid-template-columns:1fr}
+  .english-player .kid-stage{padding:12px 16px calc(20px + env(safe-area-inset-bottom))}
+  .english-player .kid-options{grid-template-columns:1fr 1fr;min-height:320px}
+  .english-player .kid-pic{width:88px;height:88px;font-size:56px}
+  .english-player .kid-prompt h1{font-size:40px}
+  .english-player .kid-write{min-height:220px;gap:16px}
+  .english-player .kid-write-field{min-height:112px;font-size:56px}
+  .english-player .kid-write-go{min-height:64px;font-size:28px}
+}

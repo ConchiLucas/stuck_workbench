@@ -1,0 +1,105 @@
+{
+  "attemptId": 250,
+  "childId": 12,
+  "kpId": 124657,
+  "title": "数量从小到大",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "order",
+  "skillLabel": "排序",
+  "questionType": "order",
+  "occurredAt": "2026-09-15T01:14:32.320798Z",
+  "isCorrect": true,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 638
+  },
+  "planId": 206,
+  "planItemId": 638,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_mapping",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "order",
+    "stem": {
+      "text": "按数量从小到大点一排"
+    },
+    "options": [],
+    "targetText": "数量从小到大"
+  },
+  "logicExample": {
+    "kind": "order",
+    "prompt": "按数量从小到大点一排",
+    "rule": {
+      "type": "order",
+      "dimension": "count",
+      "direction": "asc",
+      "explain": "数量从小到大"
+    },
+    "objects": [
+      {
+        "id": "o1",
+        "caption": "1",
+        "glyph": "one",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "count": "1"
+        }
+      },
+      {
+        "id": "o2",
+        "caption": "2",
+        "glyph": "two",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "count": "2"
+        }
+      },
+      {
+        "id": "o3",
+        "caption": "3",
+        "glyph": "three",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "count": "3"
+        }
+      }
+    ],
+    "correctSequence": [
+      "o1",
+      "o2",
+      "o3"
+    ],
+    "displayOrder": [
+      "o2",
+      "o1",
+      "o3"
+    ],
+    "glyphVersion": "1",
+    "imageUrls": {
+      "o1": "/api/v1/logic/task-media/a3f14cf4fd186088139f7230017ad9c8d02d16091968f174f85b5c42fb30f002.svg",
+      "o2": "/api/v1/logic/task-media/845c693c204948a60659e3e243e12486c5b4328cc433bd64c0088bd5478e67f6.svg",
+      "o3": "/api/v1/logic/task-media/b56092342dfa7544ab25aa1019f5d00c8170376cc558bb132b1e10eda4f531d0.svg"
+    }
+  },
+  "response": {
+    "kind": "order",
+    "selectedOptionId": "{\"sequence\":[\"o1\",\"o2\",\"o3\"],\"clientId\":\"logic-alignment-v1:ae7603f2b2:order-right\",\"costMs\":900}",
+    "value": "{\"sequence\":[\"o1\",\"o2\",\"o3\"],\"clientId\":\"logic-alignment-v1:ae7603f2b2:order-right\",\"costMs\":900}"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

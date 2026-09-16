@@ -1,0 +1,853 @@
+{
+  "items": [
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 346,
+      "title": "1+1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 347,
+      "title": "1+2",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "learning",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 348,
+      "title": "1+3",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "masteryStatus": "learning",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 2,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "complete",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 349,
+      "title": "1+4",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "masteryStatus": "mastered",
+      "stats": {
+        "observedAttempts": 6,
+        "observedCorrect": 6,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 6,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": true,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 536,
+      "title": "1-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 537,
+      "title": "2-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "learning",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 538,
+      "title": "2-2",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "masteryStatus": "learning",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 2,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "complete",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 539,
+      "title": "3-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "masteryStatus": "mastered",
+      "stats": {
+        "observedAttempts": 6,
+        "observedCorrect": 6,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 6,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "calc",
+          "label": "算式计算",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "story",
+          "label": "情境应用",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": true,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 746,
+      "title": "圆形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "find",
+          "label": "听音找图形",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "name",
+          "label": "看图认名称",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "weak",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 747,
+      "title": "正方形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "masteryStatus": "shaky",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 0,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 0,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "find",
+          "label": "听音找图形",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "name",
+          "label": "看图认名称",
+          "masteryStatus": "shaky",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 0,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 0,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 2,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "learning",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 748,
+      "title": "长方形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "masteryStatus": "learning",
+      "stats": {
+        "observedAttempts": 2,
+        "observedCorrect": 2,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 2,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "find",
+          "label": "听音找图形",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "name",
+          "label": "看图认名称",
+          "masteryStatus": "learning",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 1,
+            "observedCorrect": 1,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 1,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": false,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    },
+    {
+      "masteryCategory": "complete",
+      "reviewDue": false,
+      "firstMasteredAt": null,
+      "kpId": 749,
+      "title": "三角形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "masteryStatus": "mastered",
+      "stats": {
+        "observedAttempts": 6,
+        "observedCorrect": 6,
+        "independentAttempts": 0,
+        "independentCorrect": 0,
+        "assistedAttempts": 0,
+        "unknownAssistanceAttempts": 6,
+        "accuracy": 1,
+        "independentAccuracy": null
+      },
+      "skills": [
+        {
+          "skillCode": "find",
+          "label": "听音找图形",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        },
+        {
+          "skillCode": "name",
+          "label": "看图认名称",
+          "masteryStatus": "mastered",
+          "practiced": true,
+          "dueAt": "2026-09-20T12:11:35.634665Z",
+          "stats": {
+            "observedAttempts": 3,
+            "observedCorrect": 3,
+            "independentAttempts": 0,
+            "independentCorrect": 0,
+            "assistedAttempts": 0,
+            "unknownAssistanceAttempts": 3,
+            "accuracy": 1,
+            "independentAccuracy": null
+          },
+          "evidenceCoverage": "partial"
+        }
+      ],
+      "wrongCount": 0,
+      "lastPracticedAt": null,
+      "hasMasteredAbility": true,
+      "dueAt": "2026-09-20T12:11:35.634665Z",
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "historical_evidence_may_be_incomplete"
+        ]
+      }
+    }
+  ],
+  "hasMore": false,
+  "evidenceAsOf": "2026-09-13T12:12:11.692005003Z",
+  "stateReadAt": "2026-09-13T12:12:11.69199942Z",
+  "coverage": {
+    "level": "partial",
+    "reasonCodes": [
+      "only_recorded_practice"
+    ]
+  }
+}

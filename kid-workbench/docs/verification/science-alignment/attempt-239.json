@@ -1,0 +1,82 @@
+{
+  "attemptId": 239,
+  "childId": 10,
+  "kpId": 124179,
+  "title": "植物生长顺序",
+  "subjectCode": "science",
+  "subjectName": "科普",
+  "moduleCode": "observe",
+  "moduleName": "观察与过程",
+  "skillCode": "sequence",
+  "skillLabel": "排序题",
+  "questionType": "sequence",
+  "occurredAt": "2026-09-14T16:25:04.870807Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "science_plan",
+    "planId": 204,
+    "itemId": 625
+  },
+  "planId": 204,
+  "planItemId": 625,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_mapping",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "sequence",
+    "stem": {
+      "text": "把植物从种子长成幼苗的过程排成正确顺序。"
+    },
+    "options": [],
+    "targetText": "植物生长顺序"
+  },
+  "scienceExample": {
+    "kind": "sequence",
+    "prompt": "把植物从种子长成幼苗的过程排成正确顺序。",
+    "sequenceItems": [
+      {
+        "id": "sprout",
+        "label": "发芽",
+        "icon": "sprout"
+      },
+      {
+        "id": "seed",
+        "label": "种子",
+        "icon": "seed"
+      },
+      {
+        "id": "seedling",
+        "label": "幼苗",
+        "icon": "seedling"
+      }
+    ],
+    "sequenceDisplayOrder": [
+      "sprout",
+      "seed",
+      "seedling"
+    ],
+    "correctSequence": [
+      "seed",
+      "sprout",
+      "seedling"
+    ],
+    "sequenceStartId": "seed",
+    "explanation": "种子吸水后先发芽，再长成幼苗。起点是种子。",
+    "tip": "先找到还没发芽的那一步。",
+    "rationale": "种子萌发：吸水→胚根/胚芽伸出（发芽）→长成幼苗。判定以种子为起点的唯一顺序。"
+  },
+  "response": {
+    "kind": "sequence",
+    "selectedOptionId": "{\"kind\":\"sequence\",\"sequence\":[\"sprout\",\"seed\",\"seedling\"]}",
+    "value": "{\"kind\":\"sequence\",\"sequence\":[\"sprout\",\"seed\",\"seedling\"]}"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

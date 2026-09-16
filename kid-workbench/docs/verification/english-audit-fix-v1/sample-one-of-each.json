@@ -1,0 +1,207 @@
+[
+  {
+    "label": "听音选词",
+    "taskId": 6,
+    "item": {
+      "id": "english-1",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 894,
+      "sourceId": 894,
+      "sourceTable": "english_assets",
+      "moduleCode": "shapes",
+      "moduleName": "Shapes",
+      "sourceContentHash": "580316c2f12376182763dda2",
+      "example": {
+        "kind": "audio-choice",
+        "speech": "circle",
+        "speechUrl": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+        "options": [
+          {
+            "id": "885",
+            "label": "自行车",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "894",
+            "label": "圆形",
+            "picture": "/api/v1/english/task-media/106ca93675593a0684746e658b0f6ea96066f5bd74af4aa10c6f24dff6c71b45.jpg"
+          },
+          {
+            "id": "932",
+            "label": "云",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          },
+          {
+            "id": "770",
+            "label": "白色",
+            "picture": "/api/v1/english/task-media/b77a243b10575d5a8c6cff4fe0eb1a7a3fec4b648102dab516fcc558989343e7.jpg"
+          }
+        ],
+        "answerId": "894"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/770/sense.png": "b77a243b10575d5a8c6cff4fe0eb1a7a3fec4b648102dab516fcc558989343e7",
+        "/api/v1/english/words/885/sense.png": "69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c",
+        "/api/v1/english/words/894/sense.png": "106ca93675593a0684746e658b0f6ea96066f5bd74af4aa10c6f24dff6c71b45",
+        "/api/v1/english/words/894/speech.mp3": "b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199",
+        "/api/v1/english/words/932/sense.png": "90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65"
+      }
+    }
+  },
+  {
+    "label": "看图选词",
+    "taskId": 7,
+    "item": {
+      "id": "english-1",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 885,
+      "sourceId": 885,
+      "sourceTable": "english_assets",
+      "moduleCode": "transport",
+      "moduleName": "Transport",
+      "sourceContentHash": "8c2b750aab4bcf52b0a810d3",
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 bike？",
+        "options": [
+          {
+            "id": "842",
+            "label": "balloon",
+            "picture": "/api/v1/english/task-media/c8b2413b137dfd91d5dd47df902bda8944088ade8bc40b4efc6470485e2071b6.jpg"
+          },
+          {
+            "id": "885",
+            "label": "bike",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "827",
+            "label": "windy",
+            "picture": "/api/v1/english/task-media/06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52.jpg"
+          },
+          {
+            "id": "932",
+            "label": "cloud",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          }
+        ],
+        "answerId": "885"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/827/sense.png": "06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52",
+        "/api/v1/english/words/842/sense.png": "c8b2413b137dfd91d5dd47df902bda8944088ade8bc40b4efc6470485e2071b6",
+        "/api/v1/english/words/885/sense.png": "69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c",
+        "/api/v1/english/words/932/sense.png": "90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65"
+      }
+    }
+  },
+  {
+    "label": "组句子",
+    "taskId": 8,
+    "item": {
+      "id": "english-1",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 785,
+      "sourceId": 5,
+      "sourceTable": "english_sentences",
+      "moduleCode": "food",
+      "moduleName": "Food",
+      "sourceContentHash": "ec661a9482ca72a352e608fb",
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a banana",
+        "speechUrl": "/api/v1/english/task-media/2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103.mp3",
+        "bank": [
+          "a",
+          "is",
+          "This",
+          "banana"
+        ],
+        "answer": "This is a banana"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/sentences/5/speech.mp3": "2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103"
+      }
+    }
+  },
+  {
+    "label": "写单词",
+    "taskId": 9,
+    "item": {
+      "id": "english-1",
+      "kind": "input-gap",
+      "skillCode": "type",
+      "targetId": 868,
+      "sourceId": 868,
+      "sourceTable": "english_assets",
+      "moduleCode": "actions",
+      "moduleName": "Actions",
+      "sourceContentHash": "84a115b9fdb6e21516f097e7",
+      "example": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "stand",
+        "speechUrl": "/api/v1/english/task-media/4f6dce0f21f0d734af77e4728aadf02a44aafbcff315f0e785b7bf955b587c0f.mp3",
+        "cue": "/api/v1/english/task-media/a606745e85202639d46dffab6e4d11e5852a30e58b03217b8ef153f3f091d962.jpg",
+        "answer": "stand"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/868/sense.png": "a606745e85202639d46dffab6e4d11e5852a30e58b03217b8ef153f3f091d962",
+        "/api/v1/english/words/868/speech.mp3": "4f6dce0f21f0d734af77e4728aadf02a44aafbcff315f0e785b7bf955b587c0f"
+      }
+    }
+  },
+  {
+    "label": "读一读",
+    "taskId": 10,
+    "item": {
+      "id": "english-1",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 756,
+      "sourceId": 4,
+      "sourceTable": "english_passages",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "sourceContentHash": "94375358807240922523d23c",
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Sam 看见了什么？",
+        "passage": "Sam sees a blue bird. It sits on the tree.",
+        "options": [
+          {
+            "id": "754",
+            "label": "猫",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "picture": "/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "picture": "/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg"
+          },
+          {
+            "id": "784",
+            "label": "苹果",
+            "picture": "/api/v1/english/task-media/c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4.jpg"
+          }
+        ],
+        "answerId": "756"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/754/sense.png": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+        "/api/v1/english/words/755/sense.png": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+        "/api/v1/english/words/756/sense.png": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+        "/api/v1/english/words/784/sense.png": "c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4"
+      }
+    }
+  }
+]

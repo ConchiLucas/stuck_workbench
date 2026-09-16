@@ -1,0 +1,14 @@
+.english-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.english-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.english-task-form{max-width:600px;margin:auto;display:grid;gap:20px}
+.english-task-form>label{display:grid;gap:8px}
+.english-task-form input:not([type=checkbox]){font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.english-task-form fieldset{display:flex;flex-wrap:wrap;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.english-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.english-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.english-media-source small{display:block}
+/* Host must not set max-width:760px or container queries. App stacks at 800px viewport. */
+.english-task-player{min-width:0;margin:16px 0;color-scheme:light;overflow:visible}
+.english-task-player .english-player{height:auto;background:#f4efe4}
+.english-task-player .kid-stage{height:auto;min-height:0;overflow:visible}
+.english-task-player .kid-board{min-height:0}
+@media(max-width:800px){.english-task-player{margin:12px}}

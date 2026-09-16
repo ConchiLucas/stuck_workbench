@@ -1,0 +1,154 @@
+{
+  "id": 6,
+  "title": "【审核修复】英语·听音选词·english-audit-fix-v1",
+  "count": 3,
+  "types": [
+    "audio-choice"
+  ],
+  "groups": [
+    "Shapes",
+    "Toys",
+    "Body"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 894,
+      "sourceId": 894,
+      "sourceTable": "english_assets",
+      "moduleCode": "shapes",
+      "moduleName": "Shapes",
+      "sourceContentHash": "580316c2f12376182763dda2",
+      "example": {
+        "kind": "audio-choice",
+        "speech": "circle",
+        "speechUrl": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+        "options": [
+          {
+            "id": "885",
+            "label": "自行车",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "894",
+            "label": "圆形",
+            "picture": "/api/v1/english/task-media/106ca93675593a0684746e658b0f6ea96066f5bd74af4aa10c6f24dff6c71b45.jpg"
+          },
+          {
+            "id": "932",
+            "label": "云",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          },
+          {
+            "id": "770",
+            "label": "白色",
+            "picture": "/api/v1/english/task-media/b77a243b10575d5a8c6cff4fe0eb1a7a3fec4b648102dab516fcc558989343e7.jpg"
+          }
+        ],
+        "answerId": "894"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/770/sense.png": "b77a243b10575d5a8c6cff4fe0eb1a7a3fec4b648102dab516fcc558989343e7",
+        "/api/v1/english/words/885/sense.png": "69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c",
+        "/api/v1/english/words/894/sense.png": "106ca93675593a0684746e658b0f6ea96066f5bd74af4aa10c6f24dff6c71b45",
+        "/api/v1/english/words/894/speech.mp3": "b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199",
+        "/api/v1/english/words/932/sense.png": "90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 834,
+      "sourceId": 834,
+      "sourceTable": "english_assets",
+      "moduleCode": "toys",
+      "moduleName": "Toys",
+      "sourceContentHash": "bd3c9bc0e518667622b505e7",
+      "example": {
+        "kind": "audio-choice",
+        "speech": "ball",
+        "speechUrl": "/api/v1/english/task-media/7a3caa071e3c29ead5dcb191f08681b33063a2046830e70a8c5c645a873f6486.mp3",
+        "options": [
+          {
+            "id": "864",
+            "label": "跑",
+            "picture": "/api/v1/english/task-media/3bc3ef6b947e304657c5472296072ff389fb3f54f4527f15eb7842885b9f50e4.jpg"
+          },
+          {
+            "id": "762",
+            "label": "猴子",
+            "picture": "/api/v1/english/task-media/bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae.jpg"
+          },
+          {
+            "id": "826",
+            "label": "多云的",
+            "picture": "/api/v1/english/task-media/db8c70799780c24af7917fe1cf2e6d36fe8e3c978ccee5a6f84378d18658fdb2.jpg"
+          },
+          {
+            "id": "834",
+            "label": "球",
+            "picture": "/api/v1/english/task-media/88ce3566f42316b4e22872631dd9929aa60d676df191673bef3c988bc31da370.jpg"
+          }
+        ],
+        "answerId": "834"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/762/sense.png": "bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae",
+        "/api/v1/english/words/826/sense.png": "db8c70799780c24af7917fe1cf2e6d36fe8e3c978ccee5a6f84378d18658fdb2",
+        "/api/v1/english/words/834/sense.png": "88ce3566f42316b4e22872631dd9929aa60d676df191673bef3c988bc31da370",
+        "/api/v1/english/words/834/speech.mp3": "7a3caa071e3c29ead5dcb191f08681b33063a2046830e70a8c5c645a873f6486",
+        "/api/v1/english/words/864/sense.png": "3bc3ef6b947e304657c5472296072ff389fb3f54f4527f15eb7842885b9f50e4"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 811,
+      "sourceId": 811,
+      "sourceTable": "english_assets",
+      "moduleCode": "body",
+      "moduleName": "Body",
+      "sourceContentHash": "0e4cab620270f46360abe836",
+      "example": {
+        "kind": "audio-choice",
+        "speech": "arm",
+        "speechUrl": "/api/v1/english/task-media/85c4bff3c9327f38982e63e6c53e7c575b3570f6eaad3fe6d63609555f14f3a2.mp3",
+        "options": [
+          {
+            "id": "813",
+            "label": "头发",
+            "picture": "/api/v1/english/task-media/d43a35af7e61f271a296cdea0cba7f842dbee24791b9fe54bc2d2593c651c1c1.jpg"
+          },
+          {
+            "id": "811",
+            "label": "手臂",
+            "picture": "/api/v1/english/task-media/64738d05c62cd61dd486448795bef4a7fa1756ba7c879b2b65053755b63c1112.jpg"
+          },
+          {
+            "id": "831",
+            "label": "温暖的",
+            "picture": "/api/v1/english/task-media/12d456b44ee1f0b95163480d279a3dfd9a0cd8cf3873ceee6dba1d6d7c02a276.jpg"
+          },
+          {
+            "id": "812",
+            "label": "腿",
+            "picture": "/api/v1/english/task-media/ff651c8a6497cd0f16602f6567cbebadd027399dba08c0b8dd3329f0275ed7b5.jpg"
+          }
+        ],
+        "answerId": "811"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/811/sense.png": "64738d05c62cd61dd486448795bef4a7fa1756ba7c879b2b65053755b63c1112",
+        "/api/v1/english/words/811/speech.mp3": "85c4bff3c9327f38982e63e6c53e7c575b3570f6eaad3fe6d63609555f14f3a2",
+        "/api/v1/english/words/812/sense.png": "ff651c8a6497cd0f16602f6567cbebadd027399dba08c0b8dd3329f0275ed7b5",
+        "/api/v1/english/words/813/sense.png": "d43a35af7e61f271a296cdea0cba7f842dbee24791b9fe54bc2d2593c651c1c1",
+        "/api/v1/english/words/831/sense.png": "12d456b44ee1f0b95163480d279a3dfd9a0cd8cf3873ceee6dba1d6d7c02a276"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T15:33:27.16623Z"
+}

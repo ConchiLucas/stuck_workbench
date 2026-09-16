@@ -1,0 +1,147 @@
+{
+  "id": 5,
+  "title": "【验收演示】英语·读一读·english-review-demo-v1",
+  "count": 3,
+  "types": [
+    "reading-qa"
+  ],
+  "groups": [
+    "School",
+    "Body"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 846,
+      "sourceTable": "english_assets",
+      "moduleCode": "school",
+      "moduleName": "School",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Lucy 把什么放在桌上？",
+        "passage": "Lucy has a red pencil. She puts it on the table.",
+        "options": [
+          {
+            "id": "931",
+            "label": "星星",
+            "picture": "/api/v1/english/task-media/599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f.jpg"
+          },
+          {
+            "id": "846",
+            "label": "铅笔",
+            "picture": "/api/v1/english/task-media/aa2e98af87b44a8c1e3c548ffdb028fa3be2e753f8d68b50f3d37e7911855967.jpg"
+          },
+          {
+            "id": "820",
+            "label": "樱桃",
+            "picture": "/api/v1/english/task-media/3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1.jpg"
+          },
+          {
+            "id": "768",
+            "label": "粉色",
+            "picture": "/api/v1/english/task-media/bc49814c882d2e40a4ed3adbbc40c3094c285856ff6ecb34a778f0f5ebffa71d.jpg"
+          }
+        ],
+        "answerId": "846"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/768/sense.png": "bc49814c882d2e40a4ed3adbbc40c3094c285856ff6ecb34a778f0f5ebffa71d",
+        "/api/v1/english/words/820/sense.png": "3a711b4ca6c0fc2df443eb714bacbcb1c7597628684a082642264e0ca7009bc1",
+        "/api/v1/english/words/846/sense.png": "aa2e98af87b44a8c1e3c548ffdb028fa3be2e753f8d68b50f3d37e7911855967",
+        "/api/v1/english/words/931/sense.png": "599babb6fc0feaccd85a2740dff865d8f40b844761cac6444872edcbd709875f"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 808,
+      "sourceTable": "english_assets",
+      "moduleCode": "body",
+      "moduleName": "Body",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Lucy 把什么放在桌上？",
+        "passage": "Lucy has a red mouth. She puts it on the table.",
+        "options": [
+          {
+            "id": "936",
+            "label": "厨师",
+            "picture": "/api/v1/english/task-media/185576a544500434f4d13b13b6e7e0206363796eeba374c4000ca8f29d2acc2b.jpg"
+          },
+          {
+            "id": "819",
+            "label": "瓜",
+            "picture": "/api/v1/english/task-media/fdd13e11f64f234e944f0fbd0c4fb3612b18e94681460fcf37d51a5bf308a05c.jpg"
+          },
+          {
+            "id": "808",
+            "label": "嘴巴",
+            "picture": "/api/v1/english/task-media/6a0cc1200f95f7217309291a8dd13507cfc767e8b5ada1e323e5d58a551cdf73.jpg"
+          },
+          {
+            "id": "822",
+            "label": "猕猴桃",
+            "picture": "/api/v1/english/task-media/931d5347a35fd446b87d1d931ce53da39a5bfe42dea875c50023d509b278706b.jpg"
+          }
+        ],
+        "answerId": "808"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/808/sense.png": "6a0cc1200f95f7217309291a8dd13507cfc767e8b5ada1e323e5d58a551cdf73",
+        "/api/v1/english/words/819/sense.png": "fdd13e11f64f234e944f0fbd0c4fb3612b18e94681460fcf37d51a5bf308a05c",
+        "/api/v1/english/words/822/sense.png": "931d5347a35fd446b87d1d931ce53da39a5bfe42dea875c50023d509b278706b",
+        "/api/v1/english/words/936/sense.png": "185576a544500434f4d13b13b6e7e0206363796eeba374c4000ca8f29d2acc2b"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 807,
+      "sourceTable": "english_assets",
+      "moduleCode": "body",
+      "moduleName": "Body",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Lucy 把什么放在桌上？",
+        "passage": "Lucy has a red nose. She puts it on the table.",
+        "options": [
+          {
+            "id": "807",
+            "label": "鼻子",
+            "picture": "/api/v1/english/task-media/41497df5282b86eb17b2e184a8b060f332636618d168dad327a5fc9de5d1ecdd.jpg"
+          },
+          {
+            "id": "796",
+            "label": "婴儿",
+            "picture": "/api/v1/english/task-media/994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3.jpg"
+          },
+          {
+            "id": "830",
+            "label": "冷的",
+            "picture": "/api/v1/english/task-media/ee71c8a48cf46d1f64ddc730f7095a8afd38798a23760128bbb49500d9f79277.jpg"
+          },
+          {
+            "id": "785",
+            "label": "香蕉",
+            "picture": "/api/v1/english/task-media/ef0b0430c8c6e8930771d648ac68a0816cc94bca4df87bb260592e68ed9ebeff.jpg"
+          }
+        ],
+        "answerId": "807"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/785/sense.png": "ef0b0430c8c6e8930771d648ac68a0816cc94bca4df87bb260592e68ed9ebeff",
+        "/api/v1/english/words/796/sense.png": "994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3",
+        "/api/v1/english/words/807/sense.png": "41497df5282b86eb17b2e184a8b060f332636618d168dad327a5fc9de5d1ecdd",
+        "/api/v1/english/words/830/sense.png": "ee71c8a48cf46d1f64ddc730f7095a8afd38798a23760128bbb49500d9f79277"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T13:32:33.00186Z"
+}

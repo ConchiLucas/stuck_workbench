@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <rect width="800" height="500" rx="36" fill="#e9f7ee"/>
+  <g fill="#c43d3d">
+    <circle cx="110" cy="130" r="28"/>
+    <circle cx="178" cy="130" r="28"/>
+    <circle cx="246" cy="130" r="28"/>
+    <circle cx="110" cy="210" r="28"/>
+    <circle cx="178" cy="210" r="28"/>
+  </g>
+  <text x="70" y="300" font-size="36" font-family="Nunito,PingFang SC,sans-serif" font-weight="800" fill="#3d6b46">3 + 2</text>
+  <rect x="430" y="70" width="140" height="140" rx="26" fill="#fffdf4" stroke="#8dbf93" stroke-width="6"/>
+  <rect x="590" y="70" width="140" height="140" rx="26" fill="#dcefdc" stroke="#5f9a66" stroke-width="8"/>
+  <rect x="430" y="240" width="140" height="140" rx="26" fill="#fffdf4" stroke="#8dbf93" stroke-width="6"/>
+  <rect x="590" y="240" width="140" height="140" rx="26" fill="#fffdf4" stroke="#8dbf93" stroke-width="6"/>
+  <text x="500" y="160" text-anchor="middle" font-size="60" font-family="Nunito,sans-serif" font-weight="800" fill="#3d6b46">4</text>
+  <text x="660" y="160" text-anchor="middle" font-size="60" font-family="Nunito,sans-serif" font-weight="800" fill="#2f6a38">5</text>
+  <text x="500" y="330" text-anchor="middle" font-size="60" font-family="Nunito,sans-serif" font-weight="800" fill="#3d6b46">6</text>
+  <text x="660" y="330" text-anchor="middle" font-size="60" font-family="Nunito,sans-serif" font-weight="800" fill="#3d6b46">7</text>
+</svg>

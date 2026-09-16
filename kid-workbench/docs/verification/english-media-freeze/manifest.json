@@ -1,0 +1,704 @@
+{
+  "childId": 7,
+  "plan": {
+    "plan": {
+      "id": 188,
+      "planDate": "2026-09-13T00:00:00Z",
+      "seqNo": 1,
+      "subjectCode": "english",
+      "status": "pending",
+      "targetCount": 8,
+      "doneCount": 0,
+      "correctCount": 0,
+      "stars": 0,
+      "durationSec": 0,
+      "createdAt": "2026-09-13T23:41:21.126975Z",
+      "startedAt": null,
+      "completedAt": null
+    },
+    "items": [
+      {
+        "id": 548,
+        "seq": 1,
+        "kpId": 754,
+        "word": "cat",
+        "meaningZh": "猫",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "1,3,2,0",
+        "question": {
+          "id": 1806,
+          "code": "listen",
+          "type": "choice",
+          "stem": "听一听，点出这个单词",
+          "options": [
+            {
+              "kpId": 763,
+              "label": "panda"
+            },
+            {
+              "kpId": 761,
+              "label": "bear"
+            },
+            {
+              "kpId": 754,
+              "label": "cat"
+            },
+            {
+              "kpId": 757,
+              "label": "fish"
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "cat",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 549,
+        "seq": 2,
+        "kpId": 754,
+        "word": "cat",
+        "meaningZh": "猫",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "1,3,0,2",
+        "question": {
+          "id": 1807,
+          "code": "picture",
+          "type": "choice",
+          "stem": "听一听，点出对应的图",
+          "options": [
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/754/sense.png",
+              "kpId": 754
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/763/sense.png",
+              "kpId": 763
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/759/sense.png",
+              "kpId": 759
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/758/sense.png",
+              "kpId": 758
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "cat",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 550,
+        "seq": 3,
+        "kpId": 755,
+        "word": "dog",
+        "meaningZh": "狗",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "2,3,1,0",
+        "question": {
+          "id": 1808,
+          "code": "listen",
+          "type": "choice",
+          "stem": "听一听，点出这个单词",
+          "options": [
+            {
+              "kpId": 754,
+              "label": "cat"
+            },
+            {
+              "kpId": 757,
+              "label": "fish"
+            },
+            {
+              "kpId": 755,
+              "label": "dog"
+            },
+            {
+              "kpId": 756,
+              "label": "bird"
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "dog",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 551,
+        "seq": 4,
+        "kpId": 755,
+        "word": "dog",
+        "meaningZh": "狗",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "1,2,0,3",
+        "question": {
+          "id": 1809,
+          "code": "picture",
+          "type": "choice",
+          "stem": "听一听，点出对应的图",
+          "options": [
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/755/sense.png",
+              "kpId": 755
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/761/sense.png",
+              "kpId": 761
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/760/sense.png",
+              "kpId": 760
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/763/sense.png",
+              "kpId": 763
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "dog",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 552,
+        "seq": 5,
+        "kpId": 756,
+        "word": "bird",
+        "meaningZh": "鸟",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "0,2,3,1",
+        "question": {
+          "id": 1810,
+          "code": "listen",
+          "type": "choice",
+          "stem": "听一听，点出这个单词",
+          "options": [
+            {
+              "kpId": 763,
+              "label": "panda"
+            },
+            {
+              "kpId": 762,
+              "label": "monkey"
+            },
+            {
+              "kpId": 756,
+              "label": "bird"
+            },
+            {
+              "kpId": 758,
+              "label": "rabbit"
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "bird",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 553,
+        "seq": 6,
+        "kpId": 756,
+        "word": "bird",
+        "meaningZh": "鸟",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "1,0,2,3",
+        "question": {
+          "id": 1811,
+          "code": "picture",
+          "type": "choice",
+          "stem": "听一听，点出对应的图",
+          "options": [
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/760/sense.png",
+              "kpId": 760
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/762/sense.png",
+              "kpId": 762
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/756/sense.png",
+              "kpId": 756
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/759/sense.png",
+              "kpId": 759
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "bird",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 554,
+        "seq": 7,
+        "kpId": 757,
+        "word": "fish",
+        "meaningZh": "鱼",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "2,3,0,1",
+        "question": {
+          "id": 1812,
+          "code": "listen",
+          "type": "choice",
+          "stem": "听一听，点出这个单词",
+          "options": [
+            {
+              "kpId": 760,
+              "label": "lion"
+            },
+            {
+              "kpId": 758,
+              "label": "rabbit"
+            },
+            {
+              "kpId": 757,
+              "label": "fish"
+            },
+            {
+              "kpId": 759,
+              "label": "tiger"
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "fish",
+            "lang": "en-US"
+          }
+        }
+      },
+      {
+        "id": 555,
+        "seq": 8,
+        "kpId": 757,
+        "word": "fish",
+        "meaningZh": "鱼",
+        "bucket": "new",
+        "status": "pending",
+        "tries": 0,
+        "picks": "",
+        "optionOrder": "0,2,1,3",
+        "question": {
+          "id": 1813,
+          "code": "picture",
+          "type": "choice",
+          "stem": "听一听，点出对应的图",
+          "options": [
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/756/sense.png",
+              "kpId": 756
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/757/sense.png",
+              "kpId": 757
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/755/sense.png",
+              "kpId": 755
+            },
+            {
+              "assetKind": "sense",
+              "assetUrl": "/api/v1/english/words/754/sense.png",
+              "kpId": 754
+            }
+          ],
+          "visual": {},
+          "speech": {
+            "text": "fish",
+            "lang": "en-US"
+          }
+        }
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "kind": "audio-choice",
+      "item": 548,
+      "attempts": [
+        {
+          "id": 213,
+          "selected": "757",
+          "correct": false
+        },
+        {
+          "id": 214,
+          "selected": "754",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "kind": "image-text",
+      "item": 549,
+      "attempts": [
+        {
+          "id": 215,
+          "selected": "763",
+          "correct": false
+        },
+        {
+          "id": 216,
+          "selected": "754",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "mediaChecks": [
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/213/media/stem-audio",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/214/media/stem-audio",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg",
+      "sha256": "a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0",
+      "bytes": 81726
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg",
+      "sha256": "a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0",
+      "bytes": 81726
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/215/media/stem-audio",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/215/media/option-0-image",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/215/media/option-1-image",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/215/media/option-2-image",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/215/media/option-3-image",
+      "sha256": "a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0",
+      "bytes": 81726
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/216/media/stem-audio",
+      "sha256": "4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/216/media/option-0-image",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/216/media/option-1-image",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/216/media/option-2-image",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19211/api/v1/children/7/knowledge/attempts/216/media/option-3-image",
+      "sha256": "a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0",
+      "bytes": 81726
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439.mp3",
+      "sha256": "af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439.mp3",
+      "sha256": "af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439.mp3",
+      "sha256": "af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439.mp3",
+      "sha256": "af67943b7345c0e42eb548dc82a1afbd28221055c36190712d1c581615789439",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg",
+      "sha256": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+      "bytes": 82273
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg",
+      "sha256": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+      "bytes": 82273
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/d4f78a95a17d3b4df0b7e411d38c78aab1421f200a826b0db66c0a3a7f583b3b.jpg",
+      "sha256": "d4f78a95a17d3b4df0b7e411d38c78aab1421f200a826b0db66c0a3a7f583b3b",
+      "bytes": 77520
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/d4f78a95a17d3b4df0b7e411d38c78aab1421f200a826b0db66c0a3a7f583b3b.jpg",
+      "sha256": "d4f78a95a17d3b4df0b7e411d38c78aab1421f200a826b0db66c0a3a7f583b3b",
+      "bytes": 77520
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b.jpg",
+      "sha256": "2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b",
+      "bytes": 119415
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b.jpg",
+      "sha256": "2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b",
+      "bytes": 119415
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg",
+      "sha256": "821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503",
+      "bytes": 88313
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a.mp3",
+      "sha256": "487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a.mp3",
+      "sha256": "487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a.mp3",
+      "sha256": "487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a.mp3",
+      "sha256": "487dd4469af6d718ecc07e30d67707ee2fe09c2d579374205f89d58fe9201c6a",
+      "bytes": 12288
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b.jpg",
+      "sha256": "2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b",
+      "bytes": 119415
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b.jpg",
+      "sha256": "2e029b473adb3daeff0d3103e44a282962d0d83ee2f3bc261482e3e341e6465b",
+      "bytes": 119415
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae.jpg",
+      "sha256": "bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae",
+      "bytes": 84621
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae.jpg",
+      "sha256": "bf5bfb605e1d078f243d682c4664d71e501809309f825b21f97be24dcb7394ae",
+      "bytes": 84621
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg",
+      "sha256": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+      "bytes": 75395
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg",
+      "sha256": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+      "bytes": 75395
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg",
+      "sha256": "fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01",
+      "bytes": 112853
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b.mp3",
+      "sha256": "1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b",
+      "bytes": 13440
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b.mp3",
+      "sha256": "1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b",
+      "bytes": 13440
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b.mp3",
+      "sha256": "1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b",
+      "bytes": 13440
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b.mp3",
+      "sha256": "1a7040122f3574ed77c2abf59d05a61c357002a8a157d822721a7005975ed16b",
+      "bytes": 13440
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg",
+      "sha256": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+      "bytes": 75395
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg",
+      "sha256": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+      "bytes": 75395
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/caf4409732af4117c447ccf0d70481872c9c5ef05903779395f90f1847668625.jpg",
+      "sha256": "caf4409732af4117c447ccf0d70481872c9c5ef05903779395f90f1847668625",
+      "bytes": 64552
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/caf4409732af4117c447ccf0d70481872c9c5ef05903779395f90f1847668625.jpg",
+      "sha256": "caf4409732af4117c447ccf0d70481872c9c5ef05903779395f90f1847668625",
+      "bytes": 64552
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg",
+      "sha256": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+      "bytes": 82273
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg",
+      "sha256": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+      "bytes": 82273
+    },
+    {
+      "url": "http://localhost:19201/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    },
+    {
+      "url": "http://localhost:19081/api/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg",
+      "sha256": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+      "bytes": 75573
+    }
+  ],
+  "protectedAttemptsUnchanged": true,
+  "legacy196Fidelity": "mutable_reference"
+}

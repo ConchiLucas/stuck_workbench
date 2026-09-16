@@ -1,0 +1,2 @@
+ALTER TABLE plan_items
+ADD COLUMN option_order TEXT NOT NULL DEFAULT '';

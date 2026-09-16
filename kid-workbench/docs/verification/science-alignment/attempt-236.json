@@ -1,0 +1,92 @@
+{
+  "attemptId": 236,
+  "childId": 10,
+  "kpId": 124172,
+  "title": "鸭子的脚掌",
+  "subjectCode": "science",
+  "subjectName": "科普",
+  "moduleCode": "observe",
+  "moduleName": "观察与过程",
+  "skillCode": "choice",
+  "skillLabel": "选择题",
+  "questionType": "choice",
+  "occurredAt": "2026-09-14T16:25:04.025563Z",
+  "isCorrect": true,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "science_plan",
+    "planId": 204,
+    "itemId": 623
+  },
+  "planId": 204,
+  "planItemId": 623,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "哪种动物的脚掌最适合在水里游泳？"
+    },
+    "options": [
+      {
+        "id": "duck",
+        "label": "鸭子"
+      },
+      {
+        "id": "cat",
+        "label": "猫"
+      },
+      {
+        "id": "rabbit",
+        "label": "兔子"
+      }
+    ],
+    "answerOptionId": "duck",
+    "targetText": "鸭子的脚掌"
+  },
+  "scienceExample": {
+    "kind": "choice",
+    "prompt": "哪种动物的脚掌最适合在水里游泳？",
+    "icon": "duck",
+    "options": [
+      {
+        "id": "duck",
+        "label": "鸭子",
+        "icon": "duck"
+      },
+      {
+        "id": "cat",
+        "label": "猫",
+        "icon": "cat"
+      },
+      {
+        "id": "rabbit",
+        "label": "兔子",
+        "icon": "rabbit"
+      }
+    ],
+    "answerId": "duck",
+    "optionOrder": [
+      "duck",
+      "cat",
+      "rabbit"
+    ],
+    "explanation": "鸭子的脚趾之间有蹼，像小扇子，划水更有力。",
+    "tip": "先看脚趾之间，有没有像小扇子一样连起来。",
+    "rationale": "蹼足增加划水面积。本题问最适合在水里游泳的脚掌，鸭子成立，猫和兔子没有蹼。"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "duck",
+    "value": "duck"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

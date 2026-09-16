@@ -1,0 +1,273 @@
+{
+  "snapshot": {
+    "kind": "audio-choice",
+    "schema": 1,
+    "example": {
+      "kind": "audio-choice",
+      "prompt": "听一听，点出这个单词",
+      "speech": "cat",
+      "options": [
+        {
+          "id": "757",
+          "label": "鱼"
+        },
+        {
+          "id": "754",
+          "label": "猫"
+        },
+        {
+          "id": "761",
+          "label": "熊"
+        },
+        {
+          "id": "763",
+          "label": "熊猫"
+        }
+      ],
+      "answerId": "754",
+      "speechUrl": "/api/v1/english/words/754/speech.mp3"
+    },
+    "selected": "",
+    "skillCode": "listen",
+    "mediaSHA256": {
+      "/api/v1/english/words/754/speech.mp3": "http://localhost:19091/api/v1/english/words/754/speech.mp3"
+    },
+    "responseKind": "choice"
+  },
+  "attempts": [
+    {
+      "id": 196,
+      "selected": "761",
+      "isCorrect": false,
+      "createdAt": "2026-09-13T16:42:39.523042+00:00"
+    },
+    {
+      "id": 197,
+      "selected": "754",
+      "isCorrect": true,
+      "createdAt": "2026-09-13T16:42:39.531679+00:00"
+    }
+  ],
+  "progress": {
+    "english_review": {
+      "example": {
+        "kind": "audio-choice",
+        "prompt": "听一听，点出这个单词",
+        "speech": "cat",
+        "speechUrl": "/api/english/words/754/speech.mp3",
+        "options": [
+          {
+            "id": "757",
+            "label": "鱼"
+          },
+          {
+            "id": "754",
+            "label": "猫"
+          },
+          {
+            "id": "761",
+            "label": "熊"
+          },
+          {
+            "id": "763",
+            "label": "熊猫"
+          }
+        ],
+        "answerId": "754"
+      },
+      "selected": "761",
+      "response_kind": "choice"
+    },
+    "attempt_id": 196,
+    "selected_option_id": "761",
+    "at": "2026-09-13T16:42:39.523042Z",
+    "is_correct": false,
+    "cost_ms": 900,
+    "source": "quiz",
+    "skill_code": "listen"
+  },
+  "knowledge": {
+    "first": {
+      "attemptId": 196,
+      "childId": 5,
+      "kpId": 754,
+      "title": "cat",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "skillCode": "listen",
+      "skillLabel": "听音选词",
+      "questionType": "listen",
+      "occurredAt": "2026-09-13T16:42:39.523042Z",
+      "isCorrect": false,
+      "costMs": 900,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 185,
+        "itemId": 528
+      },
+      "planId": 185,
+      "planItemId": 528,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "听一听，点出这个单词",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "757",
+            "label": "鱼"
+          },
+          {
+            "id": "754",
+            "label": "猫"
+          },
+          {
+            "id": "761",
+            "label": "熊"
+          },
+          {
+            "id": "763",
+            "label": "熊猫"
+          }
+        ],
+        "answerOptionId": "754",
+        "targetText": "cat"
+      },
+      "englishExample": {
+        "kind": "audio-choice",
+        "prompt": "听一听，点出这个单词",
+        "speech": "cat",
+        "speechUrl": "/api/v1/english/words/754/speech.mp3",
+        "options": [
+          {
+            "id": "757",
+            "label": "鱼"
+          },
+          {
+            "id": "754",
+            "label": "猫"
+          },
+          {
+            "id": "761",
+            "label": "熊"
+          },
+          {
+            "id": "763",
+            "label": "熊猫"
+          }
+        ],
+        "answerId": "754"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "761",
+        "value": "761"
+      },
+      "followUpState": "answered_correctly_later",
+      "laterAttempts": 1
+    },
+    "later": {
+      "attemptId": 197,
+      "childId": 5,
+      "kpId": 754,
+      "title": "cat",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "skillCode": "listen",
+      "skillLabel": "听音选词",
+      "questionType": "listen",
+      "occurredAt": "2026-09-13T16:42:39.531679Z",
+      "isCorrect": true,
+      "costMs": 900,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 185,
+        "itemId": 528
+      },
+      "planId": 185,
+      "planItemId": 528,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "听一听，点出这个单词",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "757",
+            "label": "鱼"
+          },
+          {
+            "id": "754",
+            "label": "猫"
+          },
+          {
+            "id": "761",
+            "label": "熊"
+          },
+          {
+            "id": "763",
+            "label": "熊猫"
+          }
+        ],
+        "answerOptionId": "754",
+        "targetText": "cat"
+      },
+      "englishExample": {
+        "kind": "audio-choice",
+        "prompt": "听一听，点出这个单词",
+        "speech": "cat",
+        "speechUrl": "/api/v1/english/words/754/speech.mp3",
+        "options": [
+          {
+            "id": "757",
+            "label": "鱼"
+          },
+          {
+            "id": "754",
+            "label": "猫"
+          },
+          {
+            "id": "761",
+            "label": "熊"
+          },
+          {
+            "id": "763",
+            "label": "熊猫"
+          }
+        ],
+        "answerId": "754"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "754",
+        "value": "754"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    }
+  }
+}

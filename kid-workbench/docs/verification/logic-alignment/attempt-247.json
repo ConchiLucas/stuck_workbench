@@ -1,0 +1,135 @@
+{
+  "attemptId": 247,
+  "childId": 12,
+  "kpId": 124653,
+  "title": "动物里的例外",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "classify",
+  "skillLabel": "分类",
+  "questionType": "classify",
+  "occurredAt": "2026-09-15T01:14:32.05933Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 637
+  },
+  "planId": 206,
+  "planItemId": 637,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "哪个不属于这一类？"
+    },
+    "options": [
+      {
+        "id": "dog",
+        "label": "狗",
+        "imageMediaId": "glyph-dog"
+      },
+      {
+        "id": "cat",
+        "label": "猫",
+        "imageMediaId": "glyph-cat"
+      },
+      {
+        "id": "car",
+        "label": "汽车",
+        "imageMediaId": "glyph-car"
+      },
+      {
+        "id": "bird",
+        "label": "鸟",
+        "imageMediaId": "glyph-bird"
+      }
+    ],
+    "answerOptionId": "car",
+    "targetText": "动物里的例外"
+  },
+  "logicExample": {
+    "kind": "classify",
+    "prompt": "哪个不属于这一类？",
+    "rule": {
+      "type": "odd-one-out",
+      "dimension": "kingdom",
+      "inGroup": "animal",
+      "explain": "动物里的例外"
+    },
+    "objects": [
+      {
+        "id": "cat",
+        "caption": "猫",
+        "glyph": "cat",
+        "fill": "#f59e0b",
+        "scale": 2,
+        "attrs": {
+          "category": "animal"
+        }
+      },
+      {
+        "id": "dog",
+        "caption": "狗",
+        "glyph": "dog",
+        "fill": "#92400e",
+        "scale": 2,
+        "attrs": {
+          "category": "animal"
+        }
+      },
+      {
+        "id": "bird",
+        "caption": "鸟",
+        "glyph": "bird",
+        "fill": "#0ea5e9",
+        "scale": 2,
+        "attrs": {
+          "category": "animal"
+        }
+      },
+      {
+        "id": "car",
+        "caption": "汽车",
+        "glyph": "car",
+        "fill": "#e11d48",
+        "scale": 2,
+        "attrs": {
+          "category": "vehicle"
+        }
+      }
+    ],
+    "options": [
+      "dog",
+      "cat",
+      "car",
+      "bird"
+    ],
+    "answerId": "car",
+    "glyphVersion": "1",
+    "imageUrls": {
+      "bird": "/api/v1/logic/task-media/e34d63bf931beeb8ea896646573fc96b3c7c192dab0bfd0d62685f6d1d994ce6.svg",
+      "car": "/api/v1/logic/task-media/4919dbb91e8f9cc6dfa5bc0df3f5197af20f74e3546888af89aff6064fb6c4a2.svg",
+      "cat": "/api/v1/logic/task-media/cbab986fa61f16b8f4774490b35757249dae32d72ec5be01eb764c289f7aa7d4.svg",
+      "dog": "/api/v1/logic/task-media/ca9022948a272003d2247775e0b016fea9acb4847ca56e491103b6eec1608c6b.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "dog",
+    "value": "dog"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

@@ -1,0 +1,25 @@
+.pinyin-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.pinyin-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.pinyin-task-form{max-width:600px;margin:auto;display:grid;gap:20px}
+.pinyin-task-form>label{display:grid;gap:8px}
+.pinyin-task-form input:not([type=checkbox]){font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.pinyin-task-form fieldset{display:flex;flex-wrap:wrap;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.pinyin-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.pinyin-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.pinyin-media-source small{display:block}
+
+/* App fills a fixed practice viewport; a task contains a scrolling list of questions.
+   Give size-container options explicit rows and let the question contribute its full height. */
+.pinyin-task-player{min-width:0;container-type:inline-size;margin:16px 0}
+.pinyin-task-player .pinyin-question{height:auto;min-height:0;padding:16px;border-radius:16px;grid-template-rows:auto auto auto}
+.pinyin-task-player .pinyin-question .question-body{height:auto;min-height:412px;overflow:visible}
+.pinyin-task-player .pinyin-question .answer-area{height:auto;min-height:0;grid-template-rows:36px auto auto;overflow:visible}
+.pinyin-task-player .pinyin-question .option-grid{grid-template-rows:repeat(2,minmax(180px,1fr))}
+.pinyin-task-player .pinyin-question .sound-panel{height:auto;min-height:210px}
+.pinyin-task-player .pinyin-question .four-lines{min-height:240px}
+@container(max-width:1100px){.pinyin-task-player .pinyin-question{--pq-group-gap:32px}}
+@container(max-width:760px){
+ .pinyin-task-player .pinyin-question{--pq-group-gap:24px;padding:12px}
+ .pinyin-task-player .pinyin-question .question-body{grid-template-columns:1fr;min-height:0}
+ .pinyin-task-player .pinyin-question .option-grid{grid-template-rows:repeat(2,minmax(180px,1fr))}
+}
+@media(orientation:portrait){.pinyin-task-player .pinyin-question .question-body{min-height:0}}

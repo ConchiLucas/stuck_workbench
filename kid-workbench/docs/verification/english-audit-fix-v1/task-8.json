@@ -1,0 +1,97 @@
+{
+  "id": 8,
+  "title": "【审核修复】英语·组句子·english-audit-fix-v1",
+  "count": 3,
+  "types": [
+    "card-builder"
+  ],
+  "groups": [
+    "Food",
+    "School",
+    "Toys"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 785,
+      "sourceId": 5,
+      "sourceTable": "english_sentences",
+      "moduleCode": "food",
+      "moduleName": "Food",
+      "sourceContentHash": "ec661a9482ca72a352e608fb",
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a banana",
+        "speechUrl": "/api/v1/english/task-media/2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103.mp3",
+        "bank": [
+          "a",
+          "is",
+          "This",
+          "banana"
+        ],
+        "answer": "This is a banana"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/sentences/5/speech.mp3": "2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 846,
+      "sourceId": 6,
+      "sourceTable": "english_sentences",
+      "moduleCode": "school",
+      "moduleName": "School",
+      "sourceContentHash": "05b05fb4f1c51770174cd5a3",
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a pencil",
+        "speechUrl": "/api/v1/english/task-media/229f3550f604d43e90b48d9200f1e51de659141ba74c960f51bc68f65cc047b3.mp3",
+        "bank": [
+          "a",
+          "is",
+          "pencil",
+          "This"
+        ],
+        "answer": "This is a pencil"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/sentences/6/speech.mp3": "229f3550f604d43e90b48d9200f1e51de659141ba74c960f51bc68f65cc047b3"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "card-builder",
+      "skillCode": "build",
+      "targetId": 834,
+      "sourceId": 10,
+      "sourceTable": "english_sentences",
+      "moduleCode": "toys",
+      "moduleName": "Toys",
+      "sourceContentHash": "0f39e290497d23e40d624579",
+      "example": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "He has a ball",
+        "speechUrl": "/api/v1/english/task-media/d1e1c0446738767831cf458854e6d4650c11474393afcece83598218b4b0effd.mp3",
+        "bank": [
+          "ball",
+          "He",
+          "a",
+          "has"
+        ],
+        "answer": "He has a ball"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/sentences/10/speech.mp3": "d1e1c0446738767831cf458854e6d4650c11474393afcece83598218b4b0effd"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T15:33:27.355791Z"
+}

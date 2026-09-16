@@ -1,0 +1,40 @@
+{
+  "present": true,
+  "childId": 4,
+  "qualified": false,
+  "attempts149and174": [
+    {
+      "attemptId": 149,
+      "createdAt": "2026-09-13T15:30:28.196847+00:00",
+      "isCorrect": false,
+      "planItemId": 474,
+      "speechUrl": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+      "selected": "885",
+      "labelSample": "自行车",
+      "speechHttp": {
+        "url": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+        "status": 200,
+        "bytes": 14976
+      },
+      "qualified": false,
+      "reason": "pre-repair evidence: inverted timestamps and/or snapshot mutation with unplayable media"
+    },
+    {
+      "attemptId": 174,
+      "createdAt": "2026-09-13T15:05:28.196847+00:00",
+      "isCorrect": true,
+      "planItemId": 499,
+      "speechUrl": "/api/v1/english/task-media/ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.mp3",
+      "selected": "894",
+      "labelSample": "圆形",
+      "speechHttp": {
+        "url": "/api/v1/english/task-media/ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.mp3",
+        "status": 404,
+        "bytes": 0
+      },
+      "qualified": false,
+      "reason": "pre-repair evidence: inverted timestamps and/or snapshot mutation with unplayable media"
+    }
+  ],
+  "note": "Kept as pre-repair evidence. Not a qualified sample. Do not mutate these snapshots."
+}

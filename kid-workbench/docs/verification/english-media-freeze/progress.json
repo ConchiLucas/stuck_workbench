@@ -1,0 +1,215 @@
+{
+  "data": {
+    "module_code": "animals",
+    "kp_id": 754,
+    "title": "cat",
+    "payload": "{\"meaningZh\":\"猫\"}",
+    "difficulty": 1,
+    "subject_code": "english",
+    "subject_name": "英语",
+    "module_name": "Animals",
+    "status": "learning",
+    "attempts": 4,
+    "correct": 2,
+    "accuracy": 0.5,
+    "streak": 1,
+    "best_streak": 1,
+    "due_at": "2026-09-14T23:41:21.675719Z",
+    "mastered_at": null,
+    "skills": [
+      {
+        "code": "listen",
+        "status": "learning",
+        "accuracy": 0.5,
+        "attempts": 2
+      },
+      {
+        "code": "picture",
+        "status": "learning",
+        "accuracy": 0.5,
+        "attempts": 2
+      },
+      {
+        "code": "build",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      },
+      {
+        "code": "type",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      },
+      {
+        "code": "read",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      }
+    ],
+    "history": [
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+            "options": [
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "757",
+          "response_kind": "choice"
+        },
+        "attempt_id": 213,
+        "selected_option_id": "757",
+        "at": "2026-09-13T23:41:21.661571Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+            "options": [
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 214,
+        "selected_option_id": "754",
+        "at": "2026-09-13T23:41:21.675719Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg"
+              },
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "763",
+          "response_kind": "choice"
+        },
+        "attempt_id": 215,
+        "selected_option_id": "763",
+        "at": "2026-09-13T23:41:22.029863Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/task-media/4c5a1cf6f7f85fdf2ed1e2705526b36472b978d8ae234fd156dfcc0c3e2249b0.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/task-media/821005c3a501f7d3be460c3834f59df23129e9800db87765a719d848c77ec503.jpg"
+              },
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/task-media/fe4735769fcc15974aa8714477cf2979a8448aac3e64dc886b62fb43c6330d01.jpg"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 216,
+        "selected_option_id": "754",
+        "at": "2026-09-13T23:41:22.040959Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      }
+    ]
+  },
+  "error": null
+}

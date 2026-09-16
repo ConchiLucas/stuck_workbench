@@ -1,0 +1,150 @@
+{
+  "id": 10,
+  "title": "【审核修复】英语·读一读·english-audit-fix-v1",
+  "count": 3,
+  "types": [
+    "reading-qa"
+  ],
+  "groups": [
+    "Animals",
+    "Food"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 756,
+      "sourceId": 4,
+      "sourceTable": "english_passages",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "sourceContentHash": "94375358807240922523d23c",
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Sam 看见了什么？",
+        "passage": "Sam sees a blue bird. It sits on the tree.",
+        "options": [
+          {
+            "id": "754",
+            "label": "猫",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "picture": "/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "picture": "/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg"
+          },
+          {
+            "id": "784",
+            "label": "苹果",
+            "picture": "/api/v1/english/task-media/c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4.jpg"
+          }
+        ],
+        "answerId": "756"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/754/sense.png": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+        "/api/v1/english/words/755/sense.png": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+        "/api/v1/english/words/756/sense.png": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+        "/api/v1/english/words/784/sense.png": "c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 784,
+      "sourceId": 1,
+      "sourceTable": "english_passages",
+      "moduleCode": "food",
+      "moduleName": "Food",
+      "sourceContentHash": "3fd35927cc051915899c8e4c",
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Lucy 把什么放在桌上？",
+        "passage": "Lucy has a red apple. She puts it on the table.",
+        "options": [
+          {
+            "id": "784",
+            "label": "苹果",
+            "picture": "/api/v1/english/task-media/c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4.jpg"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "picture": "/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "picture": "/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg"
+          },
+          {
+            "id": "754",
+            "label": "猫",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          }
+        ],
+        "answerId": "784"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/754/sense.png": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+        "/api/v1/english/words/755/sense.png": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+        "/api/v1/english/words/756/sense.png": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+        "/api/v1/english/words/784/sense.png": "c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "reading-qa",
+      "skillCode": "read",
+      "targetId": 754,
+      "sourceId": 3,
+      "sourceTable": "english_passages",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "sourceContentHash": "d7e35ae34ce582677fb18c22",
+      "example": {
+        "kind": "reading-qa",
+        "prompt": "Anna 有什么？",
+        "passage": "Anna has a black cat. It sleeps on the sofa.",
+        "options": [
+          {
+            "id": "754",
+            "label": "猫",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "784",
+            "label": "苹果",
+            "picture": "/api/v1/english/task-media/c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4.jpg"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "picture": "/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "picture": "/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg"
+          }
+        ],
+        "answerId": "754"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/754/sense.png": "fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5",
+        "/api/v1/english/words/755/sense.png": "f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb",
+        "/api/v1/english/words/756/sense.png": "85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49",
+        "/api/v1/english/words/784/sense.png": "c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T15:33:27.529274Z"
+}

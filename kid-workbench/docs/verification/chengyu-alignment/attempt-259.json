@@ -1,0 +1,96 @@
+{
+  "attemptId": 259,
+  "childId": 14,
+  "kpId": 1165,
+  "title": "一心一意",
+  "subjectCode": "chengyu",
+  "subjectName": "成语",
+  "moduleCode": "daily",
+  "moduleName": "日常成语",
+  "skillCode": "meaning",
+  "skillLabel": "听释义",
+  "questionType": "meaning",
+  "occurredAt": "2026-09-15T12:56:29.319146Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "chengyu_plan",
+    "planId": 208,
+    "itemId": 655
+  },
+  "planId": 208,
+  "planItemId": 655,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "一心一意",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "label:心思不专一",
+        "label": "心思不专一"
+      },
+      {
+        "id": "label:随便玩玩",
+        "label": "随便玩玩"
+      },
+      {
+        "id": "label:集中精神，做事专心",
+        "label": "集中精神，做事专心"
+      },
+      {
+        "id": "label:慢慢来",
+        "label": "慢慢来"
+      }
+    ],
+    "answerOptionId": "label:集中精神，做事专心",
+    "targetText": "一心一意"
+  },
+  "chengyuExample": {
+    "kind": "meaning",
+    "stem": "这个成语是什么意思？",
+    "prompt": "一心一意",
+    "speech": "一心一意",
+    "speechUrl": "/api/v1/chengyu/task-media/2474467ea21478efa8bec3b6ac546a82b917f471d5f5bc17826b59c4c8d5ae75.mp3",
+    "options": [
+      {
+        "id": "label:心思不专一",
+        "label": "心思不专一"
+      },
+      {
+        "id": "label:随便玩玩",
+        "label": "随便玩玩"
+      },
+      {
+        "id": "label:集中精神，做事专心",
+        "label": "集中精神，做事专心"
+      },
+      {
+        "id": "label:慢慢来",
+        "label": "慢慢来"
+      }
+    ],
+    "answerId": "label:集中精神，做事专心",
+    "chengyu": "一心一意",
+    "pinyin": "yì xīn yì yì",
+    "meaning": "集中精神，做事专心",
+    "example": "做作业要一心一意。"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "label:慢慢来",
+    "value": "label:慢慢来"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

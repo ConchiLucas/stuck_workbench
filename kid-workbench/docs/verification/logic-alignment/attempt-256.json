@@ -1,0 +1,118 @@
+{
+  "attemptId": 256,
+  "childId": 12,
+  "kpId": 124669,
+  "title": "画面更大",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "compare",
+  "skillLabel": "比较",
+  "questionType": "compare",
+  "occurredAt": "2026-09-15T01:14:33.030496Z",
+  "isCorrect": true,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 641
+  },
+  "planId": 206,
+  "planItemId": 641,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "哪个更大？"
+    },
+    "options": [
+      {
+        "id": "bus",
+        "label": "公交车",
+        "imageMediaId": "glyph-bus"
+      },
+      {
+        "id": "bike",
+        "label": "自行车",
+        "imageMediaId": "glyph-bike"
+      },
+      {
+        "id": "skate",
+        "label": "溜冰鞋",
+        "imageMediaId": "glyph-skate"
+      }
+    ],
+    "answerOptionId": "bus",
+    "targetText": "画面更大"
+  },
+  "logicExample": {
+    "kind": "compare",
+    "prompt": "哪个更大？",
+    "rule": {
+      "type": "compare",
+      "dimension": "visualSize",
+      "direction": "max",
+      "explain": "画面更大"
+    },
+    "objects": [
+      {
+        "id": "bus",
+        "caption": "公交车",
+        "glyph": "bus",
+        "fill": "#2563eb",
+        "scale": 4,
+        "attrs": {
+          "visualSize": "4"
+        }
+      },
+      {
+        "id": "skate",
+        "caption": "溜冰鞋",
+        "glyph": "skate",
+        "fill": "#db2777",
+        "scale": 1,
+        "attrs": {
+          "visualSize": "1"
+        }
+      },
+      {
+        "id": "bike",
+        "caption": "自行车",
+        "glyph": "bike",
+        "fill": "#16a34a",
+        "scale": 2,
+        "attrs": {
+          "visualSize": "2"
+        }
+      }
+    ],
+    "options": [
+      "bus",
+      "bike",
+      "skate"
+    ],
+    "answerId": "bus",
+    "glyphVersion": "1",
+    "imageUrls": {
+      "bike": "/api/v1/logic/task-media/a60cdea44e40ae3fcec754b26984c4b1ad45a9322d81445ab352a40abb83d8fd.svg",
+      "bus": "/api/v1/logic/task-media/a278510d71dc14a12584aafc4da0ce808114ed8f6637f590857d1240f8aeecab.svg",
+      "skate": "/api/v1/logic/task-media/34751e02572da8200034d20784f696562b23a142ad1280ea5e983174e9193b7c.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "bus",
+    "value": "bus"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

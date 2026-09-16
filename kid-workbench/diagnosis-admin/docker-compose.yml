@@ -1,0 +1,21 @@
+# Standalone launch for diagnosis-admin only.
+# Prefer `cd .. && make up` so postgres + diagnosis-admin share one compose stack.
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: diagnosis-admin/Dockerfile
+    ports:
+      - "19211:19211"
+    environment:
+      APP_ADDR: :19211
+      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
+      APP_DB_PORT: ${APP_DB_PORT:-15432}
+      APP_DB_USER: ${APP_DB_USER:-conchi}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
+      APP_DB_CONFIG: sslmode=disable
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

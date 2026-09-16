@@ -1,0 +1,336 @@
+{
+  "totalCount": 1256,
+  "pointCounts": {
+    "complete": 3,
+    "partial": 0,
+    "weak": 6,
+    "learning": 3,
+    "unpracticed": 1244,
+    "unknown": 0,
+    "reviewDue": 0
+  },
+  "child": {
+    "id": 2,
+    "name": "算术验收演示（非真实记录）",
+    "grade": "验收演示"
+  },
+  "subjects": [
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 300,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "literacy",
+      "name": "识字",
+      "total": 300,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 61,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "pinyin",
+      "name": "拼音",
+      "total": 61,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 3,
+        "partial": 0,
+        "weak": 6,
+        "learning": 3,
+        "unpracticed": 396,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 36,
+      "wrongCount": 12,
+      "abilities": {
+        "mastered": 6,
+        "learning": 6,
+        "shaky": 12,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "math",
+      "name": "算术",
+      "total": 408,
+      "practicedCount": 12,
+      "masteredAbilityCount": 3,
+      "wrongPointCount": 6,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 200,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "english",
+      "name": "英语",
+      "total": 200,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 99,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "science",
+      "name": "科普",
+      "total": 99,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 50,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "poem",
+      "name": "古诗",
+      "total": 50,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 74,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "logic",
+      "name": "逻辑",
+      "total": 74,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 32,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "chengyu",
+      "name": "成语",
+      "total": 32,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    },
+    {
+      "pointCounts": {
+        "complete": 0,
+        "partial": 0,
+        "weak": 0,
+        "learning": 0,
+        "unpracticed": 32,
+        "unknown": 0,
+        "reviewDue": 0
+      },
+      "attemptsCount": 0,
+      "wrongCount": 0,
+      "abilities": {
+        "mastered": 0,
+        "learning": 0,
+        "shaky": 0,
+        "unpracticed": 0,
+        "unknown": 0
+      },
+      "unmappedPointCount": 0,
+      "code": "phrase",
+      "name": "英语短句",
+      "total": 32,
+      "practicedCount": 0,
+      "masteredAbilityCount": 0,
+      "wrongPointCount": 0,
+      "coverage": {
+        "level": "partial",
+        "reasonCodes": [
+          "only_recorded_practice"
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "observedAttempts": 36,
+    "observedCorrect": 24,
+    "independentAttempts": 0,
+    "independentCorrect": 0,
+    "assistedAttempts": 0,
+    "unknownAssistanceAttempts": 36,
+    "accuracy": 0.6666666666666666,
+    "independentAccuracy": null
+  },
+  "practicedCount": 12,
+  "masteredAbilityCount": 3,
+  "wrongPointCount": 6,
+  "wrongCount": 12,
+  "coverage": {
+    "level": "partial",
+    "reasonCodes": [
+      "only_recorded_practice"
+    ]
+  }
+}

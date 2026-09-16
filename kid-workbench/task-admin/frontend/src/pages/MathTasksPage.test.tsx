@@ -1,0 +1,16 @@
+import {render,screen,fireEvent,waitFor,cleanup} from '@testing-library/react'
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query'
+import {afterEach,expect,it,vi} from 'vitest'
+import {MathTasksPage} from './MathTasksPage'
+afterEach(()=>{cleanup();vi.unstubAllGlobals()})
+const detail={id:'addition-equation',groupId:'addition',title:'看算式选答案',moduleTitle:'5 以内加法',learningGoal:'理解加法',rules:['计算后选择答案'],revision:2,example:{kind:'choice',prompt:'1 + 2',options:['1','2','3','4'],answer:'3',optionIds:['o1','o2','o3','o4'],answerOptionId:'o3'}}
+const task={id:3,title:'加法练习',rangeMax:5,count:1,createdAt:'2026-09-12',titles:['看算式选答案'],groups:['加法'],items:[{sequence:1,sourceId:detail.id,sourceRevision:2,source:detail,detail,mediaSHA256:{}}]}
+function page(){render(<QueryClientProvider client={new QueryClient({defaultOptions:{queries:{retry:false}}})}><MathTasksPage/></QueryClientProvider>)}
+it('opens saved question, previews locally and restores focus on Escape',async()=>{
+ const fetcher=vi.fn(async(url:string,_init?:RequestInit)=>({ok:true,status:200,json:async()=>url.endsWith('/3')?task:{items:[task]}} as Response));vi.stubGlobal('fetch',fetcher);page();const trigger=await screen.findByRole('button',{name:/加法练习/});trigger.focus();fireEvent.click(trigger);await screen.findByRole('button',{name:'3'});fireEvent.click(screen.getByRole('button',{name:'3'}));expect(screen.getByText('答对了',{exact:false})).toBeInTheDocument();expect(fetcher.mock.calls.every(c=>c.length===1||!(c[1] as RequestInit)?.method||(c[1] as RequestInit)?.method==='GET')).toBe(true);fireEvent(await screen.findByRole('dialog'),new Event('cancel',{bubbles:true,cancelable:true}));await waitFor(()=>expect(screen.queryByRole('dialog')).not.toBeInTheDocument());expect(trigger).toHaveFocus();expect(screen.queryByText('发布')).not.toBeInTheDocument();expect(screen.queryByText('生成草稿')).not.toBeInTheDocument()
+})
+it('generates selected types then loads persisted task detail',async()=>{
+ const calls:{url:string;init?:RequestInit}[]=[];vi.stubGlobal('fetch',vi.fn(async(url:string,init?:RequestInit)=>{calls.push({url,init});return {ok:true,status:200,json:async()=>url.includes('/materials')?{schemaVersion:1,items:[detail]}:init?.method==='POST'||String(url).endsWith('/3')?task:{items:[]}} as Response}));page();await screen.findByText('暂无算术出题任务。');fireEvent.click(screen.getByRole('button',{name:'生成算术题目'}));fireEvent.click(await screen.findByLabelText(/看算式选答案/));fireEvent.change(screen.getByLabelText('题数'),{target:{value:'1'}});fireEvent.change(screen.getByLabelText('数值范围'),{target:{value:'5'}});fireEvent.click(screen.getByRole('button',{name:'生成并保存'}));await screen.findByRole('button',{name:'3'});const post=calls.find(c=>c.init?.method==='POST');expect(JSON.parse(post!.init!.body as string)).toMatchObject({detailIds:['addition-equation'],rangeMax:5,count:1});expect(calls.some(c=>c.url.endsWith('/3')&&(!c.init?.method||c.init.method==='GET'))).toBe(true)
+})
+it('shows load failure without claiming an empty list',async()=>{vi.stubGlobal('fetch',vi.fn(async()=>({ok:false,status:503,json:async()=>({error:'算术任务服务未配置'})})));page();expect(await screen.findByRole('alert')).toHaveTextContent('算术任务服务未配置');expect(screen.queryByText('暂无算术出题任务。')).not.toBeInTheDocument()}
+)

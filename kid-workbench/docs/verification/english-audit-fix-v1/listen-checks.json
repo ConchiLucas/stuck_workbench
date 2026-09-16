@@ -1,0 +1,60 @@
+{
+  "method": "macOS say (Samantha preferred) + ffmpeg libmp3lame, then afplay; SHA compared with word MP3",
+  "note": "HTTP 200 / ID3 / duration prove the file exists. Content check: encoded from the exact sentence text; SHA differs from the target word MP3; afplay returned 0.",
+  "samples": [
+    {
+      "role": "word",
+      "text": "apple",
+      "url": "http://localhost:19091/api/v1/english/words/784/speech.mp3",
+      "sha256": "a746f550cf7d12e981c086b7fd610b822d5de893f03c16a9ad73a4796aa249f8",
+      "bytes": 13440,
+      "duration": "00:00:00.84",
+      "played": "afplay exit 0"
+    },
+    {
+      "role": "sentence-source",
+      "text": "This is an apple",
+      "url": "http://localhost:19091/api/v1/english/sentences/this-is-an-apple/speech.mp3",
+      "sha256": "f56e059135555f1cfc8c0e3289bdeb86921d49c41752dbaa9a1c19369943c332",
+      "bytes": 7617,
+      "duration": "00:00:00.94",
+      "played": "afplay exit 0"
+    },
+    {
+      "role": "frozen-card-builder",
+      "text": "This is a banana",
+      "url": "http://localhost:19201/api/v1/english/task-media/2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103.mp3",
+      "sha256": "2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103",
+      "bytes": 8110,
+      "duration": "00:00:00.96",
+      "played": "afplay exit 0",
+      "matchesSourceSentence": true
+    },
+    {
+      "role": "frozen-card-builder",
+      "text": "This is a pencil",
+      "sha256": "229f3550f604d43e90b48d9200f1e51de659141ba74c960f51bc68f65cc047b3",
+      "played": "afplay exit 0"
+    },
+    {
+      "role": "frozen-card-builder",
+      "text": "He has a ball",
+      "sha256": "d1e1c0446738767831cf458854e6d4650c11474393afcece83598218b4b0effd",
+      "played": "afplay exit 0"
+    },
+    {
+      "role": "word-choice",
+      "text": "circle",
+      "url": "http://localhost:19201/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+      "duration": "00:00:00.94",
+      "played": "afplay exit 0"
+    }
+  ],
+  "appPlayClick": {
+    "url": "http://localhost:19132/api/v1/english/sentences/this-is-an-apple/speech.mp3",
+    "http": 200,
+    "contentType": "audio/mpeg",
+    "bytes": 7617,
+    "ui": "background tab play() showed 读音播放失败，可以再点一次; request was the sentence path not the word MP3"
+  }
+}

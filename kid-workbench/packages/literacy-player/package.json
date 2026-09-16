@@ -1,0 +1,17 @@
+{
+  "name": "@kid-workbench/literacy-player",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/LiteracyPlayer.tsx",
+    "./player.css": "./src/player.css"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "test": "npm --prefix ../../literacy-app test -- src/components/LiteracyPlayer.test.tsx"
+  }
+}

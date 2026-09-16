@@ -1,0 +1,386 @@
+{
+  "qualified": true,
+  "childId": 8,
+  "emptyChildId": 9,
+  "taskId": 1,
+  "plans": [
+    {
+      "kind": "listen_zh",
+      "planId": 189,
+      "itemIds": [
+        556,
+        557,
+        558,
+        559
+      ],
+      "reused": true
+    },
+    {
+      "kind": "listen_en",
+      "planId": 190,
+      "itemIds": [
+        560,
+        561,
+        562,
+        563
+      ],
+      "reused": true
+    },
+    {
+      "kind": "scene",
+      "planId": 191,
+      "itemIds": [
+        564,
+        565,
+        566,
+        567
+      ],
+      "reused": true
+    },
+    {
+      "kind": "reply",
+      "planId": 193,
+      "itemIds": [
+        572,
+        573,
+        574,
+        575
+      ],
+      "reused": true
+    }
+  ],
+  "attempts": [
+    {
+      "kind": "listen_zh",
+      "item": 556,
+      "attempts": [
+        {
+          "id": 217,
+          "selected": "label:晚安。",
+          "correct": false
+        },
+        {
+          "id": 218,
+          "selected": "label:早上好。",
+          "correct": true
+        }
+      ],
+      "optionOrder": "0,3,2,1"
+    },
+    {
+      "kind": "listen_en",
+      "item": 560,
+      "attempts": [
+        {
+          "id": 219,
+          "selected": "label:Good afternoon.",
+          "correct": false
+        },
+        {
+          "id": 220,
+          "selected": "label:Good morning.",
+          "correct": true
+        }
+      ],
+      "optionOrder": "3,0,2,1"
+    },
+    {
+      "kind": "scene",
+      "item": 564,
+      "attempts": [
+        {
+          "id": 221,
+          "selected": "label:I'm fine.",
+          "correct": false
+        },
+        {
+          "id": 222,
+          "selected": "label:Good morning.",
+          "correct": true
+        }
+      ],
+      "optionOrder": "0,3,1,2"
+    },
+    {
+      "kind": "reply",
+      "item": 572,
+      "attempts": [
+        {
+          "id": 224,
+          "selected": "label:Nice to meet you.",
+          "correct": false
+        },
+        {
+          "id": 225,
+          "selected": "label:I'm fine.",
+          "correct": true
+        }
+      ],
+      "optionOrder": "0,3,2,1"
+    }
+  ],
+  "speech": [
+    {
+      "kpId": 1197,
+      "title": "Good morning.",
+      "sha256": "59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec",
+      "bytes": 5536,
+      "uploaded": false
+    },
+    {
+      "kpId": 1198,
+      "title": "Good afternoon.",
+      "sha256": "3718a1a79d54e9fe334b5e323243301270d66946ed15e359b0b2f222d9831d41",
+      "bytes": 6916,
+      "uploaded": false
+    },
+    {
+      "kpId": 1199,
+      "title": "Good evening.",
+      "sha256": "693d953fff88ff1bf36c5d1c2053ebfad579579d26bb5822a5916be34c80d2e5",
+      "bytes": 5747,
+      "uploaded": false
+    },
+    {
+      "kpId": 1200,
+      "title": "Good night.",
+      "sha256": "345394a30a09ab847299fa4077d30eecd06e977374e0256848852f96a73a43a9",
+      "bytes": 5146,
+      "uploaded": false
+    },
+    {
+      "kpId": 1201,
+      "title": "Hello!",
+      "sha256": "00abb658194c0be4c07c1e1ce9dbd80781290cc2e490114014999bfd7e58b417",
+      "bytes": 5562,
+      "uploaded": false
+    },
+    {
+      "kpId": 1202,
+      "title": "How are you?",
+      "sha256": "7db75ee862b184d55f942009a51fa7a1d2a0afb38834d6e8a1fd2caf1184a8a0",
+      "bytes": 5379,
+      "uploaded": false
+    },
+    {
+      "kpId": 1203,
+      "title": "I'm fine.",
+      "sha256": "a4b8ef1e461aa970cfcb0b01a233dbe22fec9476a42b00491f63b0cdbd9d21b1",
+      "bytes": 6420,
+      "uploaded": false
+    },
+    {
+      "kpId": 1204,
+      "title": "Nice to meet you.",
+      "sha256": "092471f043ac340c5be8379c01cebf2efe53c462cf9f32efbf63dd923b7cc0c4",
+      "bytes": 9336,
+      "uploaded": false
+    },
+    {
+      "kpId": 1205,
+      "title": "Sit down, please.",
+      "sha256": "caaebcd20f845d194e47f3dea8fb2e4125cef912fd693733dc000be6f3a85150",
+      "bytes": 11184,
+      "uploaded": false
+    },
+    {
+      "kpId": 1206,
+      "title": "Stand up, please.",
+      "sha256": "b7943b07fc444165dbd5d4e5c45693424057f0af5c888f35d19b1512186a20bf",
+      "bytes": 11338,
+      "uploaded": false
+    },
+    {
+      "kpId": 1207,
+      "title": "Listen to me.",
+      "sha256": "1aaa7b325113ffaf4bba1270805c3b06abd1deaf05fedb2ef4c939abd344cd2a",
+      "bytes": 7695,
+      "uploaded": false
+    },
+    {
+      "kpId": 1208,
+      "title": "Look at me.",
+      "sha256": "18b5f64f5ecea34396ce212b4b0cc3c23d1b97f1082e1d326758ff0750c24969",
+      "bytes": 6213,
+      "uploaded": false
+    },
+    {
+      "kpId": 1209,
+      "title": "Open your book.",
+      "sha256": "5a70337e80b85f934647f9c0397f1e5ed9ae895a1c68f1ac2b9d02e0a16a6ec7",
+      "bytes": 7461,
+      "uploaded": false
+    },
+    {
+      "kpId": 1210,
+      "title": "Close your book.",
+      "sha256": "dc4f6a23d25e2b8a698ab26fc9d0950ee3b2c9e5e98c875c063f8399d49da660",
+      "bytes": 7695,
+      "uploaded": false
+    },
+    {
+      "kpId": 1211,
+      "title": "Raise your hand.",
+      "sha256": "6a2c489fd55cfef91f65691edaa9f68c7aeef996ffa3a4fb8e8316b787139441",
+      "bytes": 7906,
+      "uploaded": false
+    },
+    {
+      "kpId": 1212,
+      "title": "Let's begin.",
+      "sha256": "6a2f77340e160bfd1c081e24645236621516aab687fb09490a2e483c291a31bf",
+      "bytes": 7177,
+      "uploaded": false
+    },
+    {
+      "kpId": 1213,
+      "title": "Thank you.",
+      "sha256": "ab9591039aadcc542001f9ca4fa4081d36f5943a8c09bef117417053999a612e",
+      "bytes": 5691,
+      "uploaded": false
+    },
+    {
+      "kpId": 1214,
+      "title": "You're welcome.",
+      "sha256": "6c45d47ebd6d93652db49d77393a5bae4be5acea6a8de63eb5b2ff4a77e471f4",
+      "bytes": 6264,
+      "uploaded": false
+    },
+    {
+      "kpId": 1215,
+      "title": "Excuse me.",
+      "sha256": "7e62d9c0d6fbf0e4ed27e4e67f431bfc2b6738e384b7bad61d67beb601a1a70a",
+      "bytes": 8375,
+      "uploaded": false
+    },
+    {
+      "kpId": 1216,
+      "title": "I'm sorry.",
+      "sha256": "5a7fe3230887d3170b3be1a4966aae79ef13a3be285e8bf35a25628e094c716c",
+      "bytes": 6475,
+      "uploaded": false
+    },
+    {
+      "kpId": 1217,
+      "title": "May I come in?",
+      "sha256": "8b4e6384cf6319e0b26af655cc44e04d9d35d42e6e81a03dbb7685d27428872f",
+      "bytes": 7797,
+      "uploaded": false
+    },
+    {
+      "kpId": 1218,
+      "title": "What's your name?",
+      "sha256": "0d2a7b5bc39069b234e94b06a66e7c443d4919dd924c95e05721b916ae995d4f",
+      "bytes": 7778,
+      "uploaded": false
+    },
+    {
+      "kpId": 1219,
+      "title": "My name is Lily.",
+      "sha256": "fb4813ae15a491015da028613d3491dad772265d6a4caa0b1459c28272689580",
+      "bytes": 8658,
+      "uploaded": false
+    },
+    {
+      "kpId": 1220,
+      "title": "See you tomorrow.",
+      "sha256": "23033c392113b5db2ba20c7303a0f345d27d6014c35bfa7c33973f3437ff5a1b",
+      "bytes": 9153,
+      "uploaded": false
+    },
+    {
+      "kpId": 1221,
+      "title": "I like it.",
+      "sha256": "f378ee5209899c246f7ebf6f2a16fd0d4c8a13d2b2cf74ae406f22a3075c0beb",
+      "bytes": 5665,
+      "uploaded": false
+    },
+    {
+      "kpId": 1222,
+      "title": "I don't like it.",
+      "sha256": "5c0fdccd1949d04042998d3a0146ab6d40f181a4e11dadcfdb4a27cb3b73f3da",
+      "bytes": 7852,
+      "uploaded": false
+    },
+    {
+      "kpId": 1223,
+      "title": "I'm hungry.",
+      "sha256": "efcd37deeb1222f27d5f1abbf770b432e3bc8c2c99e79e5185946218037df501",
+      "bytes": 6448,
+      "uploaded": false
+    },
+    {
+      "kpId": 1224,
+      "title": "I'm thirsty.",
+      "sha256": "62197d7eed22f1387b5e15628c306a5a14a12b2d8e85d46a0946df965d2f8c7d",
+      "bytes": 7228,
+      "uploaded": false
+    },
+    {
+      "kpId": 1225,
+      "title": "Let's play.",
+      "sha256": "ddc2eb60a0487f027a4d58c828fe3b86d8cff3f7846d51c1ebe0111c146909a1",
+      "bytes": 7176,
+      "uploaded": false
+    },
+    {
+      "kpId": 1226,
+      "title": "Come here.",
+      "sha256": "68b71b65b836d4c247a37911b7993a08ed0258bdd4a503396be31257bfc5d35c",
+      "bytes": 5380,
+      "uploaded": false
+    },
+    {
+      "kpId": 1227,
+      "title": "Wait for me.",
+      "sha256": "aaaaa5213e6db4ef85d8dcb61faaadcf00c7e3eb030a21a25f6697af797c8291",
+      "bytes": 6942,
+      "uploaded": false
+    },
+    {
+      "kpId": 1228,
+      "title": "Be quiet.",
+      "sha256": "e0c5cf440f37ab7077605280fcd069d3f4e540b335c7ce9a3e78e3ed9939c089",
+      "bytes": 5663,
+      "uploaded": false
+    }
+  ],
+  "mediaChecks": [
+    {
+      "kind": "listen_zh",
+      "sha256": "59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec",
+      "bytes": 5536
+    },
+    {
+      "kind": "listen_en",
+      "sha256": "59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec",
+      "bytes": 5536
+    },
+    {
+      "kind": "reply",
+      "sha256": "7db75ee862b184d55f942009a51fa7a1d2a0afb38834d6e8a1fd2caf1184a8a0",
+      "bytes": 5379
+    }
+  ],
+  "sourceReplacement": {
+    "kpId": 1197,
+    "sourceChanged": true,
+    "historyUnchanged": true,
+    "sha256": "59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec"
+  },
+  "failSamples": [
+    {
+      "id": 226,
+      "qualified": false,
+      "reason": "unlinked plan item"
+    },
+    {
+      "id": 227,
+      "qualified": false,
+      "reason": "live speech url not frozen"
+    }
+  ],
+  "protectedAttemptsUnchanged": true,
+  "questionSeedLog": [],
+  "emptyOverviewAttempts": 0
+}

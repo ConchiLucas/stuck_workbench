@@ -1,0 +1,101 @@
+{
+  "tag": "english-second-audit-v1",
+  "run": "162c9881c7",
+  "checkedAt": "2026-09-14T00:48:00+08:00",
+  "chromePrefersColorSchemeDark": true,
+  "note": "Cursor 内置浏览器 prefers-color-scheme: dark。侧栏/外壳深色不能当成奶油底视觉通过；题面卡片本身仍是浅色题板。",
+  "pages": [
+    {
+      "url": "http://localhost:19081/?child=5",
+      "dateClicked": "2026-09-13",
+      "observed": [
+        "答题结果英语正确率约 87%，不是 100%",
+        "图例含答对/答错/未作答",
+        "页脚写明正确率=答对/已作答；完成率不是正确率",
+        "英语题型：听音选词/看图选词/组句子/写单词/读一读",
+        "无单词认读，无 62/22 写死掌握数"
+      ],
+      "screenshot": "overview-child5-sep13.png",
+      "limitation": "总览按当日全部计划合计。孩子 5 含脚本失败残留计划，87% 不是 plan 186 单独的 80%。"
+    },
+    {
+      "url": "http://localhost:19081/subjects/english?child=5",
+      "observed": [
+        "打开 cat 抽屉后可见多次听音/看图历史",
+        "列表后部选项序 鱼/猫/熊/熊猫，错次点熊、对次点猫"
+      ],
+      "screenshots": ["english-cat-drawer.png", "cat-history-last.png"]
+    },
+    {
+      "url": "http://localhost:19211/wrongs?subject=english&child=5",
+      "observed": [
+        "孩子名：英语二次审核演示（非真实记录）",
+        "错题带当时选项序和具体错选（老虎/熊猫/熊/鱼/兔子）",
+        "能力题型下拉为听音选词/看图选词/组句子/写单词/读一读"
+      ],
+      "screenshot": "knowledge-wrongs-child5.png"
+    },
+    {
+      "url": "http://localhost:19211/attempts/196?child=5",
+      "observed": [
+        "cat 这次答错",
+        "选项序 鱼、猫、熊、熊猫",
+        "孩子当时的作答：熊",
+        "正确答案：猫"
+      ],
+      "screenshot": "knowledge-attempt-196.png"
+    },
+    {
+      "url": "http://localhost:19211/attempts/197?child=5",
+      "observed": [
+        "cat 这次答对",
+        "同一选项序 鱼、猫、熊、熊猫",
+        "孩子当时的作答：猫"
+      ],
+      "screenshot": "knowledge-attempt-197.png"
+    },
+    {
+      "url": "http://localhost:19081/?child=6",
+      "observed": [
+        "各科 0%",
+        "9月14日：这一天还没有保存的练习记录",
+        "无 62/22 类掌握数字",
+        "英语五题型条为 0"
+      ],
+      "screenshot": "overview-child6-empty.png"
+    },
+    {
+      "url": "http://localhost:19081/tasks?child=5",
+      "observed": [
+        "9月13日 加餐1：英语 10，10/10，文案 80%",
+        "9月13日 加餐2：英语 6，3/6，文案 100%（已作答全对，未作答不计错）",
+        "本地 9月14日显示今天还没有任务，因为计划日期是容器 UTC 的 2026-09-13"
+      ],
+      "screenshot": "tasks-child5.png"
+    },
+    {
+      "url": "http://localhost:19132/",
+      "observed": [
+        "粘土五卡首页未改：听音选词/看图选词/组句子/写单词/读一读"
+      ],
+      "screenshot": "app-home.png"
+    },
+    {
+      "url": "http://localhost:19091/english",
+      "observed": [
+        "文案：本页不生成、不编辑、不发布",
+        "卡片操作只有读音/查看详情",
+        "apple 详情仍有五种只读题面"
+      ],
+      "screenshots": ["content-english.png", "content-apple-detail.png"]
+    },
+    {
+      "url": "http://localhost:19201/english",
+      "observed": [
+        "【审核修复】五张卡仍在，无发布状态按钮",
+        "听音选词预览第 1 题仍为 自行车/圆形/云/白色"
+      ],
+      "screenshots": ["task-english-list.png", "task-listen-preview.png"]
+    }
+  ]
+}

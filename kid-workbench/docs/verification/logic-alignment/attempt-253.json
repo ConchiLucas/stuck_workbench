@@ -1,0 +1,134 @@
+{
+  "attemptId": 253,
+  "childId": 12,
+  "kpId": 124665,
+  "title": "颜色不同",
+  "subjectCode": "logic",
+  "subjectName": "逻辑",
+  "moduleCode": "playground",
+  "moduleName": "逻辑练习",
+  "skillCode": "diff",
+  "skillLabel": "找不同",
+  "questionType": "diff",
+  "occurredAt": "2026-09-15T01:14:32.791508Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "logic_plan",
+    "planId": 206,
+    "itemId": 640
+  },
+  "planId": 206,
+  "planItemId": 640,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "哪一个和其他不一样？"
+    },
+    "options": [
+      {
+        "id": "dc2",
+        "label": "蓝圆",
+        "imageMediaId": "glyph-dc2"
+      },
+      {
+        "id": "dc1",
+        "label": "蓝圆",
+        "imageMediaId": "glyph-dc2"
+      },
+      {
+        "id": "dc4",
+        "label": "蓝圆",
+        "imageMediaId": "glyph-dc4"
+      },
+      {
+        "id": "dc3",
+        "label": "红圆",
+        "imageMediaId": "glyph-dc3"
+      }
+    ],
+    "answerOptionId": "dc3",
+    "targetText": "颜色不同"
+  },
+  "logicExample": {
+    "kind": "diff",
+    "prompt": "哪一个和其他不一样？",
+    "rule": {
+      "type": "unique-odd",
+      "dimension": "color",
+      "explain": "颜色不同：只有一项在该维度上不同。"
+    },
+    "objects": [
+      {
+        "id": "dc1",
+        "caption": "蓝圆",
+        "glyph": "circle",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "color": "blue"
+        }
+      },
+      {
+        "id": "dc2",
+        "caption": "蓝圆",
+        "glyph": "circle",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "color": "blue"
+        }
+      },
+      {
+        "id": "dc3",
+        "caption": "红圆",
+        "glyph": "circle",
+        "fill": "#e11d48",
+        "scale": 2,
+        "attrs": {
+          "color": "red"
+        }
+      },
+      {
+        "id": "dc4",
+        "caption": "蓝圆",
+        "glyph": "circle",
+        "fill": "#2563eb",
+        "scale": 2,
+        "attrs": {
+          "color": "blue"
+        }
+      }
+    ],
+    "options": [
+      "dc2",
+      "dc1",
+      "dc4",
+      "dc3"
+    ],
+    "answerId": "dc3",
+    "glyphVersion": "1",
+    "imageUrls": {
+      "dc1": "/api/v1/logic/task-media/cb9b77f2a5862e869ac76eb53b782322499281273f4eb1e0035dfd538bbc4073.svg",
+      "dc2": "/api/v1/logic/task-media/cb9b77f2a5862e869ac76eb53b782322499281273f4eb1e0035dfd538bbc4073.svg",
+      "dc3": "/api/v1/logic/task-media/269ef8a3c8a6e1d156e3ff2a75f53d1e8bcd0b5f71199b25ececa16bb8948767.svg",
+      "dc4": "/api/v1/logic/task-media/cb9b77f2a5862e869ac76eb53b782322499281273f4eb1e0035dfd538bbc4073.svg"
+    }
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "dc2",
+    "value": "dc2"
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

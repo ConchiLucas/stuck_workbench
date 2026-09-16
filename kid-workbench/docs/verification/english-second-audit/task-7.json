@@ -1,0 +1,148 @@
+{
+  "id": 7,
+  "title": "【审核修复】英语·看图选词·english-audit-fix-v1",
+  "count": 3,
+  "types": [
+    "image-text"
+  ],
+  "groups": [
+    "Transport",
+    "Colors",
+    "Family"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 885,
+      "sourceId": 885,
+      "sourceTable": "english_assets",
+      "moduleCode": "transport",
+      "moduleName": "Transport",
+      "sourceContentHash": "8c2b750aab4bcf52b0a810d3",
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 bike？",
+        "options": [
+          {
+            "id": "842",
+            "label": "balloon",
+            "picture": "/api/v1/english/task-media/c8b2413b137dfd91d5dd47df902bda8944088ade8bc40b4efc6470485e2071b6.jpg"
+          },
+          {
+            "id": "885",
+            "label": "bike",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "827",
+            "label": "windy",
+            "picture": "/api/v1/english/task-media/06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52.jpg"
+          },
+          {
+            "id": "932",
+            "label": "cloud",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          }
+        ],
+        "answerId": "885"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/827/sense.png": "06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52",
+        "/api/v1/english/words/842/sense.png": "c8b2413b137dfd91d5dd47df902bda8944088ade8bc40b4efc6470485e2071b6",
+        "/api/v1/english/words/885/sense.png": "69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c",
+        "/api/v1/english/words/932/sense.png": "90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 765,
+      "sourceId": 765,
+      "sourceTable": "english_assets",
+      "moduleCode": "colors",
+      "moduleName": "Colors",
+      "sourceContentHash": "e67d12bca087b924dd0cb388",
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 blue？",
+        "options": [
+          {
+            "id": "778",
+            "label": "five",
+            "picture": "/api/v1/english/task-media/c6f2c2e10b8d00c1dde2166e23d9d9ce4a70da0907bccb086cda6066d922dc1a.jpg"
+          },
+          {
+            "id": "839",
+            "label": "train",
+            "picture": "/api/v1/english/task-media/b2834f80ccb5bbee0b920cc1760d20fd1b44cafba5b52dd46217bb619bd6ddbd.jpg"
+          },
+          {
+            "id": "796",
+            "label": "baby",
+            "picture": "/api/v1/english/task-media/994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3.jpg"
+          },
+          {
+            "id": "765",
+            "label": "blue",
+            "picture": "/api/v1/english/task-media/a05e755c860dc5f63e4816e2eb26302914a4973afa04c5ed583a8d8bc5f40063.jpg"
+          }
+        ],
+        "answerId": "765"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/765/sense.png": "a05e755c860dc5f63e4816e2eb26302914a4973afa04c5ed583a8d8bc5f40063",
+        "/api/v1/english/words/778/sense.png": "c6f2c2e10b8d00c1dde2166e23d9d9ce4a70da0907bccb086cda6066d922dc1a",
+        "/api/v1/english/words/796/sense.png": "994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3",
+        "/api/v1/english/words/839/sense.png": "b2834f80ccb5bbee0b920cc1760d20fd1b44cafba5b52dd46217bb619bd6ddbd"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "image-text",
+      "skillCode": "picture",
+      "targetId": 797,
+      "sourceId": 797,
+      "sourceTable": "english_assets",
+      "moduleCode": "family",
+      "moduleName": "Family",
+      "sourceContentHash": "8f24276e8317586a3c1b97e5",
+      "example": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 grandpa？",
+        "options": [
+          {
+            "id": "791",
+            "label": "juice",
+            "picture": "/api/v1/english/task-media/a6d2eed35206df18d69fb4e09e874440476091474eb06e4bc936a3dbb67883be.jpg"
+          },
+          {
+            "id": "797",
+            "label": "grandpa",
+            "picture": "/api/v1/english/task-media/0d09355b3f298918ff6823648c11e50cde29fef83c7ea88e6bea0fece2e9fbe0.jpg"
+          },
+          {
+            "id": "897",
+            "label": "star",
+            "picture": "/api/v1/english/task-media/f1f1e05de0d9812b0d1cff0032e2282e943040e943ca6a6ef09ad597ddf9db66.jpg"
+          },
+          {
+            "id": "814",
+            "label": "grape",
+            "picture": "/api/v1/english/task-media/302dfd50962eb1dd639951a103ec31da14a06ff89a556aa6fa1b0919b0246b18.jpg"
+          }
+        ],
+        "answerId": "797"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/791/sense.png": "a6d2eed35206df18d69fb4e09e874440476091474eb06e4bc936a3dbb67883be",
+        "/api/v1/english/words/797/sense.png": "0d09355b3f298918ff6823648c11e50cde29fef83c7ea88e6bea0fece2e9fbe0",
+        "/api/v1/english/words/814/sense.png": "302dfd50962eb1dd639951a103ec31da14a06ff89a556aa6fa1b0919b0246b18",
+        "/api/v1/english/words/897/sense.png": "f1f1e05de0d9812b0d1cff0032e2282e943040e943ca6a6ef09ad597ddf9db66"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T15:33:27.339288Z"
+}

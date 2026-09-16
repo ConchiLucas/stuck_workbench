@@ -1,0 +1,439 @@
+{
+  "items": [
+    {
+      "attemptId": 149,
+      "childId": 4,
+      "kpId": 894,
+      "title": "circle",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "shapes",
+      "moduleName": "Shapes",
+      "skillCode": "listen",
+      "skillLabel": "听音选词",
+      "questionType": "listen",
+      "occurredAt": "2026-09-13T15:30:28.196847Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 154,
+        "itemId": 474
+      },
+      "planId": 154,
+      "planItemId": 474,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "885",
+            "label": "自行车",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "894",
+            "label": "圆形",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "932",
+            "label": "云",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "770",
+            "label": "白色",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "894",
+        "targetText": "circle"
+      },
+      "englishExample": {
+        "kind": "audio-choice",
+        "speech": "circle",
+        "speechUrl": "/api/v1/english/task-media/b3b3020103b8cdb7123d46ae391780ce28a9c8d5a094850066c7fbb82ec6f199.mp3",
+        "options": [
+          {
+            "id": "885",
+            "label": "自行车",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "894",
+            "label": "圆形",
+            "picture": "/api/v1/english/task-media/106ca93675593a0684746e658b0f6ea96066f5bd74af4aa10c6f24dff6c71b45.jpg"
+          },
+          {
+            "id": "932",
+            "label": "云",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          },
+          {
+            "id": "770",
+            "label": "白色",
+            "picture": "/api/v1/english/task-media/b77a243b10575d5a8c6cff4fe0eb1a7a3fec4b648102dab516fcc558989343e7.jpg"
+          }
+        ],
+        "answerId": "894"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "885",
+        "value": "885"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 154,
+      "childId": 4,
+      "kpId": 885,
+      "title": "bike",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "transport",
+      "moduleName": "Transport",
+      "skillCode": "picture",
+      "skillLabel": "看图选词",
+      "questionType": "picture",
+      "occurredAt": "2026-09-13T15:25:28.196847Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 159,
+        "itemId": 479
+      },
+      "planId": 159,
+      "planItemId": 479,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "哪一张图是 bike？"
+        },
+        "options": [
+          {
+            "id": "842",
+            "label": "balloon",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "885",
+            "label": "bike",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "827",
+            "label": "windy",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "932",
+            "label": "cloud",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "885",
+        "targetText": "bike"
+      },
+      "englishExample": {
+        "kind": "image-text",
+        "prompt": "哪一张图是 bike？",
+        "options": [
+          {
+            "id": "842",
+            "label": "balloon",
+            "picture": "/api/v1/english/task-media/c8b2413b137dfd91d5dd47df902bda8944088ade8bc40b4efc6470485e2071b6.jpg"
+          },
+          {
+            "id": "885",
+            "label": "bike",
+            "picture": "/api/v1/english/task-media/69d86d21bc0de934803c22f8a5a0440e0149999468a3592537235fe47c274b3c.jpg"
+          },
+          {
+            "id": "827",
+            "label": "windy",
+            "picture": "/api/v1/english/task-media/06e6ebd09fa56e2a5b38f901e18fafaed49f0cdbbeb6c7d2b36b267e3c800f52.jpg"
+          },
+          {
+            "id": "932",
+            "label": "cloud",
+            "picture": "/api/v1/english/task-media/90a33f29a09f6ff199c1e5371d6a79e06a8e9211b0bb9a96cfd52e396b664e65.jpg"
+          }
+        ],
+        "answerId": "885"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "842",
+        "value": "842"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 159,
+      "childId": 4,
+      "kpId": 785,
+      "title": "banana",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "food",
+      "moduleName": "Food",
+      "skillCode": "build",
+      "skillLabel": "组句子",
+      "questionType": "build",
+      "occurredAt": "2026-09-13T15:20:28.196847Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 164,
+        "itemId": 484
+      },
+      "planId": 164,
+      "planItemId": 484,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "order",
+        "stem": {
+          "text": "把单词排成一句话",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "bank-0",
+            "label": "a"
+          },
+          {
+            "id": "bank-1",
+            "label": "is"
+          },
+          {
+            "id": "bank-2",
+            "label": "This"
+          },
+          {
+            "id": "bank-3",
+            "label": "banana"
+          }
+        ],
+        "targetText": "This is a banana"
+      },
+      "englishExample": {
+        "kind": "card-builder",
+        "prompt": "把单词排成一句话",
+        "speech": "This is a banana",
+        "speechUrl": "/api/v1/english/task-media/2e6d1d6bd4aa940c25ca1efb0092bde1247e7ffdd23a846e737e2201ef831103.mp3",
+        "bank": [
+          "a",
+          "is",
+          "This",
+          "banana"
+        ],
+        "answer": "This is a banana"
+      },
+      "response": {
+        "kind": "order",
+        "selectedOptionId": "banana a is This",
+        "value": "banana a is This"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 164,
+      "childId": 4,
+      "kpId": 868,
+      "title": "stand",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "actions",
+      "moduleName": "Actions",
+      "skillCode": "type",
+      "skillLabel": "写单词",
+      "questionType": "type",
+      "occurredAt": "2026-09-13T15:15:28.196847Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 169,
+        "itemId": 489
+      },
+      "planId": 169,
+      "planItemId": 489,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "input",
+        "stem": {
+          "text": "写出这个单词",
+          "imageMediaId": "stem-image",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [],
+        "targetText": "stand"
+      },
+      "englishExample": {
+        "kind": "input-gap",
+        "prompt": "写出这个单词",
+        "speech": "stand",
+        "speechUrl": "/api/v1/english/task-media/4f6dce0f21f0d734af77e4728aadf02a44aafbcff315f0e785b7bf955b587c0f.mp3",
+        "cue": "/api/v1/english/task-media/a606745e85202639d46dffab6e4d11e5852a30e58b03217b8ef153f3f091d962.jpg",
+        "answer": "stand"
+      },
+      "response": {
+        "kind": "input",
+        "selectedOptionId": "zzzz",
+        "value": "zzzz"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 169,
+      "childId": 4,
+      "kpId": 756,
+      "title": "bird",
+      "subjectCode": "english",
+      "subjectName": "英语",
+      "moduleCode": "animals",
+      "moduleName": "Animals",
+      "skillCode": "read",
+      "skillLabel": "读一读",
+      "questionType": "read",
+      "occurredAt": "2026-09-13T15:10:28.196847Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "english_plan",
+        "planId": 174,
+        "itemId": 494
+      },
+      "planId": 174,
+      "planItemId": 494,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "Sam 看见了什么？"
+        },
+        "options": [
+          {
+            "id": "754",
+            "label": "猫",
+            "imageMediaId": "option-0-image"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "imageMediaId": "option-1-image"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "imageMediaId": "option-2-image"
+          },
+          {
+            "id": "784",
+            "label": "苹果",
+            "imageMediaId": "option-3-image"
+          }
+        ],
+        "answerOptionId": "756",
+        "targetText": "bird"
+      },
+      "englishExample": {
+        "kind": "reading-qa",
+        "prompt": "Sam 看见了什么？",
+        "passage": "Sam sees a blue bird. It sits on the tree.",
+        "options": [
+          {
+            "id": "754",
+            "label": "猫",
+            "picture": "/api/v1/english/task-media/fd0ab81aff9b3215f25a74e8a44cba4f35a53ca9803fbe50e157342a201fa4a5.jpg"
+          },
+          {
+            "id": "755",
+            "label": "狗",
+            "picture": "/api/v1/english/task-media/f35f493bc2d14a986883766a83541b7c92ff6cb83db0ea87854e3612c5767ebb.jpg"
+          },
+          {
+            "id": "756",
+            "label": "鸟",
+            "picture": "/api/v1/english/task-media/85dd7571d77bd390260566b095b81946fcfc1b44401f1d71fb308f63ecea3a49.jpg"
+          },
+          {
+            "id": "784",
+            "label": "苹果",
+            "picture": "/api/v1/english/task-media/c917f6b04f92df2e3bd47466504f42939e378166b3eef14a651468242a506fc4.jpg"
+          }
+        ],
+        "answerId": "756"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "754",
+        "value": "754"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    }
+  ],
+  "hasMore": false,
+  "evidenceAsOf": "2026-09-13T15:34:15.636631879Z",
+  "stateReadAt": "2026-09-13T15:34:15.636062546Z",
+  "coverage": {
+    "level": "partial",
+    "reasonCodes": [
+      "legacy_selection_missing"
+    ]
+  }
+}

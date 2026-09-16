@@ -1,0 +1,24 @@
+{
+  "viewports": {
+    "1400": {
+      "appInputGap": "left prompt/play, right input; real apple sense image /api/v1/english/words/784/sense.png; overflowX false",
+      "appCardBuilder": "left play, right four tiles This/is/an/apple; overflowX false",
+      "taskInputGap": "left image/play, right input; 答对了 after local submit; source shows 内容摘要 not 素材版本 1"
+    },
+    "929": {
+      "appInputGap": "still left-right, overflowX false, scrollWidth=929",
+      "taskInputGap": "left-right, overflowX false, scrollWidth=929; 写好了 and 答对了 visible, no clip"
+    },
+    "390": {
+      "appInputGap": "stacked prompt then input; overflowX false, scrollWidth=390",
+      "taskCardDialog": "overflowX false, scrollWidth=390"
+    }
+  },
+  "attemptsUnchangedAfterPreviewListenHistory": {
+    "before": {"1": 85, "2": 36, "3": 25, "4": 26},
+    "after": {"1": 85, "2": 36, "3": 25, "4": 26}
+  },
+  "esc": "task preview Escape returned to the list",
+  "historyReadOnly": "progress and knowledge choice/input controls disabled; no 写好了 on history",
+  "oldDemoUnlinked": "child 3 shows 这条记录没有关联到当时那一题，无法还原作答画面"
+}

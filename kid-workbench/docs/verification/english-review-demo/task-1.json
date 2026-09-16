@@ -1,0 +1,150 @@
+{
+  "id": 1,
+  "title": "【验收演示】英语·听音选词·english-review-demo-v1",
+  "count": 3,
+  "types": [
+    "audio-choice"
+  ],
+  "groups": [
+    "Fruits",
+    "Numbers"
+  ],
+  "items": [
+    {
+      "id": "english-1",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 821,
+      "sourceTable": "english_assets",
+      "moduleCode": "fruits",
+      "moduleName": "Fruits",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "audio-choice",
+        "speech": "mango",
+        "speechUrl": "/api/v1/english/task-media/7f21970f6ead1c87fe3fde6b0ff93b850d443ae6900cb86424ce4823df84051e.mp3",
+        "options": [
+          {
+            "id": "771",
+            "label": "橙色",
+            "picture": "/api/v1/english/task-media/8e042d418f64326e69e2f31c8a2577d24eb47c7f017ed7609acccfb207276ccd.jpg"
+          },
+          {
+            "id": "851",
+            "label": "学生",
+            "picture": "/api/v1/english/task-media/a44ecf4ee858139a877643472c422f0752f963298b93f9b4e45571372bcca975.jpg"
+          },
+          {
+            "id": "900",
+            "label": "长方形",
+            "picture": "/api/v1/english/task-media/07c34d70ecad678938aabc7cf634700c10e143272a99ec16e103eb3d90d30a19.jpg"
+          },
+          {
+            "id": "821",
+            "label": "芒果",
+            "picture": "/api/v1/english/task-media/aa6979526d0382fa4851dea9c1f56307b53e56159970740c2b19b0a0f4dc86d9.jpg"
+          }
+        ],
+        "answerId": "821"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/771/sense.png": "8e042d418f64326e69e2f31c8a2577d24eb47c7f017ed7609acccfb207276ccd",
+        "/api/v1/english/words/821/sense.png": "aa6979526d0382fa4851dea9c1f56307b53e56159970740c2b19b0a0f4dc86d9",
+        "/api/v1/english/words/821/speech.mp3": "7f21970f6ead1c87fe3fde6b0ff93b850d443ae6900cb86424ce4823df84051e",
+        "/api/v1/english/words/851/sense.png": "a44ecf4ee858139a877643472c422f0752f963298b93f9b4e45571372bcca975",
+        "/api/v1/english/words/900/sense.png": "07c34d70ecad678938aabc7cf634700c10e143272a99ec16e103eb3d90d30a19"
+      }
+    },
+    {
+      "id": "english-2",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 822,
+      "sourceTable": "english_assets",
+      "moduleCode": "fruits",
+      "moduleName": "Fruits",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "audio-choice",
+        "speech": "kiwi",
+        "speechUrl": "/api/v1/english/task-media/22999ff42bd6668f8cbb393a39fafe5b330b1dc597b753ad288c41dffb2e8537.mp3",
+        "options": [
+          {
+            "id": "780",
+            "label": "七",
+            "picture": "/api/v1/english/task-media/17f4a45e179ed1960b46e98bee29befc2e2d303e57899d3bbc270ae71a1bb86d.jpg"
+          },
+          {
+            "id": "764",
+            "label": "红色",
+            "picture": "/api/v1/english/task-media/722144ef4bc19cda24eadf046d1240b000990ee11a934c4f5cf46ab5cc5779ed.jpg"
+          },
+          {
+            "id": "822",
+            "label": "猕猴桃",
+            "picture": "/api/v1/english/task-media/931d5347a35fd446b87d1d931ce53da39a5bfe42dea875c50023d509b278706b.jpg"
+          },
+          {
+            "id": "796",
+            "label": "婴儿",
+            "picture": "/api/v1/english/task-media/994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3.jpg"
+          }
+        ],
+        "answerId": "822"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/764/sense.png": "722144ef4bc19cda24eadf046d1240b000990ee11a934c4f5cf46ab5cc5779ed",
+        "/api/v1/english/words/780/sense.png": "17f4a45e179ed1960b46e98bee29befc2e2d303e57899d3bbc270ae71a1bb86d",
+        "/api/v1/english/words/796/sense.png": "994cbe9b8506e9b27dcea6db095d2f364cb06d14f609a8c9030f4d6bbc7f8db3",
+        "/api/v1/english/words/822/sense.png": "931d5347a35fd446b87d1d931ce53da39a5bfe42dea875c50023d509b278706b",
+        "/api/v1/english/words/822/speech.mp3": "22999ff42bd6668f8cbb393a39fafe5b330b1dc597b753ad288c41dffb2e8537"
+      }
+    },
+    {
+      "id": "english-3",
+      "kind": "audio-choice",
+      "skillCode": "listen",
+      "targetId": 778,
+      "sourceTable": "english_assets",
+      "moduleCode": "numbers",
+      "moduleName": "Numbers",
+      "sourceRevision": 1,
+      "example": {
+        "kind": "audio-choice",
+        "speech": "five",
+        "speechUrl": "/api/v1/english/task-media/5b0acdeea99692604c5d0eee1206cd8cc4167231074d63a22829d27dca73a1fa.mp3",
+        "options": [
+          {
+            "id": "847",
+            "label": "书包",
+            "picture": "/api/v1/english/task-media/ac0492b93b38ae1c72487a0594a8857760df25b0de3590f151c91e98a9958d46.jpg"
+          },
+          {
+            "id": "778",
+            "label": "五",
+            "picture": "/api/v1/english/task-media/c6f2c2e10b8d00c1dde2166e23d9d9ce4a70da0907bccb086cda6066d922dc1a.jpg"
+          },
+          {
+            "id": "758",
+            "label": "兔子",
+            "picture": "/api/v1/english/task-media/a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0.jpg"
+          },
+          {
+            "id": "871",
+            "label": "睡觉",
+            "picture": "/api/v1/english/task-media/ecc816f19cc668ebe05de902bb3ad5dca2e181ef28fb225a172e4fb4e31ceaf7.jpg"
+          }
+        ],
+        "answerId": "778"
+      },
+      "mediaSHA256": {
+        "/api/v1/english/words/758/sense.png": "a38ef634fda0f7402b04043c4261beb20be45ae9e4d15ca02da483153632c4b0",
+        "/api/v1/english/words/778/sense.png": "c6f2c2e10b8d00c1dde2166e23d9d9ce4a70da0907bccb086cda6066d922dc1a",
+        "/api/v1/english/words/778/speech.mp3": "5b0acdeea99692604c5d0eee1206cd8cc4167231074d63a22829d27dca73a1fa",
+        "/api/v1/english/words/847/sense.png": "ac0492b93b38ae1c72487a0594a8857760df25b0de3590f151c91e98a9958d46",
+        "/api/v1/english/words/871/sense.png": "ecc816f19cc668ebe05de902bb3ad5dca2e181ef28fb225a172e4fb4e31ceaf7"
+      }
+    }
+  ],
+  "createdAt": "2026-09-13T13:32:32.464126Z"
+}

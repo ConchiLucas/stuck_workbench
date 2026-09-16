@@ -1,0 +1,13 @@
+.science-task-actions{display:flex;justify-content:flex-end;margin-bottom:16px}
+.science-task-row{width:100%;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.science-task-form{max-width:600px;margin:auto;display:grid;gap:20px}
+.science-task-form>label{display:grid;gap:8px}
+.science-task-form input:not([type=checkbox]){font:inherit;padding:10px;border:1px solid var(--hairline);border-radius:8px;background:var(--panel-deep);color:var(--text)}
+.science-task-form fieldset{display:flex;flex-wrap:wrap;gap:16px;border:1px solid var(--hairline);border-radius:8px;padding:16px}
+.science-task-form fieldset label{display:flex;gap:8px;align-items:center}
+.science-media-source{overflow-wrap:anywhere;font-size:12px;margin:8px 0}.science-media-source small{display:block}
+.science-task-player{min-width:0;margin:16px 0;color-scheme:light;overflow:visible}
+.science-task-player .science-player{height:auto;background:#eef6f4}
+.science-task-player .logic-player{height:auto;background:#f6f0ff}
+@media(max-width:929px){.science-task-player{margin:12px 0}}
+@media(max-width:390px){.science-task-player{margin:8px 0}}

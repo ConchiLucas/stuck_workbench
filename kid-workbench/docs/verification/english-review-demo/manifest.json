@@ -1,0 +1,27 @@
+{
+  "tag": "english-review-demo-v1",
+  "childId": 3,
+  "childName": "英语验收演示（非真实记录）",
+  "synthetic": true,
+  "taskIds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "taskQuestions": 15,
+  "knowledge": {
+    "attempts": 25,
+    "correct": 20,
+    "wrong": 5
+  },
+  "fullyMasteredDemoKpId": 754,
+  "verifiedTaskMediaReferences": 48,
+  "nonDemoLearningFingerprint": [
+    "a8d0b25c3587507c5e4892e775dd1089",
+    "6a86de10a790172411a43d18b381b4eb",
+    "a18b194567e843b9fbf10e29486bde8e"
+  ],
+  "cleanup": "Only delete this named child after confirming name and client_id prefix; never child 1 or math demo child."
+}

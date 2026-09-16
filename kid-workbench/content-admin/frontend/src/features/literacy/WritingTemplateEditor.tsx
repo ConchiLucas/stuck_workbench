@@ -1,0 +1,10 @@
+import {useState} from 'react'
+import {useQuery,useQueryClient} from '@tanstack/react-query'
+import {appPath} from '../../appPath'
+type TemplateDetail={version:string;validationStatus:string;template:{character:string;strokes:string[];source:{name:string;url:string};license:string}}
+export function WritingTemplateEditor({kpId}:{kpId:number}){
+ const [busy,setBusy]=useState(false),[error,setError]=useState(''),client=useQueryClient(),url=appPath(`/api/v1/literacy/chars/${kpId}/writing-template`)
+ const detail=useQuery({queryKey:['writing-template',kpId],queryFn:async()=>{const r=await fetch(url);if(r.status===404)return null;const d=await r.json();if(!r.ok)throw new Error(d.error??'读取模板失败');return d as TemplateDetail},retry:false})
+ async function importFile(file?:File){if(!file)return;setError('');if(file.size>2*1024*1024){setError('模板最大2MiB');return}setBusy(true);try{const body=await file.text();JSON.parse(body);const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body});const d=await r.json();if(!r.ok)throw new Error(typeof d.error==='string'?d.error:'导入失败');await client.invalidateQueries({queryKey:['writing-template',kpId]});await client.invalidateQueries({queryKey:['material-practice-preview',kpId]});await client.invalidateQueries({queryKey:['literacy','capabilities']})}catch(e){setError(e instanceof Error?e.message:'导入失败')}finally{setBusy(false)}}
+ return <details><summary>书写模板 · {detail.data?'已导入':'待检查'}</summary><p>导入包含字形、笔画中线、来源及许可的 JSON 模板，最大 2MiB。模板用于保存标准字形与笔画数据。</p><label>导入模板<input type="file" accept="application/json,.json" disabled={busy} onChange={e=>{void importFile(e.target.files?.[0]);e.target.value=''}}/></label>{(error||detail.error)&&<p role="alert">{error||detail.error?.message}</p>}{detail.data?<><p>{detail.data.validationStatus} · 版本 {detail.data.version}</p><svg width="200" height="200" viewBox="0 0 1024 1024" aria-label="标准字形"><g transform="translate(0 900) scale(1 -1)">{detail.data.template.strokes.map((d,i)=><path key={i} d={d}/>)}</g></svg><p>{detail.data.template.source.name} · {detail.data.template.license}</p></>:!detail.isLoading&&<p>尚无可用模板，请导入书写素材。</p>}</details>
+}

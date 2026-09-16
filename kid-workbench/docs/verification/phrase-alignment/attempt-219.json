@@ -1,0 +1,94 @@
+{
+  "attemptId": 219,
+  "childId": 8,
+  "kpId": 1197,
+  "title": "Good morning.",
+  "subjectCode": "phrase",
+  "subjectName": "英语短句",
+  "moduleCode": "greet",
+  "moduleName": "问候",
+  "skillCode": "listen_en",
+  "skillLabel": "选句子",
+  "questionType": "listen_en",
+  "occurredAt": "2026-09-14T14:14:20.231825Z",
+  "isCorrect": false,
+  "costMs": 900,
+  "assistance": "none",
+  "source": {
+    "kind": "phrase_plan",
+    "planId": 190,
+    "itemId": 560
+  },
+  "planId": 190,
+  "planItemId": 560,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "immutable",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "label:Good night.",
+        "label": "Good night."
+      },
+      {
+        "id": "label:Nice to meet you.",
+        "label": "Nice to meet you."
+      },
+      {
+        "id": "label:Good morning.",
+        "label": "Good morning."
+      },
+      {
+        "id": "label:Good afternoon.",
+        "label": "Good afternoon."
+      }
+    ],
+    "answerOptionId": "label:Good morning.",
+    "targetText": "Good morning."
+  },
+  "phraseExample": {
+    "kind": "listen_en",
+    "stem": "听一听，点出这句英语",
+    "speech": "Good morning.",
+    "speechUrl": "/api/v1/phrase/task-media/59acac7f5b6f237b11d5a932cea90837955d34aac425ebaf01a19564c9dfc9ec.mp3",
+    "options": [
+      {
+        "id": "label:Good night.",
+        "label": "Good night."
+      },
+      {
+        "id": "label:Nice to meet you.",
+        "label": "Nice to meet you."
+      },
+      {
+        "id": "label:Good morning.",
+        "label": "Good morning."
+      },
+      {
+        "id": "label:Good afternoon.",
+        "label": "Good afternoon."
+      }
+    ],
+    "answerId": "label:Good morning.",
+    "phrase": "Good morning.",
+    "meaningZh": "早上好。",
+    "scene": "早上见到老师"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "label:Good afternoon.",
+    "value": "label:Good afternoon."
+  },
+  "followUpState": "answered_correctly_later",
+  "laterAttempts": 1
+}

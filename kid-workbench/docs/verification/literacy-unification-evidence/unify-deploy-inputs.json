@@ -1,0 +1,1 @@
+{"source": "/Users/conchi/workforce/english_workforce/kid-workbench", "buildContext": "/tmp/kid-unify-deploy-20260912", "excludedParallelMigrations": ["parent-dashboard/backend/internal/db/migrations/postgres/015_pinyin_mastery.sql", "parent-dashboard/backend/internal/db/migrations/sqlite/015_pinyin_mastery.sql"]}

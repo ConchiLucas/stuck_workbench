@@ -1,0 +1,77 @@
+{
+  "qualified": false,
+  "attemptId": 227,
+  "childId": 8,
+  "kpId": 1197,
+  "title": "Good morning.",
+  "subjectCode": "phrase",
+  "subjectName": "英语短句",
+  "moduleCode": "greet",
+  "moduleName": "问候",
+  "skillCode": "listen_zh",
+  "skillLabel": "听一听",
+  "questionType": "listen_zh",
+  "occurredAt": "2026-09-14T14:25:06.575363Z",
+  "isCorrect": false,
+  "costMs": 700,
+  "assistance": "none",
+  "source": {
+    "kind": "phrase_plan",
+    "planId": 195,
+    "itemId": 577
+  },
+  "planId": 195,
+  "planItemId": 577,
+  "questionFidelity": "instance_snapshot",
+  "selectionFidelity": "stable_option",
+  "mediaFidelity": "mutable_reference",
+  "reviewEligible": false,
+  "reviewBlockReasons": [
+    "unsupported_subject"
+  ],
+  "evidenceReasonCodes": [
+    "media_not_frozen"
+  ],
+  "question": {
+    "interaction": "choice",
+    "stem": {
+      "text": "",
+      "audioMediaId": "stem-audio"
+    },
+    "options": [
+      {
+        "id": "1",
+        "label": "早上好。"
+      },
+      {
+        "id": "2",
+        "label": "下午好。"
+      }
+    ],
+    "answerOptionId": "1",
+    "targetText": "Good morning."
+  },
+  "phraseExample": {
+    "kind": "listen_zh",
+    "speech": "Good morning.",
+    "speechUrl": "/api/v1/phrase/items/1197/speech.mp3",
+    "options": [
+      {
+        "id": "1",
+        "label": "早上好。"
+      },
+      {
+        "id": "2",
+        "label": "下午好。"
+      }
+    ],
+    "answerId": "1"
+  },
+  "response": {
+    "kind": "choice",
+    "selectedOptionId": "2",
+    "value": "2"
+  },
+  "followUpState": "no_later_practice",
+  "laterAttempts": 0
+}

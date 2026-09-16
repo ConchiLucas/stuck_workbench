@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <rect width="800" height="500" rx="36" fill="#fff6d8"/>
+  <rect x="48" y="70" width="280" height="220" rx="28" fill="#fffdf4" stroke="#e3c27a" stroke-width="6"/>
+  <text x="188" y="210" text-anchor="middle" font-size="92" font-family="Nunito,PingFang SC,sans-serif" font-weight="800" fill="#8a4b1f">3 + 5</text>
+  <rect x="420" y="58" width="150" height="150" rx="28" fill="#fffdf4" stroke="#d7b36a" stroke-width="6"/>
+  <rect x="590" y="58" width="150" height="150" rx="28" fill="#fffdf4" stroke="#d7b36a" stroke-width="6"/>
+  <rect x="420" y="230" width="150" height="150" rx="28" fill="#f3ead0" stroke="#c8963d" stroke-width="8"/>
+  <rect x="590" y="230" width="150" height="150" rx="28" fill="#fffdf4" stroke="#d7b36a" stroke-width="6"/>
+  <text x="495" y="155" text-anchor="middle" font-size="64" font-family="Nunito,sans-serif" font-weight="800" fill="#8a4b1f">7</text>
+  <text x="665" y="155" text-anchor="middle" font-size="64" font-family="Nunito,sans-serif" font-weight="800" fill="#8a4b1f">6</text>
+  <text x="495" y="328" text-anchor="middle" font-size="64" font-family="Nunito,sans-serif" font-weight="800" fill="#a53e2b">8</text>
+  <text x="665" y="328" text-anchor="middle" font-size="64" font-family="Nunito,sans-serif" font-weight="800" fill="#8a4b1f">9</text>
+</svg>

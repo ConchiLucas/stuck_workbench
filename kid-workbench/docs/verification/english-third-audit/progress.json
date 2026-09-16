@@ -1,0 +1,839 @@
+{
+  "data": {
+    "module_code": "animals",
+    "kp_id": 754,
+    "title": "cat",
+    "payload": "{\"meaningZh\":\"猫\"}",
+    "difficulty": 1,
+    "subject_code": "english",
+    "subject_name": "英语",
+    "module_name": "Animals",
+    "status": "learning",
+    "attempts": 20,
+    "correct": 8,
+    "accuracy": 0.4,
+    "streak": 1,
+    "best_streak": 1,
+    "due_at": "2026-09-14T16:42:40.488688Z",
+    "mastered_at": null,
+    "skills": [
+      {
+        "code": "listen",
+        "status": "learning",
+        "accuracy": 0.42857142857142855,
+        "attempts": 14
+      },
+      {
+        "code": "picture",
+        "status": "learning",
+        "accuracy": 0.3333333333333333,
+        "attempts": 6
+      },
+      {
+        "code": "build",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      },
+      {
+        "code": "type",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      },
+      {
+        "code": "read",
+        "status": "not_started",
+        "accuracy": 0,
+        "attempts": 0
+      }
+    ],
+    "history": [
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "761",
+          "response_kind": "choice"
+        },
+        "attempt_id": 175,
+        "selected_option_id": "761",
+        "at": "2026-09-13T16:41:35.384016Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 176,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:41:35.401461Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "757",
+          "response_kind": "choice"
+        },
+        "attempt_id": 177,
+        "selected_option_id": "757",
+        "at": "2026-09-13T16:41:35.957256Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "757",
+          "response_kind": "choice"
+        },
+        "attempt_id": 178,
+        "selected_option_id": "757",
+        "at": "2026-09-13T16:41:35.966717Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "758",
+          "response_kind": "choice"
+        },
+        "attempt_id": 179,
+        "selected_option_id": "758",
+        "at": "2026-09-13T16:41:36.010856Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "758",
+          "response_kind": "choice"
+        },
+        "attempt_id": 180,
+        "selected_option_id": "758",
+        "at": "2026-09-13T16:41:36.020476Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 189,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:41:36.41431Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              },
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 190,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:41:36.455901Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "757",
+          "response_kind": "choice"
+        },
+        "attempt_id": 192,
+        "selected_option_id": "757",
+        "at": "2026-09-13T16:42:09.354953Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 193,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:42:09.362762Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "763",
+          "response_kind": "choice"
+        },
+        "attempt_id": 194,
+        "selected_option_id": "763",
+        "at": "2026-09-13T16:42:25.54691Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 195,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:42:25.555414Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "761",
+          "response_kind": "choice"
+        },
+        "attempt_id": 196,
+        "selected_option_id": "761",
+        "at": "2026-09-13T16:42:39.523042Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 197,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:42:39.531679Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "763",
+          "response_kind": "choice"
+        },
+        "attempt_id": 198,
+        "selected_option_id": "763",
+        "at": "2026-09-13T16:42:40.03813Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              },
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "763",
+          "response_kind": "choice"
+        },
+        "attempt_id": 199,
+        "selected_option_id": "763",
+        "at": "2026-09-13T16:42:40.047441Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "759",
+          "response_kind": "choice"
+        },
+        "attempt_id": 200,
+        "selected_option_id": "759",
+        "at": "2026-09-13T16:42:40.088281Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "759",
+          "response_kind": "choice"
+        },
+        "attempt_id": 201,
+        "selected_option_id": "759",
+        "at": "2026-09-13T16:42:40.096366Z",
+        "is_correct": false,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "audio-choice",
+            "prompt": "听一听，点出这个单词",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "757",
+                "label": "鱼"
+              },
+              {
+                "id": "754",
+                "label": "猫"
+              },
+              {
+                "id": "761",
+                "label": "熊"
+              },
+              {
+                "id": "763",
+                "label": "熊猫"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 210,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:42:40.488688Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "listen"
+      },
+      {
+        "english_review": {
+          "example": {
+            "kind": "image-text",
+            "prompt": "听一听，点出对应的图",
+            "speech": "cat",
+            "speechUrl": "/api/english/words/754/speech.mp3",
+            "options": [
+              {
+                "id": "754",
+                "label": "猫",
+                "picture": "/api/english/words/754/sense.png"
+              },
+              {
+                "id": "763",
+                "label": "熊猫",
+                "picture": "/api/english/words/763/sense.png"
+              },
+              {
+                "id": "758",
+                "label": "兔子",
+                "picture": "/api/english/words/758/sense.png"
+              },
+              {
+                "id": "759",
+                "label": "老虎",
+                "picture": "/api/english/words/759/sense.png"
+              }
+            ],
+            "answerId": "754"
+          },
+          "selected": "754",
+          "response_kind": "choice"
+        },
+        "attempt_id": 211,
+        "selected_option_id": "754",
+        "at": "2026-09-13T16:42:40.530796Z",
+        "is_correct": true,
+        "cost_ms": 900,
+        "source": "quiz",
+        "skill_code": "picture"
+      }
+    ]
+  },
+  "error": null
+}

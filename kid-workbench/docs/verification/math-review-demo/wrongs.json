@@ -1,0 +1,1065 @@
+{
+  "items": [
+    {
+      "attemptId": 88,
+      "childId": 2,
+      "kpId": 346,
+      "title": "1+1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "skillCode": "calc",
+      "skillLabel": "算式计算",
+      "questionType": "calc",
+      "occurredAt": "2026-09-10T12:10:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 93,
+        "itemId": 413
+      },
+      "planId": 93,
+      "planItemId": 413,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "1 + 1"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "3"
+          },
+          {
+            "id": "o2",
+            "label": "5"
+          },
+          {
+            "id": "o3",
+            "label": "4"
+          },
+          {
+            "id": "o4",
+            "label": "2"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "1+1"
+      },
+      "mathExample": {
+        "kind": "choice",
+        "prompt": "1 + 1",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "answer": "2",
+        "operation": "add",
+        "counts": [
+          1,
+          1
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 89,
+      "childId": 2,
+      "kpId": 347,
+      "title": "1+2",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "skillCode": "calc",
+      "skillLabel": "算式计算",
+      "questionType": "calc",
+      "occurredAt": "2026-09-10T12:09:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 94,
+        "itemId": 414
+      },
+      "planId": 94,
+      "planItemId": 414,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "1 + 2"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "2"
+          },
+          {
+            "id": "o2",
+            "label": "1"
+          },
+          {
+            "id": "o3",
+            "label": "0"
+          },
+          {
+            "id": "o4",
+            "label": "3"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "1+2"
+      },
+      "mathExample": {
+        "kind": "choice",
+        "prompt": "1 + 2",
+        "options": [
+          "2",
+          "1",
+          "0",
+          "3"
+        ],
+        "answer": "3",
+        "operation": "add",
+        "counts": [
+          1,
+          2
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 94,
+      "childId": 2,
+      "kpId": 346,
+      "title": "1+1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "skillCode": "story",
+      "skillLabel": "情境应用",
+      "questionType": "story",
+      "occurredAt": "2026-09-10T12:04:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 99,
+        "itemId": 419
+      },
+      "planId": 99,
+      "planItemId": 419,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "一组 1 个，另一组 1 个，一共有几个？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "5"
+          },
+          {
+            "id": "o2",
+            "label": "3"
+          },
+          {
+            "id": "o3",
+            "label": "2"
+          },
+          {
+            "id": "o4",
+            "label": "4"
+          }
+        ],
+        "answerOptionId": "o3",
+        "targetText": "1+1"
+      },
+      "mathExample": {
+        "kind": "objects",
+        "prompt": "一组 1 个，另一组 1 个，一共有几个？",
+        "options": [
+          "5",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": "2",
+        "operation": "add",
+        "counts": [
+          1,
+          1
+        ],
+        "object": "苹果",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o3"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o4"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 95,
+      "childId": 2,
+      "kpId": 347,
+      "title": "1+2",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "add10",
+      "moduleName": "20以内加法",
+      "skillCode": "story",
+      "skillLabel": "情境应用",
+      "questionType": "story",
+      "occurredAt": "2026-09-10T12:03:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 100,
+        "itemId": 420
+      },
+      "planId": 100,
+      "planItemId": 420,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "一组 1 个，另一组 2 个，一共有几个？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "4"
+          },
+          {
+            "id": "o2",
+            "label": "2"
+          },
+          {
+            "id": "o3",
+            "label": "5"
+          },
+          {
+            "id": "o4",
+            "label": "3"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "1+2"
+      },
+      "mathExample": {
+        "kind": "objects",
+        "prompt": "一组 1 个，另一组 2 个，一共有几个？",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": "3",
+        "operation": "add",
+        "counts": [
+          1,
+          2
+        ],
+        "object": "苹果",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 100,
+      "childId": 2,
+      "kpId": 536,
+      "title": "1-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "skillCode": "calc",
+      "skillLabel": "算式计算",
+      "questionType": "calc",
+      "occurredAt": "2026-09-10T11:58:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 105,
+        "itemId": 425
+      },
+      "planId": 105,
+      "planItemId": 425,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "1 − 1"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "1"
+          },
+          {
+            "id": "o2",
+            "label": "0"
+          },
+          {
+            "id": "o3",
+            "label": "2"
+          },
+          {
+            "id": "o4",
+            "label": "3"
+          }
+        ],
+        "answerOptionId": "o2",
+        "targetText": "1-1"
+      },
+      "mathExample": {
+        "kind": "choice",
+        "prompt": "1 − 1",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "3"
+        ],
+        "answer": "0",
+        "operation": "sub",
+        "counts": [
+          1,
+          1
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o2"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o3"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 101,
+      "childId": 2,
+      "kpId": 537,
+      "title": "2-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "skillCode": "calc",
+      "skillLabel": "算式计算",
+      "questionType": "calc",
+      "occurredAt": "2026-09-10T11:57:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 106,
+        "itemId": 426
+      },
+      "planId": 106,
+      "planItemId": 426,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "2 − 1"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "3"
+          },
+          {
+            "id": "o2",
+            "label": "1"
+          },
+          {
+            "id": "o3",
+            "label": "0"
+          },
+          {
+            "id": "o4",
+            "label": "2"
+          }
+        ],
+        "answerOptionId": "o2",
+        "targetText": "2-1"
+      },
+      "mathExample": {
+        "kind": "choice",
+        "prompt": "2 − 1",
+        "options": [
+          "3",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": "1",
+        "operation": "sub",
+        "counts": [
+          2,
+          1
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o2"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o3"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 106,
+      "childId": 2,
+      "kpId": 536,
+      "title": "1-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "skillCode": "story",
+      "skillLabel": "情境应用",
+      "questionType": "story",
+      "occurredAt": "2026-09-10T11:52:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 111,
+        "itemId": 431
+      },
+      "planId": 111,
+      "planItemId": 431,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "原来有 1 个，拿走 1 个，还剩几个？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "2"
+          },
+          {
+            "id": "o2",
+            "label": "3"
+          },
+          {
+            "id": "o3",
+            "label": "1"
+          },
+          {
+            "id": "o4",
+            "label": "0"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "1-1"
+      },
+      "mathExample": {
+        "kind": "objects",
+        "prompt": "原来有 1 个，拿走 1 个，还剩几个？",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "0"
+        ],
+        "answer": "0",
+        "operation": "sub",
+        "counts": [
+          1,
+          1
+        ],
+        "object": "草莓",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 107,
+      "childId": 2,
+      "kpId": 537,
+      "title": "2-1",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "sub10",
+      "moduleName": "20以内减法",
+      "skillCode": "story",
+      "skillLabel": "情境应用",
+      "questionType": "story",
+      "occurredAt": "2026-09-10T11:51:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 112,
+        "itemId": 432
+      },
+      "planId": 112,
+      "planItemId": 432,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "原来有 2 个，拿走 1 个，还剩几个？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "4"
+          },
+          {
+            "id": "o2",
+            "label": "2"
+          },
+          {
+            "id": "o3",
+            "label": "3"
+          },
+          {
+            "id": "o4",
+            "label": "1"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "2-1"
+      },
+      "mathExample": {
+        "kind": "objects",
+        "prompt": "原来有 2 个，拿走 1 个，还剩几个？",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": "1",
+        "operation": "sub",
+        "counts": [
+          2,
+          1
+        ],
+        "object": "草莓",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 112,
+      "childId": 2,
+      "kpId": 746,
+      "title": "圆形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "skillCode": "find",
+      "skillLabel": "听音找图形",
+      "questionType": "find",
+      "occurredAt": "2026-09-10T11:46:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 117,
+        "itemId": 437
+      },
+      "planId": 117,
+      "planItemId": 437,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "mutable_reference",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "听一听，选出图形",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "五角星"
+          },
+          {
+            "id": "o2",
+            "label": "椭圆形"
+          },
+          {
+            "id": "o3",
+            "label": "正方形"
+          },
+          {
+            "id": "o4",
+            "label": "圆形"
+          }
+        ],
+        "answerOptionId": "o4",
+        "targetText": "圆形"
+      },
+      "mathExample": {
+        "kind": "audio-shape",
+        "prompt": "听一听，选出图形",
+        "options": [
+          "五角星",
+          "椭圆形",
+          "正方形",
+          "圆形"
+        ],
+        "answer": "圆形",
+        "shapeKeys": [
+          "star",
+          "oval",
+          "square",
+          "circle"
+        ],
+        "audioUrl": "/api/v1/children/2/math/plans/117/items/437/audio.mp3",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o4"
+      },
+      "audioMutable": true,
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o1"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 113,
+      "childId": 2,
+      "kpId": 747,
+      "title": "正方形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "skillCode": "find",
+      "skillLabel": "听音找图形",
+      "questionType": "find",
+      "occurredAt": "2026-09-10T11:45:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 118,
+        "itemId": 438
+      },
+      "planId": 118,
+      "planItemId": 438,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "mutable_reference",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "听一听，选出图形",
+          "audioMediaId": "stem-audio"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "梯形"
+          },
+          {
+            "id": "o2",
+            "label": "三角形"
+          },
+          {
+            "id": "o3",
+            "label": "正方形"
+          },
+          {
+            "id": "o4",
+            "label": "圆形"
+          }
+        ],
+        "answerOptionId": "o3",
+        "targetText": "正方形"
+      },
+      "mathExample": {
+        "kind": "audio-shape",
+        "prompt": "听一听，选出图形",
+        "options": [
+          "梯形",
+          "三角形",
+          "正方形",
+          "圆形"
+        ],
+        "answer": "正方形",
+        "shapeKeys": [
+          "trapezoid",
+          "triangle",
+          "square",
+          "circle"
+        ],
+        "audioUrl": "/api/v1/children/2/math/plans/118/items/438/audio.mp3",
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o3"
+      },
+      "audioMutable": true,
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o4"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 118,
+      "childId": 2,
+      "kpId": 746,
+      "title": "圆形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "skillCode": "name",
+      "skillLabel": "看图认名称",
+      "questionType": "name",
+      "occurredAt": "2026-09-10T11:40:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 123,
+        "itemId": 443
+      },
+      "planId": 123,
+      "planItemId": 443,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "看一看，这是什么图形？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "圆形"
+          },
+          {
+            "id": "o2",
+            "label": "正方形"
+          },
+          {
+            "id": "o3",
+            "label": "菱形"
+          },
+          {
+            "id": "o4",
+            "label": "三角形"
+          }
+        ],
+        "answerOptionId": "o1",
+        "targetText": "圆形"
+      },
+      "mathExample": {
+        "kind": "shape-name",
+        "prompt": "看一看，这是什么图形？",
+        "options": [
+          "圆形",
+          "正方形",
+          "菱形",
+          "三角形"
+        ],
+        "answer": "圆形",
+        "shapeKeys": [
+          "circle"
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o1"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o2"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    },
+    {
+      "attemptId": 119,
+      "childId": 2,
+      "kpId": 747,
+      "title": "正方形",
+      "subjectCode": "math",
+      "subjectName": "算术",
+      "moduleCode": "shape",
+      "moduleName": "认识图形",
+      "skillCode": "name",
+      "skillLabel": "看图认名称",
+      "questionType": "name",
+      "occurredAt": "2026-09-10T11:39:35.634665Z",
+      "isCorrect": false,
+      "costMs": 8000,
+      "assistance": "none",
+      "source": {
+        "kind": "math_plan",
+        "planId": 124,
+        "itemId": 444
+      },
+      "planId": 124,
+      "planItemId": 444,
+      "questionFidelity": "instance_snapshot",
+      "selectionFidelity": "stable_option",
+      "mediaFidelity": "immutable",
+      "reviewEligible": false,
+      "reviewBlockReasons": [
+        "unsupported_subject"
+      ],
+      "evidenceReasonCodes": [],
+      "question": {
+        "interaction": "choice",
+        "stem": {
+          "text": "看一看，这是什么图形？"
+        },
+        "options": [
+          {
+            "id": "o1",
+            "label": "梯形"
+          },
+          {
+            "id": "o2",
+            "label": "五角星"
+          },
+          {
+            "id": "o3",
+            "label": "正方形"
+          },
+          {
+            "id": "o4",
+            "label": "三角形"
+          }
+        ],
+        "answerOptionId": "o3",
+        "targetText": "正方形"
+      },
+      "mathExample": {
+        "kind": "shape-name",
+        "prompt": "看一看，这是什么图形？",
+        "options": [
+          "梯形",
+          "五角星",
+          "正方形",
+          "三角形"
+        ],
+        "answer": "正方形",
+        "shapeKeys": [
+          "square"
+        ],
+        "optionIds": [
+          "o1",
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "answerOptionId": "o3"
+      },
+      "response": {
+        "kind": "choice",
+        "selectedOptionId": "o4"
+      },
+      "followUpState": "no_later_practice",
+      "laterAttempts": 0
+    }
+  ],
+  "hasMore": false,
+  "evidenceAsOf": "2026-09-13T12:22:30.925540595Z",
+  "stateReadAt": "2026-09-13T12:22:30.91935522Z",
+  "coverage": {
+    "level": "partial",
+    "reasonCodes": [
+      "legacy_selection_missing"
+    ]
+  }
+}
