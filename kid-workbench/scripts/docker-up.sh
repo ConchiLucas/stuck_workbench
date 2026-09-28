@@ -51,7 +51,7 @@ ensure_shared_network() {
 }
 
 start_shared_config_center() {
-  local dir="${SHARED_CONFIG_CENTER_DIR:-$ROOT/../../go_workforce/shared-config-center}"
+  local dir="${SHARED_CONFIG_CENTER_DIR:-$ROOT/../../local_config_center}"
   if [[ ! -f "$dir/docker-compose.yml" ]]; then
     echo "skip shared-config-center (not found at $dir)"
     echo "  content-admin config menu needs it; set SHARED_CONFIG_CENTER_DIR if it lives elsewhere"
