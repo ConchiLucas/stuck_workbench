@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE kid_users (
   id            BIGSERIAL PRIMARY KEY,
   phone         VARCHAR(20) NOT NULL UNIQUE,
   nickname      VARCHAR(50) NOT NULL DEFAULT '',
@@ -17,7 +17,7 @@ CREATE TABLE children (
 );
 
 CREATE TABLE parent_child (
-  user_id  BIGINT NOT NULL REFERENCES users(id),
+  user_id  BIGINT NOT NULL REFERENCES kid_users(id),
   child_id BIGINT NOT NULL REFERENCES children(id),
   relation VARCHAR(20) NOT NULL DEFAULT '',
   role     VARCHAR(20) NOT NULL DEFAULT 'owner',

@@ -1,37 +1,18 @@
 services:
-  postgres:
-    image: postgres:16-alpine
-    environment:
-      POSTGRES_USER: conchi
-      POSTGRES_PASSWORD: conchi123456
-      POSTGRES_DB: study_workbench
-    ports:
-      - "15432:5432"
-    volumes:
-      - study_workbench_pg:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U conchi -d study_workbench"]
-      interval: 3s
-      timeout: 3s
-      retries: 15
-    restart: unless-stopped
-
   seed:
+    profiles: [maintenance]
     build:
       context: .
       dockerfile: parent-dashboard/backend/Dockerfile
       target: seed
     environment: &db_env
       APP_DB_DRIVER: postgres
-      APP_DB_HOST: postgres
-      APP_DB_PORT: "5432"
-      APP_DB_USER: conchi
-      APP_DB_PASSWORD: conchi123456
-      APP_DB_NAME: study_workbench
-      APP_DB_CONFIG: sslmode=disable
-    depends_on:
-      postgres:
-        condition: service_healthy
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?set the private kid-workbench .env}
+      APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
     restart: "no"
 
   backend:
@@ -52,9 +33,6 @@ services:
       LOGIC_SERVER_URL: http://logic-server:19191
     ports:
       - "19081:19081"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     restart: unless-stopped
 
   literacy-server:
@@ -64,8 +42,6 @@ services:
     environment:
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
       <<: *db_env
-      # Avoid the unrelated postgres alias on vibedeploy-shared.
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_ADDR: :19151
       APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
       APP_MINIO_ACCESS_KEY: ${APP_MINIO_ACCESS_KEY:-minioadmin}
@@ -75,9 +51,6 @@ services:
       APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
     ports:
       - "19151:19151"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -101,7 +74,6 @@ services:
     environment:
       <<: *db_env
       # Use this project database; shared network also has a postgres alias.
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_ADDR: :19111
       APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
       # Match shared config center / content-admin. The MinIO image default
@@ -113,9 +85,6 @@ services:
       APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
     ports:
       - "127.0.0.1:19111:19111"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -139,7 +108,6 @@ services:
     environment:
       <<: *db_env
       # Use this project database; shared network also has a postgres alias.
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_ADDR: :19131
       APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
       # Match shared config center / content-admin. The MinIO image default
@@ -152,9 +120,6 @@ services:
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
     ports:
       - "19131:19131"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -181,9 +146,6 @@ services:
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
     ports:
       - "19171:19171"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     restart: unless-stopped
 
   phrase-app:
@@ -207,9 +169,6 @@ services:
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
     ports:
       - "19181:19181"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     restart: unless-stopped
 
   chengyu-app:
@@ -230,7 +189,6 @@ services:
     environment:
       <<: *db_env
       # Use this project database; shared network also has a postgres alias.
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
       APP_ADDR: :19121
       APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
@@ -241,9 +199,6 @@ services:
       APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
     ports:
       - "19121:19121"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -268,7 +223,6 @@ services:
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
       <<: *db_env
       # Use this project database; shared network also has a postgres alias.
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_ADDR: :19141
       # Match content-admin storage; legacy plan audio must read the same objects.
       APP_MINIO_ENDPOINT: ${APP_MINIO_ENDPOINT:-minio:9000}
@@ -279,9 +233,6 @@ services:
       APP_MINIO_USE_SSL: ${APP_MINIO_USE_SSL:-false}
     ports:
       - "19141:19141"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -307,9 +258,6 @@ services:
       APP_ADDR: :19191
     ports:
       - "19191:19191"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     restart: unless-stopped
 
   logic-app:
@@ -329,14 +277,10 @@ services:
       dockerfile: poem-server/Dockerfile
     environment:
       <<: *db_env
-      APP_DB_HOST: kid-workbench-postgres-1
       APP_CONTENT_ADMIN_URL: http://content-admin:19091
       APP_ADDR: :19161
     ports:
       - "19161:19161"
-    depends_on:
-      seed:
-        condition: service_completed_successfully
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -364,12 +308,12 @@ services:
       APP_TASK_ADMIN_URL: http://task-admin:19201
       SHARED_CONFIG_CENTER_BASE_URL: ${SHARED_CONFIG_CENTER_BASE_URL:-http://shared-config-center-api:8080}
       # Reach workbench Postgres via published host port (works with existing stack too).
-      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
-      APP_DB_PORT: ${APP_DB_PORT:-15432}
-      APP_DB_USER: ${APP_DB_USER:-conchi}
-      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?set the private kid-workbench .env}
       APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
-      APP_DB_CONFIG: sslmode=disable
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
       APP_MINIO_PUBLIC_BASE: ${APP_MINIO_PUBLIC_BASE:-http://localhost:19100}
       # Endpoint only: bucket/basePath/keys come from the shared config center
       # (english-material / image-story). Do not default to study-assets — that bucket
@@ -380,9 +324,6 @@ services:
       GLYPH_FONT_PATH: /app/assets/fonts/NotoSerifSC-Regular.otf
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    depends_on:
-      postgres:
-        condition: service_healthy
     networks:
       default: {}
       vibedeploy-shared: {}
@@ -402,17 +343,14 @@ services:
       APP_AUTO_REVIEW_ENABLED: "false"
       APP_REVIEW_SUGGESTIONS_ENABLED: "true"
       APP_WRITING_ENABLED: ${APP_WRITING_ENABLED:-true}
-      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
-      APP_DB_PORT: ${APP_DB_PORT:-15432}
-      APP_DB_USER: ${APP_DB_USER:-conchi}
-      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?set the private kid-workbench .env}
       APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
-      APP_DB_CONFIG: sslmode=disable
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    depends_on:
-      postgres:
-        condition: service_healthy
     restart: unless-stopped
 
   diagnosis-admin:
@@ -432,21 +370,15 @@ services:
       APP_PINYIN_SERVER_URL: http://pinyin-server:19111
       APP_MATH_SERVER_URL: http://math-server:19141
       APP_REVIEW_SUGGESTIONS_ENABLED: "true"
-      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
-      APP_DB_PORT: ${APP_DB_PORT:-15432}
-      APP_DB_USER: ${APP_DB_USER:-conchi}
-      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?set the private kid-workbench .env}
       APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
-      APP_DB_CONFIG: sslmode=disable
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    depends_on:
-      postgres:
-        condition: service_healthy
     restart: unless-stopped
-
-volumes:
-  study_workbench_pg:
 
 networks:
   vibedeploy-shared:

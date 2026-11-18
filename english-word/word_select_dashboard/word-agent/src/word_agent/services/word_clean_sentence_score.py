@@ -142,7 +142,7 @@ class WordCleanSentenceScoreService:
     def _resolve_dsn(self) -> str:
         if self.settings.rob_word_db_dsn:
             return self.settings.rob_word_db_dsn
-        return "host=127.0.0.1 port=5432 dbname=rob_english_word user=conchi password=conchi123456"
+        raise WordCleanSentenceScoreError("缺少 WORD_AGENT_ROB_WORD_DB_DSN；请使用工作空间私有配置")
 
     def _ensure_score_columns(self, conn: psycopg.Connection) -> None:
         with conn.transaction():

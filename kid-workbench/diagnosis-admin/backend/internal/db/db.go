@@ -14,10 +14,10 @@ func DSNFromEnv() string {
 	if v := os.Getenv("APP_DSN"); v != "" {
 		return v
 	}
-	host := env("APP_DB_HOST", "127.0.0.1")
-	port := env("APP_DB_PORT", "15432")
-	user := env("APP_DB_USER", "conchi")
-	pass := env("APP_DB_PASSWORD", "conchi123456")
+	host := env("APP_DB_HOST", "100.120.144.76")
+	port := env("APP_DB_PORT", "5432")
+	user := env("APP_DB_USER", "sw_kid_runtime")
+	pass := env("APP_DB_PASSWORD", "")
 	name := env("APP_DB_NAME", "study_workbench")
 	cfg := env("APP_DB_CONFIG", "sslmode=disable")
 	return fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s %s",

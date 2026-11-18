@@ -98,6 +98,7 @@ coverage.out
 **/internal/http/dist/
 
 # Local backend data / dumps
+.private/
 **/backend/data/
 *.db
 *.sqlite

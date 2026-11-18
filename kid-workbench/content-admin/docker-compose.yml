@@ -12,12 +12,12 @@ services:
       APP_ADDR: :19091
       APP_TASK_ADMIN_URL: http://host.docker.internal:19201
       SHARED_CONFIG_CENTER_BASE_URL: ${SHARED_CONFIG_CENTER_BASE_URL:-http://shared-config-center-api:8080}
-      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
-      APP_DB_PORT: ${APP_DB_PORT:-15432}
-      APP_DB_USER: ${APP_DB_USER:-conchi}
-      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?use --env-file ../.env}
       APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
-      APP_DB_CONFIG: sslmode=disable
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
       APP_MINIO_PUBLIC_BASE: ${APP_MINIO_PUBLIC_BASE:-http://localhost:19100}
       APP_PUBLIC_BASE: ${APP_PUBLIC_BASE:-http://localhost:19091}
       GLYPH_FONT_PATH: /app/assets/fonts/NotoSerifSC-Regular.otf

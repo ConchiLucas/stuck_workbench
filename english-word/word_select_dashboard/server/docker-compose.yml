@@ -32,3 +32,9 @@ services:
     volumes:
       - ./log:/app/log
       - ./uploads:/app/uploads
+
+# Preserve the network used by the existing deployment; do not allocate another subnet.
+networks:
+  default:
+    name: vibedeploy-shared
+    external: true

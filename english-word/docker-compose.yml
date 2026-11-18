@@ -16,26 +16,14 @@ services:
       - SPRING_PROFILES_ACTIVE=prod
       - SERVER_PORT=8019
       - NETTY_WEBSOCKET_PORT=9091
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/rob_english_word
-      - SPRING_DATASOURCE_USERNAME=${POSTGRES_USER:-rob_word}
-      - SPRING_DATASOURCE_PASSWORD=${POSTGRES_PASSWORD:-change-me}
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://${ROB_WORD_DB_HOST:-100.120.144.76}:${ROB_WORD_DB_PORT:-5432}/${ROB_WORD_DB_NAME:-study_workbench}
+      - SPRING_DATASOURCE_USERNAME=${ROB_WORD_DB_USER:-sw_english_runtime}
+      - SPRING_DATASOURCE_PASSWORD=${ROB_WORD_DB_PASSWORD:?use --env-file .env.local}
       - SPRING_REDIS_HOST=redis
       - SPRING_DATA_REDIS_PASSWORD=${REDIS_PASSWORD:-}
       - WORD_AGENT_BASE_URL=http://host.docker.internal:8010
     depends_on:
-      - db
       - redis
-
-  db:
-    image: postgres:16
-    environment:
-      - POSTGRES_DB=rob_english_word
-      - POSTGRES_USER=${POSTGRES_USER:-rob_word}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-change-me}
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
 
   redis:
     image: redis:7-alpine
@@ -45,5 +33,4 @@ services:
       - redis_data:/data
 
 volumes:
-  postgres_data:
   redis_data:

@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE kid_users (
   id            INTEGER PRIMARY KEY AUTOINCREMENT,
   phone         TEXT NOT NULL UNIQUE,
   nickname      TEXT NOT NULL DEFAULT '',
@@ -17,7 +17,7 @@ CREATE TABLE children (
 );
 
 CREATE TABLE parent_child (
-  user_id  INTEGER NOT NULL REFERENCES users(id),
+  user_id  INTEGER NOT NULL REFERENCES kid_users(id),
   child_id INTEGER NOT NULL REFERENCES children(id),
   relation TEXT NOT NULL DEFAULT '',
   role     TEXT NOT NULL DEFAULT 'owner',

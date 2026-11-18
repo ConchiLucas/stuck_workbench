@@ -14,7 +14,7 @@ type User struct {
 	CreatedAt    time.Time
 }
 
-func (User) TableName() string { return "users" }
+func (User) TableName() string { return "kid_users" }
 
 type Child = learningmodel.Child
 

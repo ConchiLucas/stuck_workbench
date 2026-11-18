@@ -67,3 +67,9 @@
 最新五端范围：用户已将孩子知识库纳入按菜单改造，App 与四个后台须逐端交付；执行先读 [五端菜单实施标准](docs/menu-alignment/03-五端菜单实施标准.md)。历史档案里的范围排除项以本标准的最新授权为准，不得以 App 取题暂缓为由跳过题目后台生成与预览。
 
 按菜单交付还必须准备可复核的验收数据，英语及后续菜单先读 [菜单验收数据标准](docs/menu-alignment/05-菜单验收数据标准.md)：每个实际详情至少 3 道题包实例、独立演示孩子的正确/错误/具体选择快照与媒体验证，禁止空态交付或污染真实孩子账本。
+
+## 2026-11-14 Mini 单库
+
+当前唯一业务连接为 `100.120.144.76:5432/study_workbench`、`public` schema，角色 `sw_kid_runtime`。用户选择 Mini 完整数据为准；英语子项目在同库 `public`。本项目根 `.env` 已保存私有配置；Docker 不再启动本地 PostgreSQL、不自动 seed。原 `study_workbench` 旧数据以 `public.legacy_study_*` 表归档，不作自动回退。实施与验证见 `../docs/MINI_DATABASE_CONSOLIDATION_20261114.md`。
+
+用户后续明确要求统一 public：儿童账号表改为 `kid_users`，英语账号仍为 `users`；业务和归档均在 public，归档表统一 `legacy_study_` 前缀。最新实施见 `../docs/PUBLIC_SCHEMA_20261114.md`。

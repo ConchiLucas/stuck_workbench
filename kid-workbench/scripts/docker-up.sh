@@ -81,7 +81,7 @@ kid-workbench is up (Docker):
   成语 API / 孩子端     http://localhost:19181  http://localhost:19182
   逻辑 API / 孩子端     http://localhost:19191  http://localhost:19192
 
-  PostgreSQL            localhost:15432
+  PostgreSQL            Mac mini 100.120.144.76:5432/study_workbench (public schema)
 
 Stop:  ./scripts/docker-up.sh --down
 Logs:  docker compose logs -f

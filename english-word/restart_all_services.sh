@@ -383,9 +383,9 @@ start_backends() {
   start_process rob_english_word_back \
     "$ROOT_DIR/rob_english_word_back" \
     env \
-      SPRING_DATASOURCE_URL="${SPRING_DATASOURCE_URL:-jdbc:postgresql://127.0.0.1:5432/rob_english_word}" \
-      SPRING_DATASOURCE_USERNAME="${SPRING_DATASOURCE_USERNAME:-${POSTGRES_USER:-conchi}}" \
-      SPRING_DATASOURCE_PASSWORD="${SPRING_DATASOURCE_PASSWORD:-${POSTGRES_PASSWORD:-conchi123456}}" \
+      SPRING_DATASOURCE_URL="${SPRING_DATASOURCE_URL:-jdbc:postgresql://100.120.144.76:5432/study_workbench}" \
+      SPRING_DATASOURCE_USERNAME="${SPRING_DATASOURCE_USERNAME:?load the workspace runtime environment}}" \
+      SPRING_DATASOURCE_PASSWORD="${SPRING_DATASOURCE_PASSWORD:?load the workspace runtime environment}}" \
       SPRING_REDIS_HOST="${SPRING_REDIS_HOST:-127.0.0.1}" \
       SPRING_DATA_REDIS_HOST="${SPRING_DATA_REDIS_HOST:-127.0.0.1}" \
       SPRING_DATA_REDIS_PASSWORD="${SPRING_DATA_REDIS_PASSWORD:-${REDIS_PASSWORD:-conchi123456}}" \

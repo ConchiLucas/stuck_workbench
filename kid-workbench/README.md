@@ -1,6 +1,8 @@
 # 儿童学习工作台
 
-进度后台 + 孩子答题端 + 素材后台，共用一套 PostgreSQL。
+进度后台、全部孩子答题端、素材后台、题目后台与孩子知识库，共用 Mac mini PostgreSQL `100.120.144.76:5432/study_workbench` 的 `public` schema。
+
+2026-11-14：已按用户要求以 Mini 数据合库；英语抢词与运营也使用同一个数据库的 `public` schema。当前私有配置在根 `.env`，不自动创建本地 PostgreSQL、不自动灌入种子数据。详见[合库记录](../docs/MINI_DATABASE_CONSOLIDATION_20261114.md)。
 
 ## Docker 启动（推荐）
 
@@ -34,9 +36,9 @@
 | 素材后台 | http://localhost:19091 |
 | 题目后台 | http://localhost:19201 |
 | 诊断台 | http://localhost:19211 |
-| PostgreSQL | localhost:15432 |
+| PostgreSQL | Mac mini `100.120.144.76:5432/study_workbench`，`public` schema |
 
-首次如需 60 天演示数据：
+以下种子/演示命令会写入数据库，正式 Mini 数据已存在，不要把它们作为启动或验收步骤。仅在明确授权的维护中使用：
 
 ```bash
 make seed-demo
@@ -58,17 +60,19 @@ docker network create vibedeploy-shared   # 若尚无
 
 ## 本地开发（可选）
 
-需本机 PostgreSQL 监听 `15432`，或使用 Docker 只起数据库：
+使用 Mini 现有数据库，不再启动本机数据库。启动任何原生 Go 进程前，先从 `kid-workbench` 根加载私有环境：
 
 ```bash
-docker compose up postgres -d
+set -a
+source .env
+set +a
 ```
+
+独立后台 Compose 使用 `docker compose --env-file ../.env up ...`，保持同一连接。
 
 ```bash
 # 后端
 cd parent-dashboard/backend
-go run ./cmd/seed -mode=catalog
-go run ./cmd/seed -mode=questions
 make run                    # http://localhost:19081
 
 # 进度后台前端（另开终端）

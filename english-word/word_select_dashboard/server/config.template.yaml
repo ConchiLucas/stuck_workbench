@@ -179,12 +179,12 @@ oracle:
     log-zap: false
 pgsql:
     prefix: ""
-    port: "5432"
+    port: 5432
     config: sslmode=disable TimeZone=Asia/Shanghai
-    db-name: select_english_word
-    username: change-me-user
-    password: change-me-password
-    path: 127.0.0.1
+    db-name: study_workbench
+    username: sw_english_runtime
+    password: ""
+    path: 100.120.144.76
     engine: ""
     log-mode: error
     max-idle-conns: 10
@@ -244,7 +244,7 @@ system:
     use-redis: false
     use-mongo: false
     use-strict-auth: false
-    disable-auto-migrate: false
+    disable-auto-migrate: true
 tencent-cos:
     bucket: xxxxx-10005608
     region: ap-shanghai

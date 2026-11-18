@@ -179,9 +179,9 @@ class LLMClient:
         with config_path.open("r", encoding="utf-8") as file:
             data = yaml.safe_load(file) or {}
         pgsql = data.get("pgsql") or {}
-        host = str(pgsql.get("path") or "127.0.0.1").strip()
+        host = str(pgsql.get("path") or "100.120.144.76").strip()
         port = str(pgsql.get("port") or "5432").strip()
-        dbname = str(pgsql.get("db-name") or "select_english_word").strip()
+        dbname = str(pgsql.get("db-name") or "study_workbench").strip()
         user = str(pgsql.get("username") or "").strip()
         password = str(pgsql.get("password") or "").strip()
         if not user:

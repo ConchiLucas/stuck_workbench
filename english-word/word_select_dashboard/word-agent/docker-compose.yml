@@ -32,3 +32,8 @@ services:
       - ./logs:/app/logs
       - ./tts_audio:/app/tts_audio
       - ../server/config.docker.yaml:/app/server-config/config.yaml:ro
+
+networks:
+  default:
+    name: vibedeploy-shared
+    external: true

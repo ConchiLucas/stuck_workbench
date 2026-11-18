@@ -5,6 +5,9 @@ summary: 说明六个注册 Project、辅助脚本和主要基础设施在英语
 
 # 英语单词系统与项目边界总览
 
+> 2026-11-14：数据库切换已由用户授权，Mini 数据为准。当前各后端统一使用 `100.120.144.76:5432/study_workbench.public`；下文旧库名仅表示历史业务分组，不再是物理数据库连接。当前规则见工作空间根 `AGENTS.md` 和 `docs/MINI_DATABASE_CONSOLIDATION_20261114.md`。
+
+
 ## 项目分工
 
 | Project | 类型 | 核心职责 |

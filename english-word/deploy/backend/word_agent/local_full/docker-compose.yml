@@ -25,8 +25,8 @@ services:
       WORD_AGENT_PORT: 6017
       WORD_AGENT_GO_CONFIG_PATH: /app/server-config/config.yaml
       WORD_AGENT_CLOZE_GENERATE_URL: http://host.docker.internal:6012/api/external/sentence-cloze/generate
-      WORD_AGENT_SELECT_DB_DSN: "host=host.docker.internal port=5432 dbname=select_english_word user=conchi password=conchi123456"
-      WORD_AGENT_ROB_WORD_DB_DSN: "host=host.docker.internal port=5432 dbname=rob_english_word user=conchi password=conchi123456"
+      WORD_AGENT_SELECT_DB_DSN: "${WORD_AGENT_SELECT_DB_DSN:?use the workspace runtime configuration}"
+      WORD_AGENT_ROB_WORD_DB_DSN: "${WORD_AGENT_ROB_WORD_DB_DSN:?use the workspace runtime configuration}"
       WORD_AGENT_MINIO_ENDPOINT: host.docker.internal:19100
       WORD_AGENT_MINIO_ACCESS_KEY_ID: conchi
       WORD_AGENT_MINIO_SECRET_ACCESS_KEY: conchi123456

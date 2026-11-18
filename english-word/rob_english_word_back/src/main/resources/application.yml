@@ -6,8 +6,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: org.postgresql.Driver
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://127.0.0.1:5432/rob_english_word}
-    username: ${SPRING_DATASOURCE_USERNAME:rob_word}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://100.120.144.76:5432/study_workbench}
+    username: ${SPRING_DATASOURCE_USERNAME:sw_english_runtime}
     password: ${SPRING_DATASOURCE_PASSWORD:}
     hikari:
       minimum-idle: 10

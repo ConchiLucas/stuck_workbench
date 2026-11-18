@@ -15,12 +15,12 @@ services:
       APP_CONTENT_ADMIN_URL: ${APP_CONTENT_ADMIN_URL:-http://host.docker.internal:19091}
       APP_AUTO_REVIEW_ENABLED: "false"
       APP_WRITING_ENABLED: ${APP_WRITING_ENABLED:-true}
-      APP_DB_HOST: ${APP_DB_HOST:-host.docker.internal}
-      APP_DB_PORT: ${APP_DB_PORT:-15432}
-      APP_DB_USER: ${APP_DB_USER:-conchi}
-      APP_DB_PASSWORD: ${APP_DB_PASSWORD:-conchi123456}
+      APP_DB_HOST: ${APP_DB_HOST:-100.120.144.76}
+      APP_DB_PORT: ${APP_DB_PORT:-5432}
+      APP_DB_USER: ${APP_DB_USER:-sw_kid_runtime}
+      APP_DB_PASSWORD: ${APP_DB_PASSWORD:?use --env-file ../.env}
       APP_DB_NAME: ${APP_DB_NAME:-study_workbench}
-      APP_DB_CONFIG: sslmode=disable
+      APP_DB_CONFIG: sslmode=disable search_path=public,pg_catalog
     extra_hosts:
       - "host.docker.internal:host-gateway"
     restart: unless-stopped

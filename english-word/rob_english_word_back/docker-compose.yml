@@ -24,3 +24,8 @@ services:
       - "host.docker.internal:host-gateway"
     volumes:
       - ./logs:/app/logs
+
+networks:
+  default:
+    name: vibedeploy-shared
+    external: true

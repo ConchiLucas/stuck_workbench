@@ -5,6 +5,9 @@ summary: 区分根 Compose、各项目 Compose、集中 deploy 目录和辅助�
 
 # 英语单词本地运行与部署目录说明
 
+> 2026-11-14：数据库切换已由用户授权，Mini 数据为准。当前各后端统一使用 `100.120.144.76:5432/study_workbench.public`；下文旧库名仅表示历史业务分组，不再是物理数据库连接。当前规则见工作空间根 `AGENTS.md` 和 `docs/MINI_DATABASE_CONSOLIDATION_20261114.md`。
+
+
 ## 运行入口
 
 - Docker 全量启动的唯一配置入口是仓库根 `.env.local`，唯一正式命令是根 `deploy-compose-full.sh`。

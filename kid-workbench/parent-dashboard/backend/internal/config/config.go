@@ -41,12 +41,12 @@ func Load() Config {
 		Driver: env("APP_DB_DRIVER", "postgres"),
 		DSN:    os.Getenv("APP_DSN"),
 		Pgsql: Pgsql{
-			Path:     env("APP_DB_HOST", "127.0.0.1"),
-			Port:     env("APP_DB_PORT", "15432"),
+			Path:     env("APP_DB_HOST", "100.120.144.76"),
+			Port:     env("APP_DB_PORT", "5432"),
 			Config:   env("APP_DB_CONFIG", "sslmode=disable TimeZone=Asia/Shanghai"),
 			Dbname:   env("APP_DB_NAME", "study_workbench"),
-			Username: env("APP_DB_USER", "conchi"),
-			Password: env("APP_DB_PASSWORD", "conchi123456"),
+			Username: env("APP_DB_USER", "sw_kid_runtime"),
+			Password: env("APP_DB_PASSWORD", ""),
 		},
 		Mastery: Mastery{
 			BaseMasterStreak: envInt("MASTERY_BASE_STREAK", 2),

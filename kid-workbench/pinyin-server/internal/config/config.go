@@ -48,9 +48,9 @@ func Load() Config {
 		Addr: env("APP_ADDR", ":19111"),
 		DB: Database{
 			Driver: env("APP_DB_DRIVER", "postgres"),
-			DSN:    os.Getenv("APP_DSN"), Host: env("APP_DB_HOST", "127.0.0.1"),
-			Port: env("APP_DB_PORT", "15432"), Name: env("APP_DB_NAME", "study_workbench"),
-			User: env("APP_DB_USER", "conchi"), Password: env("APP_DB_PASSWORD", "conchi123456"),
+			DSN:    os.Getenv("APP_DSN"), Host: env("APP_DB_HOST", "100.120.144.76"),
+			Port: env("APP_DB_PORT", "5432"), Name: env("APP_DB_NAME", "study_workbench"),
+			User: env("APP_DB_USER", "sw_kid_runtime"), Password: env("APP_DB_PASSWORD", ""),
 			Options: env("APP_DB_CONFIG", "sslmode=disable TimeZone=Asia/Shanghai"),
 		},
 		Assets: ObjectStorage{

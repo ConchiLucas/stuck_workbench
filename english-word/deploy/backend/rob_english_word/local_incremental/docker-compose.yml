@@ -15,9 +15,9 @@ services:
     environment:
       SERVER_PORT: 6012
       NETTY_WEBSOCKET_PORT: 6013
-      SPRING_DATASOURCE_URL: jdbc:postgresql://host.docker.internal:5432/rob_english_word
-      SPRING_DATASOURCE_USERNAME: conchi
-      SPRING_DATASOURCE_PASSWORD: conchi123456
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL:?use the workspace runtime configuration}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME:?use the workspace runtime configuration}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD:?use the workspace runtime configuration}
       SPRING_DATA_REDIS_HOST: host.docker.internal
       SPRING_DATA_REDIS_PORT: 6379
       SPRING_DATA_REDIS_PASSWORD: "conchi123456"

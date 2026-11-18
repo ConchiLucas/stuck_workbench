@@ -7,10 +7,12 @@ summary: 记录业务库、缓存和对象存储的用途、所属 Project 与�
 
 ## PostgreSQL
 
+2026-11-14：当前唯一业务端点为 `100.120.144.76:5432/study_workbench`，以 Mini 数据为准。儿童系统在同库 `public` schema；旧库只保留历史数据，不作运行时来源。详见[实施记录](../../../docs/MINI_DATABASE_CONSOLIDATION_20261114.md)。
+
 | 逻辑库 | 主要使用方 | 用途 |
 | --- | --- | --- |
-| `rob_english_word` | Java、Go、Python Agent | 用户、单词、游戏、训练、错词、掌握词、完形任务和复习进度 |
-| `select_english_word` | Go、Python Agent | 运营账号、词库清洗、句子、AI/TTS 配置、执行记录与任务状态 |
+| `study_workbench.public`（Mini，原 rob_english_word 业务表） | Java、Go、Python Agent | 用户、单词、游戏、训练、错词、掌握词、完形任务和复习进度 |
+| 同一 `study_workbench.public`（原 select_english_word 业务表） | Go、Python Agent | 运营账号、词库清洗、句子、AI/TTS 配置、执行记录与任务状态 |
 
 Java 的表结构和迁移线索主要位于 `rob_english_word_back/db/`；Go 的模型位于 `word_select_dashboard/server/model/`；Python 数据访问位于 `word-agent/src/word_agent/`。
 

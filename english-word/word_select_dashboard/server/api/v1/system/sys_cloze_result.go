@@ -263,14 +263,15 @@ func openRobEnglishWordDB() (*gorm.DB, error) {
 	if pgsql.Username == "" || pgsql.Path == "" || pgsql.Port == "" {
 		return nil, fmt.Errorf("PostgreSQL 配置不完整")
 	}
-	db, err := gorm.Open(postgres.Open(pgsql.LinkDsn("rob_english_word")), gormsafe.Config(pgsql.GeneralDB))
+	// Learning and administration now share the configured study_workbench database.
+	db, err := gorm.Open(postgres.Open(pgsql.Dsn()), gormsafe.Config(pgsql.GeneralDB))
 	if err != nil {
-		return nil, fmt.Errorf("连接 rob_english_word 数据库失败: %w", err)
+		return nil, fmt.Errorf("连接学习数据库失败: %w", err)
 	}
 
 	sqlDB, err := db.DB()
 	if err != nil {
-		return nil, fmt.Errorf("初始化 rob_english_word 连接池失败: %w", err)
+		return nil, fmt.Errorf("初始化学习数据库连接池失败: %w", err)
 	}
 	sqlDB.SetMaxOpenConns(8)
 	sqlDB.SetMaxIdleConns(2)

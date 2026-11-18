@@ -20,6 +20,12 @@ from word_agent.services.word_clean_sentence_score import (
 )
 
 
+def test_missing_database_configuration_never_falls_back_to_old_local_database() -> None:
+    service = WordCleanSentenceScoreService(Settings(_env_file=None, rob_word_db_dsn=None))
+    with pytest.raises(WordCleanSentenceScoreError, match="WORD_AGENT_ROB_WORD_DB_DSN"):
+        service._resolve_dsn()
+
+
 @pytest.mark.anyio
 async def test_score_uses_independent_api_model_when_sentence_executor_is_cli(
     monkeypatch: pytest.MonkeyPatch,
